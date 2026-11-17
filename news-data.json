@@ -1,0 +1,155 @@
+{
+  "lastUpdated": "2026-11-17T15:41:10.965358+08:00",
+  "weather": {
+    "city": "Kuala Lumpur & West Coast",
+    "temp": "29°C",
+    "condition": "Scattered Afternoon Showers",
+    "rainChance": "100% Rain",
+    "alert": "⚠️ MetMalaysia: Northeast Monsoon Active • Rain Advisory in Effect"
+  },
+  "markets": [
+    {
+      "label": "USD/MYR",
+      "value": "4.094",
+      "change": "+0.08%",
+      "isUp": true
+    },
+    {
+      "label": "SGD/MYR",
+      "value": "3.177",
+      "change": "+0.04%",
+      "isUp": true
+    },
+    {
+      "label": "FBM KLCI",
+      "value": "1,612.4",
+      "change": "-0.35%",
+      "isUp": false
+    },
+    {
+      "label": "Brent Crude",
+      "value": "$72.85",
+      "change": "+0.60%",
+      "isUp": true
+    }
+  ],
+  "executiveSummary": [
+    "Diplomacy & National: Umno Negeri Sembilan not informed of Ismail Lasim’s resignation plan, says Jalaluddin...",
+    "Diplomacy & National: ‘Don’t make others the scapegoat’: Ismail Lasim’s son questions statement on father’s...",
+    "Diplomacy & National: Penang hopes for a portion of federal grant to reduce water infrastructure costs..."
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "Umno Negeri Sembilan not informed of Ismail Lasim’s resignation plan, says Jalaluddin",
+      "summary": "SEREMBAN, Nov 17 &mdash; Negeri Sembilan Umno was not informed directly by Datuk Ismail Lasim about his intention to res...",
+      "takeaways": [
+        "Directly reported by Malay Mail.",
+        "Tap below for full in-depth reporting and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/17/umno-negeri-sembilan-not-informed-of-ismail-lasims-resignation-plan-says-jalaluddin/243603",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 2,
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "‘Don’t make others the scapegoat’: Ismail Lasim’s son questions statement on father’s resignation",
+      "summary": "SEREMBAN, Nov 17 &mdash; The son of Negeri Sembilan Mentri Besar Datuk Ismail Lasim has questioned a statement issued by...",
+      "takeaways": [
+        "Directly reported by Malay Mail.",
+        "Tap below for full in-depth reporting and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/17/dont-make-others-the-scapegoat-ismail-lasims-son-questions-statement-on-fathers-resignation/243602",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 3,
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "Penang hopes for a portion of federal grant to reduce water infrastructure costs",
+      "summary": "GEORGE TOWN, Nov 17 &mdash; Penang chief minister Chow Kon Yeow is appealing to Putrajaya for funds for the state to bui...",
+      "takeaways": [
+        "Directly reported by Malay Mail.",
+        "Tap below for full in-depth reporting and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/17/penang-hopes-for-a-portion-of-federal-grant-to-reduce-water-infrastructure-costs/243599",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 4,
+      "category": "Bursa & Economy",
+      "tag": "Markets",
+      "headline": "TM Tech gets green light for RM2.7b submarine cable project linking Peninsular Malaysia, Sabah and Sarawak",
+      "summary": "KUALA LUMPUR, Nov 17 &mdash; Telekom Malaysia Bhd&rsquo;s (TM) wholly-owned subsidiary TM Technology Services Sdn Bhd (T...",
+      "takeaways": [
+        "Directly reported by Malay Mail.",
+        "Tap below for full in-depth reporting and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/tm-tech-gets-green-light-for-rm27b-submarine-cable-project-linking-peninsular-malaysia-sabah-and-sarawak/243601",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 5,
+      "category": "Bursa & Economy",
+      "tag": "Markets",
+      "headline": "‘For most, the answer is no’: Baidu CEO casts doubt on AI’s payoff",
+      "summary": "SHENZHEN, Nov 17 &mdash; Artificial intelligence adoption is not boosting profits for most companies, the head of Chines...",
+      "takeaways": [
+        "Directly reported by Malay Mail.",
+        "Tap below for full in-depth reporting and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/for-most-the-answer-is-no-baidu-ceo-casts-doubt-on-ais-payoff/243593",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 6,
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "Amanah man urges PAS to ditch Umno and back Anwar",
+      "summary": "Khalid Samad says Amanah is open to discussing the Islamic party's participation in the government.",
+      "takeaways": [
+        "Directly reported by Free Malaysia Today.",
+        "Tap below for full in-depth reporting and official statements."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/17/amanah-man-urges-pas-to-ditch-umno-and-back-anwar",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 7,
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "Mongolia president announces resignation after graft accusations",
+      "summary": "Ukhnaa Khurelsukh announced his resignation a day after the opposition Democratic Party accused him of corruption and demanded he step down or face impeachment.",
+      "takeaways": [
+        "Directly reported by Free Malaysia Today.",
+        "Tap below for full in-depth reporting and official statements."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/17/mongolia-president-announces-resignation-after-graft-accusations",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 8,
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "Ismail far more ethical than Zahid, says ex-Umno man",
+      "summary": "Unlike Ismail Lasim, Puad Zarkashi says Ahmad Zahid Hamidi wants to keep his government posts while openly contradicting the unity administration.",
+      "takeaways": [
+        "Directly reported by Free Malaysia Today.",
+        "Tap below for full in-depth reporting and official statements."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/17/ismail-far-more-ethical-than-zahid-says-ex-umno-man",
+      "readTime": "2 min read"
+    }
+  ]
+}

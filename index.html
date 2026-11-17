@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Malaysia Morning News</title>
+  
+  <!-- PWA & Mobile Capabilities -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#090d16">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="MY News">
+  <link rel="apple-touch-icon" href="icon-192.png">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#fefce8',
+              500: '#eab308',
+              600: '#ca8a04',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      padding-top: env(safe-area-inset-top);
+      padding-bottom: env(safe-area-inset-bottom);
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      touch-action: pan-y;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    #sidebar-drawer {
+      transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .swipe-card {
+      transition: transform 0.22s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.22s ease;
+    }
+    @keyframes swipeHint {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(-6px); }
+    }
+    .animate-swipe-hint {
+      animation: swipeHint 1.8s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-[#090d16] text-slate-100 min-h-screen flex flex-col font-sans antialiased overflow-hidden">
+
+  <!-- APP HEADER WITH HAMBURGER MENU -->
+  <header class="px-3.5 py-2.5 flex items-center justify-between border-b border-slate-800/80 bg-[#090d16]/95 backdrop-blur z-20">
+    <div class="flex items-center gap-2.5">
+      <button id="menu-btn" class="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-200 active:scale-95 hover:border-amber-500/50 transition">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+
+      <div class="flex items-center gap-2">
+        <div class="w-6 h-6 rounded-md bg-gradient-to-tr from-amber-500 to-yellow-300 flex items-center justify-center shadow-md shadow-amber-500/20 font-black text-[10px] text-slate-950">
+          MY
+        </div>
+        <div>
+          <h1 class="text-xs font-bold tracking-tight text-white flex items-center gap-1.5 leading-none">
+            Morning Briefing <span class="text-[9px] px-1 py-0.2 rounded bg-amber-500/20 text-amber-300 font-semibold" id="active-category-tag">All</span>
+          </h1>
+          <p class="text-[10px] text-slate-400 font-medium" id="current-date">Today's Digest</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mode Switcher -->
+    <div class="flex items-center gap-1 bg-slate-900/90 p-0.5 rounded-lg border border-slate-800 text-[11px]">
+      <button id="tab-reel" class="px-2.5 py-1 rounded-md bg-amber-500 text-slate-950 font-bold transition">Cards</button>
+      <button id="tab-feed" class="px-2.5 py-1 rounded-md text-slate-400 hover:text-white transition">Feed</button>
+    </div>
+  </header>
+
+  <!-- PWA Install Banner -->
+  <div id="install-banner" class="hidden px-4 py-2 bg-gradient-to-r from-amber-500/15 via-amber-400/10 to-transparent border-b border-amber-500/30 flex items-center justify-between text-xs z-20">
+    <div class="flex items-center gap-2">
+      <span>📲</span>
+      <span class="text-slate-200">Install app to your home screen!</span>
+    </div>
+    <button id="install-btn" class="px-2.5 py-1 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded text-[11px]">Install</button>
+  </div>
+
+  <!-- MAIN VIEW CONTAINER -->
+  <main class="flex-1 relative overflow-hidden flex flex-col">
+
+    <!-- 1. SWIPEABLE CARDS VIEW -->
+    <div id="reel-view" class="flex-1 flex flex-col justify-between p-4 max-w-md mx-auto w-full relative">
+      
+      <!-- Top Dots / Story Counter Header -->
+      <div class="flex items-center justify-between pt-1 pb-2 border-b border-slate-800/60">
+        <div class="flex items-center gap-2">
+          <span id="story-badge" class="px-2.5 py-0.5 rounded-full font-bold text-[11px] bg-amber-500/15 text-amber-400 border border-amber-500/30">
+            Diplomacy
+          </span>
+          <span id="story-tag" class="text-[10px] text-slate-400">Putrajaya</span>
+        </div>
+        
+        <!-- Story Dots Indicator -->
+        <div class="flex items-center gap-1.5" id="story-dots"></div>
+
+        <div class="flex items-center gap-2">
+          <button id="audio-speed-btn" class="px-2 py-0.5 rounded-full bg-slate-800/80 border border-slate-700 text-amber-400 text-[10px] font-mono font-bold">
+            1.25x
+          </button>
+          <button id="speech-btn" class="flex items-center gap-1 px-2.5 py-1 rounded-full bg-slate-800/80 border border-slate-700 text-slate-300 text-[11px] active:scale-95 transition">
+            <span id="speech-icon">🎙️</span> <span id="speech-text">Read</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- SWIPE TOUCH AREA (ONLY TEXT CONTENT - BUTTONS EXCLUDED) -->
+      <div id="card-touch-area" class="my-auto py-2 z-10 relative cursor-grab active:cursor-grabbing swipe-card">
+        
+        <div class="flex items-center justify-between mb-1.5 text-[11px]">
+          <span class="text-slate-400" id="story-readtime">2 min read</span>
+          <span id="counter" class="text-amber-400 font-mono font-bold">Story 1 of 8</span>
+        </div>
+
+        <h2 id="story-title" class="text-lg md:text-xl font-extrabold text-white leading-tight tracking-tight mb-2.5">
+          Headline
+        </h2>
+        
+        <p id="story-desc" class="text-xs md:text-sm text-slate-300 leading-relaxed mb-3">
+          Summary
+        </p>
+
+        <!-- Bullet Highlights -->
+        <div class="space-y-1.5 bg-slate-900/80 p-3 rounded-xl border border-slate-800/80">
+          <p class="text-[10px] uppercase font-bold tracking-wider text-amber-400" id="takeaways-header">Key Takeaways</p>
+          <div id="story-bullets" class="space-y-1 text-xs text-slate-200"></div>
+        </div>
+      </div>
+
+      <!-- READ FULL NEWS ARTICLE BUTTON (SEPARATE FROM SWIPE AREA SO TOUCH NEVER GETS BLOCKED) -->
+      <div class="z-30 my-1">
+        <a id="full-article-btn" href="#" target="_blank" rel="noopener noreferrer" onclick="handleFullArticleClick(event)" class="flex items-center justify-between w-full py-3 px-4 rounded-xl bg-gradient-to-r from-amber-500/25 via-amber-400/15 to-slate-900 border border-amber-500/50 text-amber-300 hover:border-amber-400 active:scale-[0.98] transition shadow-md cursor-pointer">
+          <div class="flex items-center gap-2.5">
+            <span class="text-base">📰</span>
+            <span class="text-xs font-bold text-white tracking-wide">Read Full News Article</span>
+          </div>
+          <span class="text-xs text-amber-400 font-mono font-bold flex items-center gap-1.5">
+            <span id="full-article-source-name">The Star</span>
+            <span class="text-sm">↗</span>
+          </span>
+        </a>
+      </div>
+
+      <!-- Interactive Swipe Guide & Bottom Actions -->
+      <div class="space-y-2 pt-2 border-t border-slate-800/80 text-xs z-20">
+        
+        <!-- PROMINENT SWIPE PROMPT -->
+        <div class="flex items-center justify-center gap-2 py-1 px-3 rounded-full bg-slate-900/90 border border-slate-800 text-amber-300 text-xs shadow-inner">
+          <span class="animate-swipe-hint text-sm">👈</span>
+          <span class="font-semibold">Swipe left for next story</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-slate-400">Swipe right for previous</span>
+          <span class="text-slate-400 text-sm">👉</span>
+        </div>
+
+        <div class="flex items-center justify-between pt-0.5">
+          <button id="open-tldr-btn" class="text-[11px] text-amber-400 font-semibold hover:underline flex items-center gap-1">
+            ⚡ 30s Executive Summary
+          </button>
+          
+          <div class="flex items-center gap-2">
+            <button id="prev-btn" class="px-3.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 text-xs font-medium active:bg-slate-800 flex items-center gap-1">
+              <span>← Prev</span>
+            </button>
+            <button id="next-btn" class="px-3.5 py-1.5 rounded-lg bg-amber-500 text-slate-950 font-bold text-xs active:bg-amber-400 flex items-center gap-1 shadow-sm">
+              <span>Next →</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 2. SCROLLABLE FEED VIEW -->
+    <div id="feed-view" class="hidden flex-1 overflow-y-auto p-4 space-y-3 max-w-md mx-auto w-full">
+      <div class="flex items-center justify-between pb-1">
+        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400">All Today's Stories</h3>
+        <span class="text-[10px] text-amber-400 font-mono" id="feed-count">8 Articles</span>
+      </div>
+      <div id="feed-list" class="space-y-3 pb-8"></div>
+    </div>
+
+  </main>
+
+  <!-- SIDEBAR MENU DRAWER -->
+  <div id="sidebar-backdrop" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-40 hidden opacity-0 transition-opacity duration-300"></div>
+
+  <aside id="sidebar-drawer" class="fixed top-0 bottom-0 left-0 w-[310px] max-w-[85vw] bg-[#0c121e] border-r border-slate-800 z-50 transform -translate-x-full flex flex-col shadow-2xl">
+    
+    <div class="p-4 border-b border-slate-800 flex items-center justify-between bg-slate-900/50">
+      <div class="flex items-center gap-2">
+        <div class="w-6 h-6 rounded bg-amber-500 flex items-center justify-center font-black text-slate-950 text-xs">MY</div>
+        <span class="font-extrabold text-sm text-white">Morning Hub</span>
+      </div>
+      <button id="close-menu-btn" class="w-7 h-7 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center text-xs active:scale-90">
+        ✕
+      </button>
+    </div>
+
+    <div class="flex-1 overflow-y-auto p-4 space-y-4 text-xs">
+
+      <!-- WEATHER -->
+      <div class="bg-gradient-to-br from-slate-900 to-slate-950 p-3 rounded-xl border border-slate-800 space-y-2">
+        <div class="flex items-center justify-between">
+          <span class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">🌤️ Morning Weather</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded bg-blue-500/20 text-blue-300 font-medium" id="sb-rain-chance">75% Rain</span>
+        </div>
+        <div class="flex items-baseline justify-between">
+          <div>
+            <div class="text-xl font-black text-white" id="sb-temp">28°C</div>
+            <div class="text-[11px] text-slate-300" id="sb-condition">Scattered Thunderstorms PM</div>
+          </div>
+          <span class="text-[10px] text-slate-400" id="sb-city">Kuala Lumpur</span>
+        </div>
+        <div class="p-2 rounded-lg bg-amber-500/10 border border-amber-500/30 text-[10px] text-amber-300 leading-snug" id="sb-monsoon-alert">
+          ⚠️ MetMalaysia: Monsoon Alert Active (Perak, Pahang, Sabah)
+        </div>
+      </div>
+
+      <!-- MARKETS -->
+      <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800 space-y-2">
+        <div class="flex items-center justify-between">
+          <span class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">📈 Markets & Currency</span>
+          <span class="text-[10px] text-slate-500 font-mono">Today</span>
+        </div>
+        <div class="grid grid-cols-2 gap-2 text-xs" id="sb-markets-grid"></div>
+      </div>
+
+      <!-- 30S TL;DR -->
+      <div class="bg-slate-900/90 p-3 rounded-xl border border-amber-500/30 space-y-2">
+        <div class="flex items-center justify-between">
+          <span class="text-[10px] uppercase font-bold text-amber-400 tracking-wider">⚡ 30-Second Executive TL;DR</span>
+        </div>
+        <div class="space-y-1.5 text-[11px] text-slate-300" id="sb-tldr-list"></div>
+        <button id="sb-play-tldr-btn" class="w-full mt-1 py-1.5 rounded-lg bg-amber-500/20 border border-amber-500/40 text-amber-300 text-[11px] font-bold hover:bg-amber-500/30 active:scale-95 transition">
+          ▶ View TL;DR Card
+        </button>
+      </div>
+
+      <!-- CATEGORIES -->
+      <div class="space-y-2">
+        <div class="flex items-center justify-between">
+          <span class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">🏷️ Filter by Topic</span>
+          <button id="filter-reset-btn" class="text-[10px] text-amber-400 hover:underline">Show All</button>
+        </div>
+        <div class="flex flex-wrap gap-1.5" id="category-pills"></div>
+      </div>
+
+      <!-- AUDIO SPEED -->
+      <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800 space-y-2.5">
+        <span class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">🎙️ Audio Narrator Speed</span>
+        <div class="grid grid-cols-4 gap-1.5 text-center font-mono text-xs" id="speed-selector">
+          <button data-speed="1.0" class="speed-btn py-1 rounded bg-slate-800 text-slate-300 hover:text-white">1.0x</button>
+          <button data-speed="1.25" class="speed-btn py-1 rounded bg-amber-500 text-slate-950 font-bold">1.25x</button>
+          <button data-speed="1.5" class="speed-btn py-1 rounded bg-slate-800 text-slate-300 hover:text-white">1.5x</button>
+          <button data-speed="2.0" class="speed-btn py-1 rounded bg-slate-800 text-slate-300 hover:text-white">2.0x</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="p-3 border-t border-slate-800 bg-[#090d16] text-[10px] text-slate-500 flex items-center justify-between">
+      <span>Malaysia Morning Briefing</span>
+      <span class="font-mono">v4.0 • Direct Link Fix</span>
+    </div>
+  </aside>
+
+  <script>
+    let rawStories = [];
+    let displayedStories = [];
+    let executiveSummary = [];
+    let currentIndex = 0;
+    let audioSpeed = 1.25;
+    let activeFilter = 'All';
+    let isSpeaking = false;
+
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchEndX = 0;
+    let touchEndY = 0;
+
+    async function initApp() {
+      const now = new Date();
+      const options = { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' };
+      document.getElementById('current-date').textContent = now.toLocaleDateString('en-MY', options);
+
+      try {
+        const res = await fetch('./news-data.json?t=' + Date.now());
+        const data = await res.json();
+        rawStories = data.stories || [];
+        displayedStories = [...rawStories];
+        executiveSummary = data.executiveSummary || [];
+
+        populateWeather(data.weather);
+        populateMarkets(data.markets);
+        populateTLDR(data.executiveSummary);
+        populateCategoryPills();
+      } catch (e) {
+        console.error("Could not fetch remote news-data.json", e);
+      }
+
+      renderDots();
+      renderStory(0);
+      renderFeed();
+      setupSwipeGestures();
+    }
+
+    // Direct, bulletproof handler to open full news article across iOS/Android/PWA
+    window.handleFullArticleClick = function(e) {
+      if (e) {
+        e.stopPropagation();
+      }
+      const s = displayedStories[currentIndex];
+      if (!s || !s.sourceUrl || s.sourceUrl === '#') return;
+
+      // Reliable navigation across Mobile Safari & Chrome
+      const opened = window.open(s.sourceUrl, '_blank');
+      if (!opened) {
+        window.location.href = s.sourceUrl;
+      }
+    };
+
+    window.openFeedUrl = function(e, url) {
+      if (e) {
+        e.stopPropagation();
+      }
+      if (!url || url === '#') return;
+      const opened = window.open(url, '_blank');
+      if (!opened) {
+        window.location.href = url;
+      }
+    };
+
+    // Weather Population
+    function populateWeather(w) {
+      if (!w) return;
+      document.getElementById('sb-temp').textContent = w.temp || '28°C';
+      document.getElementById('sb-condition').textContent = w.condition || 'Scattered Showers';
+      document.getElementById('sb-rain-chance').textContent = w.rainChance + ' Rain';
+      document.getElementById('sb-city').textContent = w.city || 'Kuala Lumpur';
+      document.getElementById('sb-monsoon-alert').textContent = w.alert || '';
+    }
+
+    // Markets Population
+    function populateMarkets(markets) {
+      if (!markets) return;
+      const grid = document.getElementById('sb-markets-grid');
+      grid.innerHTML = '';
+      markets.forEach(m => {
+        const item = document.createElement('div');
+        item.className = 'p-2 rounded-lg bg-slate-950/60 border border-slate-800/80 flex flex-col justify-between';
+        const colorClass = m.isUp ? 'text-emerald-400' : 'text-rose-400';
+        const icon = m.isUp ? '▲' : '▼';
+        item.innerHTML = `
+          <span class="text-[10px] text-slate-400 font-medium">${m.label}</span>
+          <div class="flex items-baseline justify-between mt-0.5">
+            <span class="font-bold text-white text-xs">${m.value}</span>
+            <span class="text-[10px] font-mono ${colorClass}">${icon} ${m.change}</span>
+          </div>
+        `;
+        grid.appendChild(item);
+      });
+    }
+
+    // TL;DR Population
+    function populateTLDR(tldr) {
+      const list = document.getElementById('sb-tldr-list');
+      list.innerHTML = '';
+      (tldr || []).forEach(point => {
+        const p = document.createElement('p');
+        p.className = 'flex items-start gap-1.5';
+        p.innerHTML = `<span class="text-amber-400 font-bold">•</span> <span>${point}</span>`;
+        list.appendChild(p);
+      });
+    }
+
+    // Category Pills Population
+    function populateCategoryPills() {
+      const container = document.getElementById('category-pills');
+      container.innerHTML = '';
+      
+      const categories = ['All', ...new Set(rawStories.map(s => s.category))];
+      categories.forEach(cat => {
+        const btn = document.createElement('button');
+        const count = cat === 'All' ? rawStories.length : rawStories.filter(s => s.category === cat).length;
+        const isActive = cat === activeFilter;
+        btn.className = `px-2.5 py-1 rounded-lg text-[11px] font-semibold transition ${
+          isActive 
+            ? 'bg-amber-500 text-slate-950 font-bold' 
+            : 'bg-slate-800/80 border border-slate-700 text-slate-300 hover:text-white'
+        }`;
+        btn.textContent = `${cat} (${count})`;
+        btn.onclick = () => filterByCategory(cat);
+        container.appendChild(btn);
+      });
+    }
+
+    function filterByCategory(cat) {
+      activeFilter = cat;
+      document.getElementById('active-category-tag').textContent = cat;
+      if (cat === 'All') {
+        displayedStories = [...rawStories];
+      } else {
+        displayedStories = rawStories.filter(s => s.category === cat);
+      }
+      populateCategoryPills();
+      renderDots();
+      renderStory(0);
+      renderFeed();
+      closeSidebar();
+    }
+
+    document.getElementById('filter-reset-btn').onclick = () => filterByCategory('All');
+
+    function renderDots() {
+      const dotsContainer = document.getElementById('story-dots');
+      dotsContainer.innerHTML = '';
+      displayedStories.forEach((_, i) => {
+        const dot = document.createElement('div');
+        dot.id = `dot-${i}`;
+        dot.className = `w-1.5 h-1.5 rounded-full transition-all duration-200 ${
+          i === currentIndex ? 'bg-amber-400 scale-125' : 'bg-slate-700'
+        }`;
+        dotsContainer.appendChild(dot);
+      });
+    }
+
+    function updateDots(index) {
+      displayedStories.forEach((_, i) => {
+        const dot = document.getElementById(`dot-${i}`);
+        if (!dot) return;
+        if (i === index) {
+          dot.className = 'w-2 h-2 rounded-full bg-amber-400 scale-125 transition-all duration-200';
+        } else {
+          dot.className = 'w-1.5 h-1.5 rounded-full bg-slate-700 transition-all duration-200';
+        }
+      });
+    }
+
+    function renderStory(index, direction = 'next') {
+      if (!displayedStories[index]) return;
+      const s = displayedStories[index];
+      currentIndex = index;
+
+      const cardArea = document.getElementById('card-touch-area');
+      
+      cardArea.style.opacity = '0.3';
+      cardArea.style.transform = direction === 'next' ? 'translateX(16px)' : 'translateX(-16px)';
+      
+      setTimeout(() => {
+        document.getElementById('story-title').textContent = s.headline;
+        document.getElementById('story-desc').textContent = s.summary;
+        document.getElementById('story-badge').textContent = s.category;
+        document.getElementById('story-tag').textContent = s.tag || 'Malaysia';
+        document.getElementById('story-readtime').textContent = s.readTime || '2 min read';
+        document.getElementById('counter').textContent = `Story ${index + 1} of ${displayedStories.length}`;
+
+        // Ensure button href is set directly
+        const fullLinkBtn = document.getElementById('full-article-btn');
+        fullLinkBtn.href = s.sourceUrl || '#';
+        document.getElementById('full-article-source-name').textContent = s.sourceName || 'Original';
+        fullLinkBtn.classList.remove('hidden');
+
+        const bulletsContainer = document.getElementById('story-bullets');
+        bulletsContainer.innerHTML = '';
+        (s.takeaways || []).forEach(t => {
+          const p = document.createElement('p');
+          p.className = 'flex items-start gap-1.5 text-slate-300';
+          p.innerHTML = `<span class="text-amber-400 font-bold">•</span> <span>${t}</span>`;
+          bulletsContainer.appendChild(p);
+        });
+
+        updateDots(index);
+
+        cardArea.style.opacity = '1';
+        cardArea.style.transform = 'translateX(0)';
+
+        if (isSpeaking) {
+          speakCurrent();
+        }
+      }, 80);
+    }
+
+    function renderFeed() {
+      const list = document.getElementById('feed-list');
+      list.innerHTML = '';
+      document.getElementById('feed-count').textContent = `${displayedStories.length} Articles`;
+
+      displayedStories.forEach((s, idx) => {
+        const card = document.createElement('div');
+        card.className = 'bg-slate-900/90 border border-slate-800 p-3.5 rounded-xl space-y-2.5';
+        card.innerHTML = `
+          <div class="flex items-center justify-between text-[10px]">
+            <span class="px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-400 font-bold">${s.category}</span>
+            <span class="text-slate-400 font-medium">${s.sourceName} • ${s.readTime || '2 min'}</span>
+          </div>
+          <h4 class="text-sm font-bold text-white leading-snug cursor-pointer hover:text-amber-400 transition" onclick="switchToStory(${idx})">
+            ${s.headline}
+          </h4>
+          <p class="text-xs text-slate-300 leading-relaxed">${s.summary}</p>
+          <div class="flex items-center justify-between border-t border-slate-800/80 pt-2">
+            <button onclick="switchToStory(${idx})" class="text-[11px] text-amber-400 font-semibold hover:underline flex items-center gap-1">
+              <span>▶ View Card</span>
+            </button>
+            <a href="${s.sourceUrl}" target="_blank" rel="noopener noreferrer" onclick="openFeedUrl(event, '${s.sourceUrl}')" class="px-3 py-1.5 rounded-lg bg-amber-500/20 border border-amber-500/40 text-amber-300 font-bold text-[11px] hover:bg-amber-500/30 flex items-center gap-1 shadow-sm">
+              <span>Read Full News</span> ↗
+            </a>
+          </div>
+        `;
+        list.appendChild(card);
+      });
+    }
+
+    window.switchToStory = function(idx) {
+      document.getElementById('tab-reel').click();
+      renderStory(idx);
+    };
+
+    function nextStory() {
+      const nextIdx = (currentIndex + 1) % displayedStories.length;
+      renderStory(nextIdx, 'next');
+    }
+
+    function prevStory() {
+      const prevIdx = (currentIndex - 1 + displayedStories.length) % displayedStories.length;
+      renderStory(prevIdx, 'prev');
+    }
+
+    // SWIPE GESTURE IMPLEMENTATION
+    function setupSwipeGestures() {
+      const cardArea = document.getElementById('card-touch-area');
+
+      cardArea.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+        touchStartY = e.changedTouches[0].screenY;
+      }, { passive: true });
+
+      cardArea.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        touchEndY = e.changedTouches[0].screenY;
+        handleSwipe();
+      }, { passive: true });
+
+      let mouseStartX = 0;
+      let isMouseDown = false;
+
+      cardArea.addEventListener('mousedown', (e) => {
+        mouseStartX = e.clientX;
+        isMouseDown = true;
+      });
+
+      cardArea.addEventListener('mouseup', (e) => {
+        if (!isMouseDown) return;
+        isMouseDown = false;
+        const diffX = e.clientX - mouseStartX;
+        if (diffX < -40) nextStory();
+        else if (diffX > 40) prevStory();
+      });
+    }
+
+    function handleSwipe() {
+      const diffX = touchEndX - touchStartX;
+      const diffY = touchEndY - touchStartY;
+
+      if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 40) {
+        if (diffX < 0) {
+          nextStory();
+        } else {
+          prevStory();
+        }
+      }
+    }
+
+    // Audio narration
+    function speakCurrent() {
+      if (!('speechSynthesis' in window)) return;
+      window.speechSynthesis.cancel();
+      const s = displayedStories[currentIndex];
+      const text = `${s.category}. ${s.headline}. ${s.summary}.`;
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.rate = audioSpeed;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    // Speed selector
+    document.querySelectorAll('.speed-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        audioSpeed = parseFloat(e.target.dataset.speed);
+        document.getElementById('audio-speed-btn').textContent = audioSpeed + 'x';
+        document.querySelectorAll('.speed-btn').forEach(b => {
+          b.className = 'speed-btn py-1 rounded bg-slate-800 text-slate-300 hover:text-white';
+        });
+        e.target.className = 'speed-btn py-1 rounded bg-amber-500 text-slate-950 font-bold';
+        if (isSpeaking) speakCurrent();
+      });
+    });
+
+    document.getElementById('audio-speed-btn').addEventListener('click', openSidebar);
+
+    // Sidebar drawer control
+    const sidebar = document.getElementById('sidebar-drawer');
+    const backdrop = document.getElementById('sidebar-backdrop');
+
+    function openSidebar() {
+      sidebar.classList.remove('-translate-x-full');
+      backdrop.classList.remove('hidden');
+      setTimeout(() => backdrop.classList.remove('opacity-0'), 10);
+    }
+
+    function closeSidebar() {
+      sidebar.classList.add('-translate-x-full');
+      backdrop.classList.add('opacity-0');
+      setTimeout(() => backdrop.classList.add('hidden'), 300);
+    }
+
+    document.getElementById('menu-btn').addEventListener('click', openSidebar);
+    document.getElementById('close-menu-btn').addEventListener('click', closeSidebar);
+    backdrop.addEventListener('click', closeSidebar);
+
+    // TL;DR view
+    function showTLDRInReel() {
+      closeSidebar();
+      document.getElementById('tab-reel').click();
+      document.getElementById('story-title').textContent = "⚡ Malaysia Morning Executive Snapshot";
+      document.getElementById('story-desc').textContent = "Top 3 key developments shaping national affairs, Bursa markets, and infrastructure today.";
+      document.getElementById('story-badge').textContent = "Executive TL;DR";
+      document.getElementById('story-tag').textContent = "Snapshot";
+      document.getElementById('counter').textContent = "TL;DR";
+      document.getElementById('full-article-btn').classList.add('hidden');
+      
+      const bulletsContainer = document.getElementById('story-bullets');
+      bulletsContainer.innerHTML = '';
+      executiveSummary.forEach(point => {
+        const p = document.createElement('p');
+        p.className = 'flex items-start gap-1.5 text-slate-200';
+        p.innerHTML = `<span class="text-amber-400 font-bold">•</span> <span>${point}</span>`;
+        bulletsContainer.appendChild(p);
+      });
+    }
+
+    document.getElementById('open-tldr-btn').addEventListener('click', showTLDRInReel);
+    document.getElementById('sb-play-tldr-btn').addEventListener('click', showTLDRInReel);
+
+    document.getElementById('speech-btn').addEventListener('click', () => {
+      if (!('speechSynthesis' in window)) {
+        alert("Speech synthesis is not supported on this device.");
+        return;
+      }
+      isSpeaking = !isSpeaking;
+      if (isSpeaking) {
+        document.getElementById('speech-text').textContent = 'Mute';
+        speakCurrent();
+      } else {
+        document.getElementById('speech-text').textContent = 'Read';
+        window.speechSynthesis.cancel();
+      }
+    });
+
+    document.getElementById('next-btn').addEventListener('click', nextStory);
+    document.getElementById('prev-btn').addEventListener('click', prevStory);
+
+    // Tab Switching
+    document.getElementById('tab-reel').addEventListener('click', () => {
+      document.getElementById('reel-view').classList.remove('hidden');
+      document.getElementById('feed-view').classList.add('hidden');
+      document.getElementById('tab-reel').className = 'px-2.5 py-1 rounded-md bg-amber-500 text-slate-950 font-bold transition';
+      document.getElementById('tab-feed').className = 'px-2.5 py-1 rounded-md text-slate-400 hover:text-white transition';
+    });
+
+    document.getElementById('tab-feed').addEventListener('click', () => {
+      document.getElementById('reel-view').classList.add('hidden');
+      document.getElementById('feed-view').classList.remove('hidden');
+      document.getElementById('tab-feed').className = 'px-2.5 py-1 rounded-md bg-amber-500 text-slate-950 font-bold transition';
+      document.getElementById('tab-reel').className = 'px-2.5 py-1 rounded-md text-slate-400 hover:text-white transition';
+    });
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js').catch(err => console.log('SW registration failed:', err));
+    }
+
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      document.getElementById('install-banner').classList.remove('hidden');
+    });
+
+    document.getElementById('install-btn').addEventListener('click', async () => {
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        if (outcome === 'accepted') {
+          document.getElementById('install-banner').classList.add('hidden');
+        }
+        deferredPrompt = null;
+      }
+    });
+
+    initApp();
+  </script>
+</body>
+</html>

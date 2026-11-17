@@ -1,0 +1,32 @@
+name: Daily Malaysia Morning News Update
+
+on:
+  schedule:
+    # 00:00 UTC = 08:00 AM Malaysia Time (MYT / UTC+8)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch Latest Malaysia News & Weather
+        run: python scripts/update_news.py
+
+      - name: Commit and Push Updated News
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add news-data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update Malaysia morning news [$(date +'%Y-%m-%d')]" && git push)
