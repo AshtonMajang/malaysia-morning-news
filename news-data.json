@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-17T15:41:10.965358+08:00",
+  "lastUpdated": "2026-11-18T15:00:08.189909+08:00",
   "weather": {
     "city": "Kuala Lumpur & West Coast",
-    "temp": "29°C",
+    "temp": "28°C",
     "condition": "Scattered Afternoon Showers",
     "rainChance": "100% Rain",
     "alert": "⚠️ MetMalaysia: Northeast Monsoon Active • Rain Advisory in Effect"
@@ -10,7 +10,7 @@
   "markets": [
     {
       "label": "USD/MYR",
-      "value": "4.094",
+      "value": "4.093",
       "change": "+0.08%",
       "isUp": true
     },
@@ -34,121 +34,79 @@
     }
   ],
   "executiveSummary": [
-    "Diplomacy & National: Umno Negeri Sembilan not informed of Ismail Lasim’s resignation plan, says Jalaluddin...",
-    "Diplomacy & National: ‘Don’t make others the scapegoat’: Ismail Lasim’s son questions statement on father’s...",
-    "Diplomacy & National: Penang hopes for a portion of federal grant to reduce water infrastructure costs..."
+    "Bursa & Economy: Anthropic’s US$1.4 trillion question: How do you price the future of AI?...",
+    "Bursa & Economy: The ringgit’s Tuesday trade: Flat against the dollar, softer against the rest...",
+    "National Affairs: 6 nobles face 3rd contempt proceedings over Negeri Sembilan crisis..."
   ],
   "stories": [
     {
       "id": 1,
-      "category": "Diplomacy & National",
-      "tag": "Putrajaya",
-      "headline": "Umno Negeri Sembilan not informed of Ismail Lasim’s resignation plan, says Jalaluddin",
-      "summary": "SEREMBAN, Nov 17 &mdash; Negeri Sembilan Umno was not informed directly by Datuk Ismail Lasim about his intention to res...",
+      "category": "Bursa & Economy",
+      "tag": "Markets",
+      "headline": "Anthropic’s US$1.4 trillion question: How do you price the future of AI?",
+      "summary": "WASHINGTON, Nov 17 &mdash; Speculation over Anthropic&rsquo;s stock market valuation has highlighted one of the riskiest...",
       "takeaways": [
         "Directly reported by Malay Mail.",
         "Tap below for full in-depth reporting and official statements."
       ],
       "sourceName": "Malay Mail",
-      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/17/umno-negeri-sembilan-not-informed-of-ismail-lasims-resignation-plan-says-jalaluddin/243603",
+      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/anthropics-us14-trillion-question-how-do-you-price-the-future-of-ai/243619",
       "readTime": "2 min read"
     },
     {
       "id": 2,
-      "category": "Diplomacy & National",
-      "tag": "Putrajaya",
-      "headline": "‘Don’t make others the scapegoat’: Ismail Lasim’s son questions statement on father’s resignation",
-      "summary": "SEREMBAN, Nov 17 &mdash; The son of Negeri Sembilan Mentri Besar Datuk Ismail Lasim has questioned a statement issued by...",
+      "category": "Bursa & Economy",
+      "tag": "Markets",
+      "headline": "The ringgit’s Tuesday trade: Flat against the dollar, softer against the rest",
+      "summary": "KUALA LUMPUR, Nov 17 &mdash; The ringgit ended flat against the US dollar and weakened against other major and regional...",
       "takeaways": [
         "Directly reported by Malay Mail.",
         "Tap below for full in-depth reporting and official statements."
       ],
       "sourceName": "Malay Mail",
-      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/17/dont-make-others-the-scapegoat-ismail-lasims-son-questions-statement-on-fathers-resignation/243602",
+      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/the-ringgits-tuesday-trade-flat-against-the-dollar-softer-against-the-rest/243645",
       "readTime": "2 min read"
     },
     {
       "id": 3,
-      "category": "Diplomacy & National",
-      "tag": "Putrajaya",
-      "headline": "Penang hopes for a portion of federal grant to reduce water infrastructure costs",
-      "summary": "GEORGE TOWN, Nov 17 &mdash; Penang chief minister Chow Kon Yeow is appealing to Putrajaya for funds for the state to bui...",
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "6 nobles face 3rd contempt proceedings over Negeri Sembilan crisis",
+      "summary": "Meanwhile, the DKU and its secretary have withdrawn their committal application against menteri besar Ismail Lasim and 10 former exco members.",
       "takeaways": [
-        "Directly reported by Malay Mail.",
+        "Directly reported by Free Malaysia Today.",
         "Tap below for full in-depth reporting and official statements."
       ],
-      "sourceName": "Malay Mail",
-      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/17/penang-hopes-for-a-portion-of-federal-grant-to-reduce-water-infrastructure-costs/243599",
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/18/6-nobles-face-3rd-contempt-proceedings-over-negeri-sembilan-crisis",
       "readTime": "2 min read"
     },
     {
       "id": 4,
-      "category": "Bursa & Economy",
-      "tag": "Markets",
-      "headline": "TM Tech gets green light for RM2.7b submarine cable project linking Peninsular Malaysia, Sabah and Sarawak",
-      "summary": "KUALA LUMPUR, Nov 17 &mdash; Telekom Malaysia Bhd&rsquo;s (TM) wholly-owned subsidiary TM Technology Services Sdn Bhd (T...",
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "Bahrain says air defences intercepted Iranian attacks",
+      "summary": "Bahrain's defence force accused Tehran of maintaining a 'systematic hostile approach' towards the kingdom, which hosts the US Navy's Fifth Fleet.",
       "takeaways": [
-        "Directly reported by Malay Mail.",
+        "Directly reported by Free Malaysia Today.",
         "Tap below for full in-depth reporting and official statements."
       ],
-      "sourceName": "Malay Mail",
-      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/tm-tech-gets-green-light-for-rm27b-submarine-cable-project-linking-peninsular-malaysia-sabah-and-sarawak/243601",
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/18/bahrain-says-air-defences-intercepted-iranian-attacks",
       "readTime": "2 min read"
     },
     {
       "id": 5,
-      "category": "Bursa & Economy",
-      "tag": "Markets",
-      "headline": "‘For most, the answer is no’: Baidu CEO casts doubt on AI’s payoff",
-      "summary": "SHENZHEN, Nov 17 &mdash; Artificial intelligence adoption is not boosting profits for most companies, the head of Chines...",
-      "takeaways": [
-        "Directly reported by Malay Mail.",
-        "Tap below for full in-depth reporting and official statements."
-      ],
-      "sourceName": "Malay Mail",
-      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/for-most-the-answer-is-no-baidu-ceo-casts-doubt-on-ais-payoff/243593",
-      "readTime": "2 min read"
-    },
-    {
-      "id": 6,
       "category": "National Affairs",
       "tag": "Nation",
-      "headline": "Amanah man urges PAS to ditch Umno and back Anwar",
-      "summary": "Khalid Samad says Amanah is open to discussing the Islamic party's participation in the government.",
+      "headline": "Rela member claims trial to sexual assault of 5-year-old girl",
+      "summary": "Afiq Affendy is accused of touching the girl's thigh in an inappropriate manner earlier this month.",
       "takeaways": [
         "Directly reported by Free Malaysia Today.",
         "Tap below for full in-depth reporting and official statements."
       ],
       "sourceName": "Free Malaysia Today",
-      "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/17/amanah-man-urges-pas-to-ditch-umno-and-back-anwar",
-      "readTime": "2 min read"
-    },
-    {
-      "id": 7,
-      "category": "National Affairs",
-      "tag": "Nation",
-      "headline": "Mongolia president announces resignation after graft accusations",
-      "summary": "Ukhnaa Khurelsukh announced his resignation a day after the opposition Democratic Party accused him of corruption and demanded he step down or face impeachment.",
-      "takeaways": [
-        "Directly reported by Free Malaysia Today.",
-        "Tap below for full in-depth reporting and official statements."
-      ],
-      "sourceName": "Free Malaysia Today",
-      "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/17/mongolia-president-announces-resignation-after-graft-accusations",
-      "readTime": "2 min read"
-    },
-    {
-      "id": 8,
-      "category": "National Affairs",
-      "tag": "Nation",
-      "headline": "Ismail far more ethical than Zahid, says ex-Umno man",
-      "summary": "Unlike Ismail Lasim, Puad Zarkashi says Ahmad Zahid Hamidi wants to keep his government posts while openly contradicting the unity administration.",
-      "takeaways": [
-        "Directly reported by Free Malaysia Today.",
-        "Tap below for full in-depth reporting and official statements."
-      ],
-      "sourceName": "Free Malaysia Today",
-      "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/17/ismail-far-more-ethical-than-zahid-says-ex-umno-man",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/18/rela-member-claims-trial-to-sexual-assault-of-5-year-old-girl",
       "readTime": "2 min read"
     }
   ]
