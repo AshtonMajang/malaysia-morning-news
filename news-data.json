@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-11-18T15:00:08.189909+08:00",
+  "lastUpdated": "2026-11-19T15:00:10.583255+08:00",
   "weather": {
-    "city": "Kuala Lumpur & West Coast",
+    "city": "Kuala Lumpur",
     "temp": "28°C",
-    "condition": "Scattered Afternoon Showers",
-    "rainChance": "100% Rain",
-    "alert": "⚠️ MetMalaysia: Northeast Monsoon Active • Rain Advisory in Effect"
+    "condition": "Scattered Afternoon Thunderstorms",
+    "rainChance": "75% Rain",
+    "alert": "⚠️ MetMalaysia: Monsoon Alert Active"
   },
   "markets": [
     {
       "label": "USD/MYR",
-      "value": "4.093",
+      "value": "4.115",
       "change": "+0.08%",
       "isUp": true
     },
     {
       "label": "SGD/MYR",
-      "value": "3.177",
+      "value": "3.191",
       "change": "+0.04%",
       "isUp": true
     },
@@ -34,79 +34,121 @@
     }
   ],
   "executiveSummary": [
-    "Bursa & Economy: Anthropic’s US$1.4 trillion question: How do you price the future of AI?...",
-    "Bursa & Economy: The ringgit’s Tuesday trade: Flat against the dollar, softer against the rest...",
-    "National Affairs: 6 nobles face 3rd contempt proceedings over Negeri Sembilan crisis..."
+    "Diplomacy & National: A six-minute train journey beneath the mountains: The ECRL Genting Tunnel engineering...",
+    "Diplomacy & National: PEOPLElogy’s leaders conference rallies corporate Malaysia to put people first in AI ...",
+    "Diplomacy & National: ‘This has never happened before’: Negeri Sembilan has no rulebook for a menteri besar..."
   ],
   "stories": [
     {
       "id": 1,
-      "category": "Bursa & Economy",
-      "tag": "Markets",
-      "headline": "Anthropic’s US$1.4 trillion question: How do you price the future of AI?",
-      "summary": "WASHINGTON, Nov 17 &mdash; Speculation over Anthropic&rsquo;s stock market valuation has highlighted one of the riskiest...",
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "A six-minute train journey beneath the mountains: The ECRL Genting Tunnel engineering marvel",
+      "summary": "KUALA LUMPUR، Nov 19 — For passengers travelling on board the East Coast Rail Link (ECRL)، passing beneath the Titiwangs...",
       "takeaways": [
         "Directly reported by Malay Mail.",
         "Tap below for full in-depth reporting and official statements."
       ],
       "sourceName": "Malay Mail",
-      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/anthropics-us14-trillion-question-how-do-you-price-the-future-of-ai/243619",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/19/a-six-minute-train-journey-beneath-the-mountains-the-ecrl-genting-tunnel-engineering-marvel/243769",
       "readTime": "2 min read"
     },
     {
       "id": 2,
-      "category": "Bursa & Economy",
-      "tag": "Markets",
-      "headline": "The ringgit’s Tuesday trade: Flat against the dollar, softer against the rest",
-      "summary": "KUALA LUMPUR, Nov 17 &mdash; The ringgit ended flat against the US dollar and weakened against other major and regional...",
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "PEOPLElogy’s leaders conference rallies corporate Malaysia to put people first in AI push, as ex-HRD Corp chief warns against cutting training",
+      "summary": "PETALING JAYA, Nov 18 — Corporate Malaysia must keep investing in its people to get real\nvalue from artificial intellige...",
       "takeaways": [
         "Directly reported by Malay Mail.",
         "Tap below for full in-depth reporting and official statements."
       ],
       "sourceName": "Malay Mail",
-      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/the-ringgits-tuesday-trade-flat-against-the-dollar-softer-against-the-rest/243645",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/18/peoplelogys-leaders-conference-rallies-corporate-malaysia-to-put-people-first-in-ai-push-as-ex-hrd-corp-chief-warns-against-cutting-training/243815",
       "readTime": "2 min read"
     },
     {
       "id": 3,
-      "category": "National Affairs",
-      "tag": "Nation",
-      "headline": "6 nobles face 3rd contempt proceedings over Negeri Sembilan crisis",
-      "summary": "Meanwhile, the DKU and its secretary have withdrawn their committal application against menteri besar Ismail Lasim and 10 former exco members.",
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "‘This has never happened before’: Negeri Sembilan has no rulebook for a menteri besar who quits, says state secretary",
+      "summary": "SEREMBAN, Nov 18 — The Negeri Sembilan State Secretary’s Office has yet to receive any official notification or letter f...",
       "takeaways": [
-        "Directly reported by Free Malaysia Today.",
+        "Directly reported by Malay Mail.",
         "Tap below for full in-depth reporting and official statements."
       ],
-      "sourceName": "Free Malaysia Today",
-      "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/18/6-nobles-face-3rd-contempt-proceedings-over-negeri-sembilan-crisis",
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/18/this-has-never-happened-before-negeri-sembilan-has-no-rulebook-for-a-menteri-besar-who-quits-says-state-secretary/243809",
       "readTime": "2 min read"
     },
     {
       "id": 4,
-      "category": "National Affairs",
-      "tag": "Nation",
-      "headline": "Bahrain says air defences intercepted Iranian attacks",
-      "summary": "Bahrain's defence force accused Tehran of maintaining a 'systematic hostile approach' towards the kingdom, which hosts the US Navy's Fifth Fleet.",
+      "category": "Bursa & Economy",
+      "tag": "Markets",
+      "headline": "Red day on Bursa: KLCI futures down across all contracts",
+      "summary": "KUALA LUMPUR, Nov 18 — The FTSE Bursa Malaysia KLCI (FBM KLCI) futures on Bursa Malaysia Derivatives ended lower on Wedn...",
       "takeaways": [
-        "Directly reported by Free Malaysia Today.",
+        "Directly reported by Malay Mail.",
         "Tap below for full in-depth reporting and official statements."
       ],
-      "sourceName": "Free Malaysia Today",
-      "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/18/bahrain-says-air-defences-intercepted-iranian-attacks",
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/18/red-day-on-bursa-klci-futures-down-across-all-contracts/243803",
       "readTime": "2 min read"
     },
     {
       "id": 5,
+      "category": "Bursa & Economy",
+      "tag": "Markets",
+      "headline": "Ringgit slips against US dollar, major currencies amid rate uncertainty",
+      "summary": "KUALA LUMPUR، Nov 18 — The ringgit ended lower against the greenback and other major and regional currencies on Wednesda...",
+      "takeaways": [
+        "Directly reported by Malay Mail.",
+        "Tap below for full in-depth reporting and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/18/ringgit-slips-against-us-dollar-major-currencies-amid-rate-uncertainty/243798",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 6,
       "category": "National Affairs",
       "tag": "Nation",
-      "headline": "Rela member claims trial to sexual assault of 5-year-old girl",
-      "summary": "Afiq Affendy is accused of touching the girl's thigh in an inappropriate manner earlier this month.",
+      "headline": "Lelaki menyamar juruiring Raja Muda Selangor dijel setahun lagi kerana menipu",
+      "summary": "Al Zulfadly Alias yang sebelum ini dihukum penjara setahun, mengaku salah atas dua lagi tuduhan menipu.",
       "takeaways": [
         "Directly reported by Free Malaysia Today.",
         "Tap below for full in-depth reporting and official statements."
       ],
       "sourceName": "Free Malaysia Today",
-      "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/18/rela-member-claims-trial-to-sexual-assault-of-5-year-old-girl",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/19/lelaki-menyamar-juruiring-raja-muda-selangor-dijel-setahun-lagi-kerana-menipu",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 7,
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "Langley outshines Taylor Swift at country music awards",
+      "summary": "Ella Langley won six awards, including Entertainer of the Year, as her hit song 'Choosin' Texas' became a cultural phenomenon.",
+      "takeaways": [
+        "Directly reported by Free Malaysia Today.",
+        "Tap below for full in-depth reporting and official statements."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/leisure/2026/11/19/langley-outshines-taylor-swift-at-country-music-awards",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 8,
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "Malaysia at the IAEA: preparing today for tomorrow’s energy choices",
+      "summary": "For something that could shape Malaysia's energy system for generations, doing the homework first is not a delay but a pertinent, responsible process.",
+      "takeaways": [
+        "Directly reported by Free Malaysia Today.",
+        "Tap below for full in-depth reporting and official statements."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/opinion/2026/11/19/malaysia-at-the-iaea-preparing-today-for-tomorrow-s-energy-choices",
       "readTime": "2 min read"
     }
   ]
