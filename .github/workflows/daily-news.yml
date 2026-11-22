@@ -28,5 +28,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add news-data.json
+          git add news-data.json index.html
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update Malaysia morning news [$(date +'%Y-%m-%d')]" && git push)

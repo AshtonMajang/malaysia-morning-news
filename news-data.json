@@ -1,50 +1,277 @@
 {
-  "lastUpdated": "2026-11-17T15:41:10.965358+08:00",
+  "lastUpdated": "2026-11-22T14:40:00+08:00",
   "weather": {
-    "city": "Kuala Lumpur & West Coast",
+    "city": "Kuala Lumpur & Klang Valley",
     "temp": "29°C",
-    "condition": "Scattered Afternoon Showers",
-    "rainChance": "100% Rain",
-    "alert": "⚠️ MetMalaysia: Northeast Monsoon Active • Rain Advisory in Effect"
+    "condition": "Scattered Afternoon Thunderstorms",
+    "rainChance": "85% Rain",
+    "alert": "⚠️ MetMalaysia: Northeast Monsoon Active • Flood recovery in Selangor & Perak"
   },
   "markets": [
     {
       "label": "USD/MYR",
-      "value": "4.094",
-      "change": "+0.08%",
-      "isUp": true
-    },
-    {
-      "label": "SGD/MYR",
-      "value": "3.177",
-      "change": "+0.04%",
-      "isUp": true
-    },
-    {
-      "label": "FBM KLCI",
-      "value": "1,612.4",
-      "change": "-0.35%",
+      "value": "4.458",
+      "change": "-0.09%",
       "isUp": false
     },
     {
-      "label": "Brent Crude",
-      "value": "$72.85",
-      "change": "+0.60%",
+      "label": "SGD/MYR",
+      "value": "3.324",
+      "change": "-0.06%",
+      "isUp": false
+    },
+    {
+      "label": "Malaysia Q3 GDP",
+      "value": "+5.5%",
+      "change": "Beat 5.3% est",
       "isUp": true
+    },
+    {
+      "label": "Brent Crude",
+      "value": "$90.85",
+      "change": "-1.10%",
+      "isUp": false
     }
   ],
   "executiveSummary": [
-    "Diplomacy & National: Umno Negeri Sembilan not informed of Ismail Lasim’s resignation plan, says Jalaluddin...",
-    "Diplomacy & National: ‘Don’t make others the scapegoat’: Ismail Lasim’s son questions statement on father’s...",
-    "Diplomacy & National: Penang hopes for a portion of federal grant to reduce water infrastructure costs..."
+    "Diplomacy & National (22 Nov): Home Minister Saifuddin confirms Pardons Board minutes on Najib Razak’s house arrest claim have been declassified for AGC court affidavit.",
+    "Bursa & Economy (22 Nov): Economy Minister Akmal Nasrullah outlines four 13th Malaysia Plan (13MP) healthcare priorities including a national health fund and 2027 base medical plan.",
+    "World & Tech (22 Nov): COP31 enters double overtime in Turkey over fossil-fuel draft; Anthropic’s Claude assists in formal Lean-verified proof of the Riemann hypothesis while Nasdaq erases 2026 gains (-12%).",
+    "Malaysia Economy (18–20 Nov): BNM reports Malaysia Q3 2026 GDP grew 5.5% on AI tech export surge; PM Anwar secures RM9.2b in indicative Chinese high-tech & green investments at APEC Shenzhen."
   ],
   "stories": [
     {
       "id": 1,
+      "date": "2026-11-22",
+      "dateLabel": "22 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "Pardons Board minutes on Najib’s house arrest bid declassified for court affidavit, says Saifuddin",
+      "summary": "KUALA LUMPUR, Nov 22 — Home Minister Datuk Seri Saifuddin Nasution Ismail confirmed that the Federal Territories Pardons Board meeting minutes regarding Datuk Seri Najib Razak’s alleged house arrest addendum were declassified so the AGC could file its affidavit-in-reply to the Malaysian Bar’s judicial review.",
+      "takeaways": [
+        "Minutes declassified specifically to allow the Attorney-General's Chambers (AGC) to respond in the Malaysian Bar's judicial review.",
+        "Clarifies official procedural steps surrounding the supplementary royal addendum dispute."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 2,
+      "date": "2026-11-22",
+      "dateLabel": "22 Nov 2026",
+      "category": "Bursa & Economy",
+      "tag": "13MP Policy",
+      "headline": "13th Malaysia Plan outlines four healthcare reform priorities and 2027 base medical insurance plan",
+      "summary": "KUALA LUMPUR, Nov 22 — Economy Minister Akmal Nasrullah Mohd Nasir unveiled four strategic healthcare pillars under the 13th Malaysia Plan (13MP), including sustainable health financing, a national health fund, and a base medical insurance plan by early 2027 to curb medical inflation.",
+      "takeaways": [
+        "Addresses surging private healthcare and medical insurance premium inflation across Malaysia.",
+        "Introduces a national health fund framework alongside a standardized base medical plan targeted for early 2027."
+      ],
+      "sourceName": "The Star",
+      "sourceUrl": "https://www.thestar.com.my/news/nation",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 3,
+      "date": "2026-11-22",
+      "dateLabel": "22 Nov 2026",
+      "category": "National Affairs",
+      "tag": "MA63 & States",
+      "headline": "Fadillah: Sarawak’s MA63 rights push must balance state ambitions with stability of the Federation",
+      "summary": "KUCHING, Nov 22 — Deputy Prime Minister Datuk Seri Fadillah Yusof reminded stakeholders that Sarawak’s ongoing negotiations to reclaim rights under the Malaysia Agreement 1963 (MA63) must balance regional goals with the broader fiscal and constitutional stability of the Federation.",
+      "takeaways": [
+        "Emphasizes constructive federal-state negotiation channels under the MA63 technical committee.",
+        "Meanwhile in Penang, CM Chow Kon Yeow affirmed the PH-Umno state partnership will remain intact through the current term."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 4,
+      "date": "2026-11-22",
+      "dateLabel": "22 Nov 2026",
+      "category": "Technology & Science",
+      "tag": "AI & Math",
+      "headline": "Anthropic’s Claude assists in formal Lean-verified proof of 19th-century Riemann Hypothesis",
+      "summary": "SAN FRANCISCO, Nov 22 — Anthropic announced that mathematician Levent Alpöge used the Claude AI model over a six-week sprint to help crack the 1859 Riemann hypothesis, with the computer proof code independently verified by the Lean Focused Research Organization and Mathlib Initiative.",
+      "takeaways": [
+        "Marks a historic milestone in AI-assisted formal mathematics on one of the Clay Millennium Prize problems.",
+        "In space science, NASA’s James Webb Space Telescope also captured the rejuvenated stellar merger supergiant 'Bao' in Andromeda."
+      ],
+      "sourceName": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology",
+      "readTime": "3 min read"
+    },
+    {
+      "id": 5,
+      "date": "2026-11-22",
+      "dateLabel": "22 Nov 2026",
+      "category": "World & Markets",
+      "tag": "Global Rout",
+      "headline": "Nasdaq erases 2026 gains (-12%) as S&P 500 enters correction; COP31 climate talks hit double overtime",
+      "summary": "NEW YORK / ANTALYA, Nov 22 — Global equities wrapped a brutal week with the S&P 500 and Dow entering formal correction territory (-10%+) and Taiwan curbing short-selling, while UN COP31 talks in Antalya stalled into overtime after a draft omitted explicit fossil-fuel phaseout language.",
+      "takeaways": [
+        "Double-digit weekly drops in Nvidia, Micron, and AI infrastructure plays dragged the Nasdaq down 12% from its peak.",
+        "At COP31 in Turkey, delegates clashed over COP31 President Murat Kurum's draft omitting explicit coal, oil, and gas transition timelines."
+      ],
+      "sourceName": "Morningstar / The Guardian",
+      "sourceUrl": "https://www.theguardian.com/environment",
+      "readTime": "3 min read"
+    },
+    {
+      "id": 6,
+      "date": "2026-11-21",
+      "dateLabel": "21 Nov 2026",
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "PAS rejects Amanah’s call to join unity government; UKM confers honorary doctorate on Azizulhasni Awang",
+      "summary": "KUALA LUMPUR, Nov 21 — PAS vice-president Idris Ahmad dismissed invitations from Amanah to ditch Umno and back the unity administration, while national track cycling legend Datuk Azizulhasni Awang received an Honorary PhD in Sports Development at UKM’s 54th convocation.",
+      "takeaways": [
+        "PAS leadership stated the party will not abandon Perikatan Nasional or its core policy platform.",
+        "Separately, flood conditions in Selangor and Perak improved with declining evacuee counts, while Negeri Sembilan fully recovered."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 7,
+      "date": "2026-11-21",
+      "dateLabel": "21 Nov 2026",
+      "category": "World & Markets",
+      "tag": "Geopolitics",
+      "headline": "Trump prioritizes permanent Iran nuclear accord over regime change; China AI stock rout hits $1.7 trillion",
+      "summary": "WASHINGTON / SHANGHAI, Nov 21 — U.S. President Donald Trump stated his administration is seeking a permanent nuclear agreement with Iran rather than forced regime change, while Chinese tech and AI stock indexes extended their cumulative slide since June to $1.7 trillion amid U.S. remote-compute curbs.",
+      "takeaways": [
+        "Trump signaled willingness to reach a permanent nuclear deal with Tehran despite three U.S. carrier strike groups enforcing a port blockade.",
+        "In Washington, the U.S. Senate passed its first federal prediction markets bill while authorities probed a suspected FBI NCIC database breach."
+      ],
+      "sourceName": "The Edge Malaysia",
+      "sourceUrl": "https://theedgemalaysia.com/",
+      "readTime": "3 min read"
+    },
+    {
+      "id": 8,
+      "date": "2026-11-21",
+      "dateLabel": "21 Nov 2026",
+      "category": "Technology & Science",
+      "tag": "Med-AI & Space",
+      "headline": "AI detects bladder cancer 5 years early across 70,000 patients as SpaceX Dragon returns ISS 3D-bioprinted vessels",
+      "summary": "PLYMOUTH / CALIFORNIA, Nov 21 — University of Plymouth scientists demonstrated an AI tool that flagged 85% of bladder cancers up to five years before clinical diagnosis, while a SpaceX Dragon cargo craft splashed down off California carrying 3D-bioprinted blood vessels from the ISS.",
+      "takeaways": [
+        "Clinical study of ~70,000 patient records showed 85% early detection sensitivity up to 5 years prior to diagnosis.",
+        "HKUST biologists also discovered Chaetoderma shenloong, a deep-sea mollusk living without a digestive system via a symbiotic bacterial organelle."
+      ],
+      "sourceName": "ScienceDaily",
+      "sourceUrl": "https://www.sciencedaily.com/",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 9,
+      "date": "2026-11-20",
+      "dateLabel": "20 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "APEC Shenzhen",
+      "headline": "Anwar secures RM9.2b in indicative Chinese high-tech & green energy investments during APEC visit",
+      "summary": "SHENZHEN, Nov 20 — Prime Minister Datuk Seri Anwar Ibrahim concluded Malaysia’s participation at the 33rd APEC Economic Leaders’ Meeting in Shenzhen with RM9.2 billion in indicative investment proposals from Chinese high-tech and renewable energy firms targeting Kedah, Penang, Selangor, and Pahang.",
+      "takeaways": [
+        "Investments span semiconductor supply chains, green energy manufacturing, and digital infrastructure across four Malaysian states.",
+        "DAP's Lim Guan Eng also urged Putrajaya to press Washington over new U.S. BIS remote-access AI chip licensing rules affecting Malaysia."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 10,
+      "date": "2026-11-20",
+      "dateLabel": "20 Nov 2026",
+      "category": "World & Markets",
+      "tag": "Shenzhen & ICJ",
+      "headline": "Trump, Xi, and Putin conclude Shenzhen trilateral summit; ICJ issues landmark Myanmar Rohingya genocide ruling",
+      "summary": "SHENZHEN / THE HAGUE, Nov 20 — The U.S., Chinese, and Russian presidents issued a joint declaration on nuclear risk reduction and UN reform following their Shenzhen summit, while the International Court of Justice formally held Myanmar responsible for genocide against the Rohingya.",
+      "takeaways": [
+        "Marks the first time the ICJ has held a sovereign state directly responsible under the 1948 Genocide Convention.",
+        "In London, Downing Street also announced an agreed post-Brexit 'reset' deal with the European Union."
+      ],
+      "sourceName": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/world",
+      "readTime": "3 min read"
+    },
+    {
+      "id": 11,
+      "date": "2026-11-20",
+      "dateLabel": "20 Nov 2026",
+      "category": "Bursa & Economy",
+      "tag": "Global Tech Rout",
+      "headline": "Nikkei (-5.1%) and Kospi (-5.2%) plunge in global AI tech selloff as Citigroup 'Generals' indicator nears red",
+      "summary": "TOKYO / NEW YORK, Nov 20 — Global stock indices tumbled as AI capex fatigue triggered profit-taking following Anthropic’s IPO, with Citigroup warning that four of the top seven S&P 500 megacaps (Nvidia, Alphabet, Meta, Broadcom) are testing their 200-day moving averages.",
+      "takeaways": [
+        "Citigroup's 'Generals' warning compares current megacap technical breakdowns to market rotations in 2000 and late 2021.",
+        "In fintech, Starling Bank founder Anne Boden unveiled her agentic AI banking venture Lockwood."
+      ],
+      "sourceName": "Al Jazeera / Morningstar",
+      "sourceUrl": "https://www.aljazeera.com/economy/",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 12,
+      "date": "2026-11-19",
+      "dateLabel": "19 Nov 2026",
+      "category": "Technology & Science",
+      "tag": "Nasdaq IPO",
+      "headline": "Anthropic debuts on Nasdaq under ticker 'ANT' raising $81.3B; LEQEMBI cuts Alzheimer’s progression by 76%",
+      "summary": "NEW YORK / BOSTON, Nov 19 — AI developer Anthropic went public on the Nasdaq (ticker: ANT) at $83/share, closing day one valued near $1.27 trillion, while Eisai and Biogen presented real-world LEADER study data showing LEQEMBI slowed moderate/severe Alzheimer’s progression by 76%.",
+      "takeaways": [
+        "Anthropic became the highest-valued public benefit corporation in U.S. history.",
+        "At APEC, IMF chief Kristalina Georgieva warned surging AI infrastructure demand is adding to global inflation and interest-rate pressures."
+      ],
+      "sourceName": "CNN / Al Jazeera",
+      "sourceUrl": "https://edition.cnn.com/business",
+      "readTime": "3 min read"
+    },
+    {
+      "id": 13,
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026",
+      "category": "Bursa & Economy",
+      "tag": "BNM GDP",
+      "headline": "Bank Negara: Malaysia’s economy expanded 5.5% in Q3 2026, beating advance estimates on AI tech exports",
+      "summary": "KUALA LUMPUR, Nov 18 — Bank Negara Malaysia (BNM) announced that Malaysia’s GDP grew 5.5% year-on-year in the third quarter of 2026 (beating the 5.3% advance estimate), powered by domestic consumption, strong investment inflows, and E&E semiconductor exports.",
+      "takeaways": [
+        "Outperformance highlights Malaysia's role in the global semiconductor and data-centre packaging supply chain.",
+        "Globally, Nvidia reported $115.8B in Q3 revenue (+103% YoY) but halted H200 chip shipments to China."
+      ],
+      "sourceName": "Bank Negara Malaysia / FMT",
+      "sourceUrl": "https://www.bnm.gov.my/",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 14,
+      "date": "2026-11-18",
+      "dateLabel": "18 Nov 2026",
+      "category": "Technology & Science",
+      "tag": "Space Milestone",
+      "headline": "NASA’s Voyager 1 officially crosses one light-day distance from Earth (~16.1 billion miles)",
+      "summary": "PASADENA, Nov 18 — Nearly 50 years after its September 1977 launch, NASA’s Voyager 1 spacecraft officially crossed the one light-day threshold (~25.9 billion km / 16.1 billion miles from Earth) at 5:16 a.m. EST, becoming the first human-made object to reach 24 light-hours in distance.",
+      "takeaways": [
+        "Radio signals traveling at the speed of light now take a full 24 hours one-way to reach Voyager 1 in interstellar space.",
+        "Meanwhile in China, China Telecom's TeleChat lab unveiled Xing4, an agentic MoE model trained entirely on Huawei Ascend NPUs without CUDA."
+      ],
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/",
+      "readTime": "2 min read"
+    },
+    {
+      "id": 15,
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026",
       "category": "Diplomacy & National",
       "tag": "Putrajaya",
       "headline": "Umno Negeri Sembilan not informed of Ismail Lasim’s resignation plan, says Jalaluddin",
-      "summary": "SEREMBAN, Nov 17 &mdash; Negeri Sembilan Umno was not informed directly by Datuk Ismail Lasim about his intention to res...",
+      "summary": "SEREMBAN, Nov 17 — Negeri Sembilan Umno was not informed directly by Datuk Ismail Lasim about his intention to resign, prompting subsequent palace clarification requiring proof of majority assembly support.",
       "takeaways": [
         "Directly reported by Malay Mail.",
         "Tap below for full in-depth reporting and official statements."
@@ -54,25 +281,13 @@
       "readTime": "2 min read"
     },
     {
-      "id": 2,
-      "category": "Diplomacy & National",
-      "tag": "Putrajaya",
-      "headline": "‘Don’t make others the scapegoat’: Ismail Lasim’s son questions statement on father’s resignation",
-      "summary": "SEREMBAN, Nov 17 &mdash; The son of Negeri Sembilan Mentri Besar Datuk Ismail Lasim has questioned a statement issued by...",
-      "takeaways": [
-        "Directly reported by Malay Mail.",
-        "Tap below for full in-depth reporting and official statements."
-      ],
-      "sourceName": "Malay Mail",
-      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/17/dont-make-others-the-scapegoat-ismail-lasims-son-questions-statement-on-fathers-resignation/243602",
-      "readTime": "2 min read"
-    },
-    {
-      "id": 3,
+      "id": 16,
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026",
       "category": "Diplomacy & National",
       "tag": "Putrajaya",
       "headline": "Penang hopes for a portion of federal grant to reduce water infrastructure costs",
-      "summary": "GEORGE TOWN, Nov 17 &mdash; Penang chief minister Chow Kon Yeow is appealing to Putrajaya for funds for the state to bui...",
+      "summary": "GEORGE TOWN, Nov 17 — Penang chief minister Chow Kon Yeow appealed to Putrajaya for federal funding support to help the state build critical water infrastructure and lower long-term tariff pressure.",
       "takeaways": [
         "Directly reported by Malay Mail.",
         "Tap below for full in-depth reporting and official statements."
@@ -82,25 +297,29 @@
       "readTime": "2 min read"
     },
     {
-      "id": 4,
+      "id": 17,
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026",
       "category": "Bursa & Economy",
       "tag": "Markets",
       "headline": "TM Tech gets green light for RM2.7b submarine cable project linking Peninsular Malaysia, Sabah and Sarawak",
-      "summary": "KUALA LUMPUR, Nov 17 &mdash; Telekom Malaysia Bhd&rsquo;s (TM) wholly-owned subsidiary TM Technology Services Sdn Bhd (T...",
+      "summary": "KUALA LUMPUR, Nov 17 — Telekom Malaysia Bhd’s wholly-owned subsidiary TM Technology Services Sdn Bhd received approval for a RM2.7 billion submarine cable system boosting domestic subsea connectivity across Peninsular Malaysia, Sabah, and Sarawak.",
       "takeaways": [
         "Directly reported by Malay Mail.",
-        "Tap below for full in-depth reporting and official statements."
+        "Also on Nov 17, the U.S. Commerce Dept (BIS) issued new licensing rules for remote-access AI chips affecting Malaysia, Thailand, Indonesia, Singapore, and Brazil."
       ],
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/tm-tech-gets-green-light-for-rm27b-submarine-cable-project-linking-peninsular-malaysia-sabah-and-sarawak/243601",
       "readTime": "2 min read"
     },
     {
-      "id": 5,
+      "id": 18,
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026",
       "category": "Bursa & Economy",
       "tag": "Markets",
-      "headline": "‘For most, the answer is no’: Baidu CEO casts doubt on AI’s payoff",
-      "summary": "SHENZHEN, Nov 17 &mdash; Artificial intelligence adoption is not boosting profits for most companies, the head of Chines...",
+      "headline": "‘For most, the answer is no’: Baidu CEO casts doubt on AI’s immediate profit payoff",
+      "summary": "SHENZHEN, Nov 17 — Artificial intelligence adoption is not yet boosting bottom-line profits for most enterprises, Baidu’s CEO cautioned during tech discussions in Shenzhen.",
       "takeaways": [
         "Directly reported by Malay Mail.",
         "Tap below for full in-depth reporting and official statements."
@@ -110,45 +329,19 @@
       "readTime": "2 min read"
     },
     {
-      "id": 6,
+      "id": 19,
+      "date": "2026-11-17",
+      "dateLabel": "17 Nov 2026",
       "category": "National Affairs",
       "tag": "Nation",
-      "headline": "Amanah man urges PAS to ditch Umno and back Anwar",
-      "summary": "Khalid Samad says Amanah is open to discussing the Islamic party's participation in the government.",
+      "headline": "Amanah man urges PAS to ditch Umno and back Anwar; Mongolia president resigns after graft accusations",
+      "summary": "KUALA LUMPUR, Nov 17 — Amanah’s Khalid Samad said the party is open to discussing PAS’s participation in the unity government, while internationally Mongolia’s president Ukhnaa Khurelsukh announced his resignation amid opposition corruption allegations.",
       "takeaways": [
         "Directly reported by Free Malaysia Today.",
-        "Tap below for full in-depth reporting and official statements."
+        "Globally on Nov 17, the OPTIMJACK supply-chain attack via Optimizely briefly affected 178+ major brands and Ukraine struck the Kerch Bridge in an overnight drone barrage."
       ],
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/17/amanah-man-urges-pas-to-ditch-umno-and-back-anwar",
-      "readTime": "2 min read"
-    },
-    {
-      "id": 7,
-      "category": "National Affairs",
-      "tag": "Nation",
-      "headline": "Mongolia president announces resignation after graft accusations",
-      "summary": "Ukhnaa Khurelsukh announced his resignation a day after the opposition Democratic Party accused him of corruption and demanded he step down or face impeachment.",
-      "takeaways": [
-        "Directly reported by Free Malaysia Today.",
-        "Tap below for full in-depth reporting and official statements."
-      ],
-      "sourceName": "Free Malaysia Today",
-      "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/17/mongolia-president-announces-resignation-after-graft-accusations",
-      "readTime": "2 min read"
-    },
-    {
-      "id": 8,
-      "category": "National Affairs",
-      "tag": "Nation",
-      "headline": "Ismail far more ethical than Zahid, says ex-Umno man",
-      "summary": "Unlike Ismail Lasim, Puad Zarkashi says Ahmad Zahid Hamidi wants to keep his government posts while openly contradicting the unity administration.",
-      "takeaways": [
-        "Directly reported by Free Malaysia Today.",
-        "Tap below for full in-depth reporting and official statements."
-      ],
-      "sourceName": "Free Malaysia Today",
-      "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/17/ismail-far-more-ethical-than-zahid-says-ex-umno-man",
       "readTime": "2 min read"
     }
   ]
