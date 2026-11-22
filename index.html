@@ -140,7 +140,7 @@
         
         <div class="flex items-center justify-between mb-1.5 text-[11px]">
           <span class="text-slate-400" id="story-readtime">2 min read</span>
-          <span id="counter" class="text-amber-400 font-mono font-bold">Story 1 of 19</span>
+          <span id="counter" class="text-amber-400 font-mono font-bold">Story 1 of 55</span>
         </div>
 
         <h2 id="story-title" class="text-lg md:text-xl font-extrabold text-white leading-tight tracking-tight mb-2.5">
@@ -207,7 +207,7 @@
     <div id="feed-view" class="hidden flex-1 overflow-y-auto p-4 space-y-3 max-w-md mx-auto w-full">
       <div class="flex items-center justify-between pb-1">
         <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400" id="feed-heading">Compiled News Archive</h3>
-        <span class="text-[10px] text-amber-400 font-mono" id="feed-count">19 Articles</span>
+        <span class="text-[10px] text-amber-400 font-mono" id="feed-count">55 Articles</span>
       </div>
       <div id="feed-list" class="space-y-3 pb-8"></div>
     </div>
@@ -300,463 +300,929 @@
   <script>
     // Embedded full archive (Nov 17 – Nov 22, 2026) so the app NEVER shows empty "Headline" / "Summary" placeholders even offline or on 4G+
     const DEFAULT_DATA = {
-      "lastUpdated": "2026-11-22T14:40:00+08:00",
+      "lastUpdated": "2026-11-22T15:01:00+08:00",
       "weather": {
-        "city": "Kuala Lumpur & Klang Valley",
-        "temp": "29°C",
-        "condition": "Scattered Afternoon Thunderstorms",
-        "rainChance": "85% Rain",
-        "alert": "⚠️ MetMalaysia: Northeast Monsoon Active • Flood recovery in Selangor & Perak"
+            "city": "Kuala Lumpur & Klang Valley",
+            "temp": "29°C",
+            "condition": "Scattered Afternoon Thunderstorms",
+            "rainChance": "85% Rain",
+            "alert": "⚠️ MetMalaysia: Northeast Monsoon Active • Flood recovery in Selangor & Perak"
       },
       "markets": [
-        { "label": "USD/MYR", "value": "4.458", "change": "-0.09%", "isUp": false },
-        { "label": "SGD/MYR", "value": "3.324", "change": "-0.06%", "isUp": false },
-        { "label": "Malaysia Q3 GDP", "value": "+5.5%", "change": "Beat 5.3% est", "isUp": true },
-        { "label": "Brent Crude", "value": "$90.85", "change": "-1.10%", "isUp": false }
+            {
+                  "label": "USD/MYR",
+                  "value": "4.458",
+                  "change": "-0.09%",
+                  "isUp": false
+            },
+            {
+                  "label": "SGD/MYR",
+                  "value": "3.324",
+                  "change": "-0.06%",
+                  "isUp": false
+            },
+            {
+                  "label": "Malaysia Q3 GDP",
+                  "value": "+5.5%",
+                  "change": "Beat 5.3% est",
+                  "isUp": true
+            },
+            {
+                  "label": "Brent Crude",
+                  "value": "$90.85",
+                  "change": "-1.10%",
+                  "isUp": false
+            }
       ],
       "executiveSummary": [
-        "Diplomacy & National (22 Nov): Home Minister Saifuddin confirms Pardons Board minutes on Najib Razak’s house arrest claim have been declassified for AGC court affidavit.",
-        "Bursa & Economy (22 Nov): Economy Minister Akmal Nasrullah outlines four 13th Malaysia Plan (13MP) healthcare priorities including a national health fund and 2027 base medical plan.",
-        "World & Tech (22 Nov): COP31 enters double overtime in Turkey; Anthropic’s Claude assists in formal Lean-verified proof of the Riemann hypothesis while Nasdaq erases 2026 gains (-12%).",
-        "Malaysia Economy (18–20 Nov): BNM reports Malaysia Q3 2026 GDP grew 5.5% on AI tech export surge; PM Anwar secures RM9.2b in indicative Chinese high-tech investments at APEC Shenzhen."
+            "Diplomacy & National (22 Nov): Home Minister Saifuddin confirms Pardons Board minutes on Najib Razak’s house arrest claim have been declassified for AGC court affidavit.",
+            "Bursa & Economy (22 Nov): Economy Minister Akmal Nasrullah outlines four 13th Malaysia Plan (13MP) healthcare priorities including a national health fund and 2027 base medical plan.",
+            "World & Tech (22 Nov): COP31 enters double overtime in Turkey; Anthropic’s Claude assists in formal Lean-verified proof of the Riemann hypothesis while Nasdaq erases 2026 gains (-12%).",
+            "Malaysia Economy (18–20 Nov): BNM reports Malaysia Q3 2026 GDP grew 5.5% on AI tech export surge; PM Anwar secures RM9.2b in indicative Chinese high-tech investments at APEC Shenzhen."
       ],
       "stories": [
-        {
-          "id": 1,
-          "date": "2026-11-22",
-          "dateLabel": "22 Nov 2026",
-          "category": "Diplomacy & National",
-          "tag": "Putrajaya",
-          "headline": "Pardons Board minutes on Najib’s house arrest bid declassified for court affidavit, says Saifuddin",
-          "summary": "KUALA LUMPUR, Nov 22 — Home Minister Datuk Seri Saifuddin Nasution Ismail confirmed that the Federal Territories Pardons Board meeting minutes regarding Datuk Seri Najib Razak’s alleged house arrest addendum were declassified so the AGC could file its affidavit-in-reply to the Malaysian Bar’s judicial review.",
-          "takeaways": [
-            "Minutes declassified specifically to allow the Attorney-General's Chambers (AGC) to respond in the Malaysian Bar's judicial review.",
-            "Clarifies official procedural steps surrounding the supplementary royal addendum dispute."
-          ],
-          "sourceName": "Malay Mail",
-          "sourceUrl": "https://www.malaymail.com/news/malaysia",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 2,
-          "date": "2026-11-22",
-          "dateLabel": "22 Nov 2026",
-          "category": "Bursa & Economy",
-          "tag": "13MP Policy",
-          "headline": "13th Malaysia Plan outlines four healthcare reform priorities and 2027 base medical insurance plan",
-          "summary": "KUALA LUMPUR, Nov 22 — Economy Minister Akmal Nasrullah Mohd Nasir unveiled four strategic healthcare pillars under the 13th Malaysia Plan (13MP), including sustainable health financing, a national health fund, and a base medical insurance plan by early 2027 to curb medical inflation.",
-          "takeaways": [
-            "Addresses surging private healthcare and medical insurance premium inflation across Malaysia.",
-            "Introduces a national health fund framework alongside a standardized base medical plan targeted for early 2027."
-          ],
-          "sourceName": "The Star",
-          "sourceUrl": "https://www.thestar.com.my/news/nation",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 3,
-          "date": "2026-11-22",
-          "dateLabel": "22 Nov 2026",
-          "category": "National Affairs",
-          "tag": "MA63 & States",
-          "headline": "Fadillah: Sarawak’s MA63 rights push must balance state ambitions with stability of the Federation",
-          "summary": "KUCHING, Nov 22 — Deputy Prime Minister Datuk Seri Fadillah Yusof reminded stakeholders that Sarawak’s ongoing negotiations to reclaim rights under the Malaysia Agreement 1963 (MA63) must balance regional goals with the broader fiscal and constitutional stability of the Federation.",
-          "takeaways": [
-            "Emphasizes constructive federal-state negotiation channels under the MA63 technical committee.",
-            "Meanwhile in Penang, CM Chow Kon Yeow affirmed the PH-Umno state partnership will remain intact through the current term."
-          ],
-          "sourceName": "Malay Mail",
-          "sourceUrl": "https://www.malaymail.com/news/malaysia",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 4,
-          "date": "2026-11-22",
-          "dateLabel": "22 Nov 2026",
-          "category": "Technology & Science",
-          "tag": "AI & Math",
-          "headline": "Anthropic’s Claude assists in formal Lean-verified proof of 19th-century Riemann Hypothesis",
-          "summary": "SAN FRANCISCO, Nov 22 — Anthropic announced that mathematician Levent Alpöge used the Claude AI model over a six-week sprint to help crack the 1859 Riemann hypothesis, with the computer proof code independently verified by the Lean Focused Research Organization and Mathlib Initiative.",
-          "takeaways": [
-            "Marks a historic milestone in AI-assisted formal mathematics on one of the Clay Millennium Prize problems.",
-            "In space science, NASA’s James Webb Space Telescope also captured the rejuvenated stellar merger supergiant 'Bao' in Andromeda."
-          ],
-          "sourceName": "The Guardian",
-          "sourceUrl": "https://www.theguardian.com/technology",
-          "readTime": "3 min read"
-        },
-        {
-          "id": 5,
-          "date": "2026-11-22",
-          "dateLabel": "22 Nov 2026",
-          "category": "World & Markets",
-          "tag": "Global Rout",
-          "headline": "Nasdaq erases 2026 gains (-12%) as S&P 500 enters correction; COP31 climate talks hit double overtime",
-          "summary": "NEW YORK / ANTALYA, Nov 22 — Global equities wrapped a brutal week with the S&P 500 and Dow entering formal correction territory (-10%+) and Taiwan curbing short-selling, while UN COP31 talks in Antalya stalled into overtime after a draft omitted explicit fossil-fuel phaseout language.",
-          "takeaways": [
-            "Double-digit weekly drops in Nvidia, Micron, and AI infrastructure plays dragged the Nasdaq down 12% from its peak.",
-            "At COP31 in Turkey, delegates clashed over COP31 President Murat Kurum's draft omitting explicit coal, oil, and gas transition timelines."
-          ],
-          "sourceName": "Morningstar / The Guardian",
-          "sourceUrl": "https://www.theguardian.com/environment",
-          "readTime": "3 min read"
-        },
-        {
-          "id": 6,
-          "date": "2026-11-21",
-          "dateLabel": "21 Nov 2026",
-          "category": "National Affairs",
-          "tag": "Nation",
-          "headline": "PAS rejects Amanah’s call to join unity government; UKM confers honorary doctorate on Azizulhasni Awang",
-          "summary": "KUALA LUMPUR, Nov 21 — PAS vice-president Idris Ahmad dismissed invitations from Amanah to ditch Umno and back the unity administration, while national track cycling legend Datuk Azizulhasni Awang received an Honorary PhD in Sports Development at UKM’s 54th convocation.",
-          "takeaways": [
-            "PAS leadership stated the party will not abandon Perikatan Nasional or its core policy platform.",
-            "Separately, flood conditions in Selangor and Perak improved with declining evacuee counts, while Negeri Sembilan fully recovered."
-          ],
-          "sourceName": "Free Malaysia Today",
-          "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 7,
-          "date": "2026-11-21",
-          "dateLabel": "21 Nov 2026",
-          "category": "World & Markets",
-          "tag": "Geopolitics",
-          "headline": "Trump prioritizes permanent Iran nuclear accord over regime change; China AI stock rout hits $1.7 trillion",
-          "summary": "WASHINGTON / SHANGHAI, Nov 21 — U.S. President Donald Trump stated his administration is seeking a permanent nuclear agreement with Iran rather than forced regime change, while Chinese tech and AI stock indexes extended their cumulative slide since June to $1.7 trillion amid U.S. remote-compute curbs.",
-          "takeaways": [
-            "Trump signaled willingness to reach a permanent nuclear deal with Tehran despite three U.S. carrier strike groups enforcing a port blockade.",
-            "In Washington, the U.S. Senate passed its first federal prediction markets bill while authorities probed a suspected FBI NCIC database breach."
-          ],
-          "sourceName": "The Edge Malaysia",
-          "sourceUrl": "https://theedgemalaysia.com/",
-          "readTime": "3 min read"
-        },
-        {
-          "id": 8,
-          "date": "2026-11-21",
-          "dateLabel": "21 Nov 2026",
-          "category": "Technology & Science",
-          "tag": "Med-AI & Space",
-          "headline": "AI detects bladder cancer 5 years early across 70,000 patients as SpaceX Dragon returns ISS 3D-bioprinted vessels",
-          "summary": "PLYMOUTH / CALIFORNIA, Nov 21 — University of Plymouth scientists demonstrated an AI tool that flagged 85% of bladder cancers up to five years before clinical diagnosis, while a SpaceX Dragon cargo craft splashed down off California carrying 3D-bioprinted blood vessels from the ISS.",
-          "takeaways": [
-            "Clinical study of ~70,000 patient records showed 85% early detection sensitivity up to 5 years prior to diagnosis.",
-            "HKUST biologists also discovered Chaetoderma shenloong, a deep-sea mollusk living without a digestive system via a symbiotic bacterial organelle."
-          ],
-          "sourceName": "ScienceDaily",
-          "sourceUrl": "https://www.sciencedaily.com/",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 9,
-          "date": "2026-11-20",
-          "dateLabel": "20 Nov 2026",
-          "category": "Diplomacy & National",
-          "tag": "APEC Shenzhen",
-          "headline": "Anwar secures RM9.2b in indicative Chinese high-tech & green energy investments during APEC visit",
-          "summary": "SHENZHEN, Nov 20 — Prime Minister Datuk Seri Anwar Ibrahim concluded Malaysia’s participation at the 33rd APEC Economic Leaders’ Meeting in Shenzhen with RM9.2 billion in indicative investment proposals from Chinese high-tech and renewable energy firms targeting Kedah, Penang, Selangor, and Pahang.",
-          "takeaways": [
-            "Investments span semiconductor supply chains, green energy manufacturing, and digital infrastructure across four Malaysian states.",
-            "DAP's Lim Guan Eng also urged Putrajaya to press Washington over new U.S. BIS remote-access AI chip licensing rules affecting Malaysia."
-          ],
-          "sourceName": "Free Malaysia Today",
-          "sourceUrl": "https://www.freemalaysiatoday.com/",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 10,
-          "date": "2026-11-20",
-          "dateLabel": "20 Nov 2026",
-          "category": "World & Markets",
-          "tag": "Shenzhen & ICJ",
-          "headline": "Trump, Xi, and Putin conclude Shenzhen trilateral summit; ICJ issues landmark Myanmar Rohingya genocide ruling",
-          "summary": "SHENZHEN / THE HAGUE, Nov 20 — The U.S., Chinese, and Russian presidents issued a joint declaration on nuclear risk reduction and UN reform following their Shenzhen summit, while the International Court of Justice formally held Myanmar responsible for genocide against the Rohingya.",
-          "takeaways": [
-            "Marks the first time the ICJ has held a sovereign state directly responsible under the 1948 Genocide Convention.",
-            "In London, Downing Street also announced an agreed post-Brexit 'reset' deal with the European Union."
-          ],
-          "sourceName": "The Guardian",
-          "sourceUrl": "https://www.theguardian.com/world",
-          "readTime": "3 min read"
-        },
-        {
-          "id": 11,
-          "date": "2026-11-20",
-          "dateLabel": "20 Nov 2026",
-          "category": "Bursa & Economy",
-          "tag": "Global Tech Rout",
-          "headline": "Nikkei (-5.1%) and Kospi (-5.2%) plunge in global AI tech selloff as Citigroup 'Generals' indicator nears red",
-          "summary": "TOKYO / NEW YORK, Nov 20 — Global stock indices tumbled as AI capex fatigue triggered profit-taking following Anthropic’s IPO, with Citigroup warning that four of the top seven S&P 500 megacaps (Nvidia, Alphabet, Meta, Broadcom) are testing their 200-day moving averages.",
-          "takeaways": [
-            "Citigroup's 'Generals' warning compares current megacap technical breakdowns to market rotations in 2000 and late 2021.",
-            "In fintech, Starling Bank founder Anne Boden unveiled her agentic AI banking venture Lockwood."
-          ],
-          "sourceName": "Al Jazeera / Morningstar",
-          "sourceUrl": "https://www.aljazeera.com/economy/",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 12,
-          "date": "2026-11-19",
-          "dateLabel": "19 Nov 2026",
-          "category": "Technology & Science",
-          "tag": "Nasdaq IPO",
-          "headline": "Anthropic debuts on Nasdaq under ticker 'ANT' raising $81.3B; LEQEMBI cuts Alzheimer’s progression by 76%",
-          "summary": "NEW YORK / BOSTON, Nov 19 — AI developer Anthropic went public on the Nasdaq (ticker: ANT) at $83/share, closing day one valued near $1.27 trillion, while Eisai and Biogen presented real-world LEADER study data showing LEQEMBI slowed moderate/severe Alzheimer’s progression by 76%.",
-          "takeaways": [
-            "Anthropic became the highest-valued public benefit corporation in U.S. history.",
-            "At APEC, IMF chief Kristalina Georgieva warned surging AI infrastructure demand is adding to global inflation and interest-rate pressures."
-          ],
-          "sourceName": "CNN / Al Jazeera",
-          "sourceUrl": "https://edition.cnn.com/business",
-          "readTime": "3 min read"
-        },
-        {
-          "id": 13,
-          "date": "2026-11-18",
-          "dateLabel": "18 Nov 2026",
-          "category": "Bursa & Economy",
-          "tag": "BNM GDP",
-          "headline": "Bank Negara: Malaysia’s economy expanded 5.5% in Q3 2026, beating advance estimates on AI tech exports",
-          "summary": "KUALA LUMPUR, Nov 18 — Bank Negara Malaysia (BNM) announced that Malaysia’s GDP grew 5.5% year-on-year in the third quarter of 2026 (beating the 5.3% advance estimate), powered by domestic consumption, strong investment inflows, and E&E semiconductor exports.",
-          "takeaways": [
-            "Outperformance highlights Malaysia's role in the global semiconductor and data-centre packaging supply chain.",
-            "Globally, Nvidia reported $115.8B in Q3 revenue (+103% YoY) but halted H200 chip shipments to China."
-          ],
-          "sourceName": "Bank Negara Malaysia / FMT",
-          "sourceUrl": "https://www.bnm.gov.my/",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 14,
-          "date": "2026-11-18",
-          "dateLabel": "18 Nov 2026",
-          "category": "Technology & Science",
-          "tag": "Space Milestone",
-          "headline": "NASA’s Voyager 1 officially crosses one light-day distance from Earth (~16.1 billion miles)",
-          "summary": "PASADENA, Nov 18 — Nearly 50 years after its September 1977 launch, NASA’s Voyager 1 spacecraft officially crossed the one light-day threshold (~25.9 billion km / 16.1 billion miles from Earth) at 5:16 a.m. EST, becoming the first human-made object to reach 24 light-hours in distance.",
-          "takeaways": [
-            "Radio signals traveling at the speed of light now take a full 24 hours one-way to reach Voyager 1 in interstellar space.",
-            "Meanwhile in China, China Telecom's TeleChat lab unveiled Xing4, an agentic MoE model trained entirely on Huawei Ascend NPUs without CUDA."
-          ],
-          "sourceName": "NASA",
-          "sourceUrl": "https://www.nasa.gov/",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 15,
-          "date": "2026-11-17",
-          "dateLabel": "17 Nov 2026",
-          "category": "Diplomacy & National",
-          "tag": "Putrajaya",
-          "headline": "Umno Negeri Sembilan not informed of Ismail Lasim’s resignation plan, says Jalaluddin",
-          "summary": "SEREMBAN, Nov 17 — Negeri Sembilan Umno was not informed directly by Datuk Ismail Lasim about his intention to resign, prompting subsequent palace clarification requiring proof of majority assembly support.",
-          "takeaways": [
-            "Directly reported by Malay Mail.",
-            "Tap below for full in-depth reporting and official statements."
-          ],
-          "sourceName": "Malay Mail",
-          "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/17/umno-negeri-sembilan-not-informed-of-ismail-lasims-resignation-plan-says-jalaluddin/243603",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 16,
-          "date": "2026-11-17",
-          "dateLabel": "17 Nov 2026",
-          "category": "Diplomacy & National",
-          "tag": "Putrajaya",
-          "headline": "Penang hopes for a portion of federal grant to reduce water infrastructure costs",
-          "summary": "GEORGE TOWN, Nov 17 — Penang chief minister Chow Kon Yeow appealed to Putrajaya for federal funding support to help the state build critical water infrastructure and lower long-term tariff pressure.",
-          "takeaways": [
-            "Directly reported by Malay Mail.",
-            "Tap below for full in-depth reporting and official statements."
-          ],
-          "sourceName": "Malay Mail",
-          "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/17/penang-hopes-for-a-portion-of-federal-grant-to-reduce-water-infrastructure-costs/243599",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 17,
-          "date": "2026-11-17",
-          "dateLabel": "17 Nov 2026",
-          "category": "Bursa & Economy",
-          "tag": "Markets",
-          "headline": "TM Tech gets green light for RM2.7b submarine cable project linking Peninsular Malaysia, Sabah and Sarawak",
-          "summary": "KUALA LUMPUR, Nov 17 — Telekom Malaysia Bhd’s wholly-owned subsidiary TM Technology Services Sdn Bhd received approval for a RM2.7 billion submarine cable system boosting domestic subsea connectivity across Peninsular Malaysia, Sabah, and Sarawak.",
-          "takeaways": [
-            "Directly reported by Malay Mail.",
-            "Also on Nov 17, the U.S. Commerce Dept (BIS) issued new licensing rules for remote-access AI chips affecting Malaysia, Thailand, Indonesia, Singapore, and Brazil."
-          ],
-          "sourceName": "Malay Mail",
-          "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/tm-tech-gets-green-light-for-rm27b-submarine-cable-project-linking-peninsular-malaysia-sabah-and-sarawak/243601",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 18,
-          "date": "2026-11-17",
-          "dateLabel": "17 Nov 2026",
-          "category": "Bursa & Economy",
-          "tag": "Markets",
-          "headline": "‘For most, the answer is no’: Baidu CEO casts doubt on AI’s immediate profit payoff",
-          "summary": "SHENZHEN, Nov 17 — Artificial intelligence adoption is not yet boosting bottom-line profits for most enterprises, Baidu’s CEO cautioned during tech discussions in Shenzhen.",
-          "takeaways": [
-            "Directly reported by Malay Mail.",
-            "Tap below for full in-depth reporting and official statements."
-          ],
-          "sourceName": "Malay Mail",
-          "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/for-most-the-answer-is-no-baidu-ceo-casts-doubt-on-ais-payoff/243593",
-          "readTime": "2 min read"
-        },
-        {
-          "id": 19,
-          "date": "2026-11-17",
-          "dateLabel": "17 Nov 2026",
-          "category": "National Affairs",
-          "tag": "Nation",
-          "headline": "Amanah man urges PAS to ditch Umno and back Anwar; Mongolia president resigns after graft accusations",
-          "summary": "KUALA LUMPUR, Nov 17 — Amanah’s Khalid Samad said the party is open to discussing PAS’s participation in the unity government, while internationally Mongolia’s president Ukhnaa Khurelsukh announced his resignation amid opposition corruption allegations.",
-          "takeaways": [
-            "Directly reported by Free Malaysia Today.",
-            "Globally on Nov 17, the OPTIMJACK supply-chain attack via Optimizely briefly affected 178+ major brands and Ukraine struck the Kerch Bridge in an overnight drone barrage."
-          ],
-          "sourceName": "Free Malaysia Today",
-          "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/17/amanah-man-urges-pas-to-ditch-umno-and-back-anwar",
-          "readTime": "2 min read"
-        }
-      ]
-    };
-
-    const STORAGE_KEY = 'my_morning_news_archive_v7';
-    const GITHUB_RAW_JSON = 'https://raw.githubusercontent.com/AshtonMajang/malaysia-morning-news/main/news-data.json';
-
-    let rawStories = [...DEFAULT_DATA.stories];
-    let displayedStories = [...rawStories];
-    let executiveSummary = [...DEFAULT_DATA.executiveSummary];
-    let currentIndex = 0;
-    let audioSpeed = 1.25;
-    let activeFilter = 'All';
-    let activeDateFilter = 'All';
-    let isSpeaking = false;
-
-    let touchStartX = 0;
-    let touchStartY = 0;
-    let touchEndX = 0;
-    let touchEndY = 0;
-
-    function mergeStoriesLists(primaryList, secondaryList) {
-      const merged = [];
-      const seen = new Set();
-      for (const s of [...(primaryList || []), ...(secondaryList || [])]) {
-        if (!s || !s.headline || s.headline === 'Headline') continue;
-        const key = s.headline.trim().toLowerCase().slice(0, 80);
-        if (seen.has(key)) continue;
-        seen.add(key);
-        if (!s.date) s.date = '2026-11-17';
-        if (!s.dateLabel) s.dateLabel = '17 Nov 2026';
-        merged.push(s);
-      }
-      return merged;
-    }
-
-    function applyDataPayload(data) {
-      if (!data) return;
-      if (data.stories && data.stories.length > 0) {
-        rawStories = mergeStoriesLists(data.stories, rawStories);
-      }
-      if (data.executiveSummary && data.executiveSummary.length > 0) {
-        executiveSummary = data.executiveSummary;
-      }
-      if (data.weather) populateWeather(data.weather);
-      if (data.markets) populateMarkets(data.markets);
-      populateTLDR(executiveSummary);
-      populateDateStrip();
-      populateCategoryPills();
-      applyFilters();
-    }
-
-    async function fetchWithFallback() {
-      const syncLabel = document.getElementById('sync-status-label');
-      const refreshBtn = document.getElementById('refresh-news-btn');
-      if (refreshBtn) refreshBtn.classList.add('animate-spin');
-
-      // 1. Load any previously cached archive from localStorage immediately
-      try {
-        const cached = localStorage.getItem(STORAGE_KEY);
-        if (cached) {
-          const parsed = JSON.parse(cached);
-          applyDataPayload(parsed);
-        }
-      } catch (e) {}
-
-      // 2. Try local / same-origin news-data.json first
-      let loadedData = null;
-      try {
-        const res = await fetch('./news-data.json?t=' + Date.now(), { cache: 'no-store' });
-        if (res.ok) {
-          loadedData = await res.json();
-        }
-      } catch (e) {}
-
-      // 3. If local server is unreachable (e.g., on 4G+ away from home PC), try GitHub Raw repository
-      if (!loadedData || !loadedData.stories || loadedData.stories.length < DEFAULT_DATA.stories.length) {
-        try {
-          const ghRes = await fetch(GITHUB_RAW_JSON + '?t=' + Date.now(), { cache: 'no-store' });
-          if (ghRes.ok) {
-            const ghData = await ghRes.json();
-            if (ghData && ghData.stories && ghData.stories.length > 0) {
-              if (!loadedData) loadedData = ghData;
-              else loadedData.stories = mergeStoriesLists(loadedData.stories, ghData.stories);
+            {
+                  "id": 1,
+                  "date": "2026-11-22",
+                  "dateLabel": "22 Nov 2026",
+                  "category": "Diplomacy & National",
+                  "tag": "Putrajaya",
+                  "headline": "Pardons Board minutes on Najib’s house arrest bid declassified for court affidavit, says Saifuddin",
+                  "summary": "KUALA LUMPUR, Nov 22 — Home Minister Datuk Seri Saifuddin Nasution Ismail confirmed that the Federal Territories Pardons Board meeting minutes regarding Datuk Seri Najib Razak’s alleged house arrest addendum were declassified so the AGC could file its affidavit-in-reply to the Malaysian Bar’s judicial review.",
+                  "takeaways": [
+                        "Minutes declassified specifically to allow the Attorney-General's Chambers (AGC) to respond in the Malaysian Bar's judicial review.",
+                        "Clarifies official procedural steps surrounding the supplementary royal addendum dispute."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/malaysia",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 2,
+                  "date": "2026-11-22",
+                  "dateLabel": "22 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "13MP Policy",
+                  "headline": "13th Malaysia Plan outlines four healthcare reform priorities and 2027 base medical insurance plan",
+                  "summary": "KUALA LUMPUR, Nov 22 — Economy Minister Akmal Nasrullah Mohd Nasir unveiled four strategic healthcare pillars under the 13th Malaysia Plan (13MP), including sustainable health financing, a national health fund, and a base medical insurance plan by early 2027 to curb medical inflation.",
+                  "takeaways": [
+                        "Addresses surging private healthcare and medical insurance premium inflation across Malaysia.",
+                        "Introduces a national health fund framework alongside a standardized base medical plan targeted for early 2027."
+                  ],
+                  "sourceName": "The Star",
+                  "sourceUrl": "https://www.thestar.com.my/news/nation",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 3,
+                  "date": "2026-11-22",
+                  "dateLabel": "22 Nov 2026",
+                  "category": "National Affairs",
+                  "tag": "MA63 & States",
+                  "headline": "Fadillah: Sarawak’s MA63 rights push must balance state ambitions with stability of the Federation",
+                  "summary": "KUCHING, Nov 22 — Deputy Prime Minister Datuk Seri Fadillah Yusof reminded stakeholders that Sarawak’s ongoing negotiations to reclaim rights under the Malaysia Agreement 1963 (MA63) must balance regional goals with the broader fiscal and constitutional stability of the Federation.",
+                  "takeaways": [
+                        "Emphasizes constructive federal-state negotiation channels under the MA63 technical committee.",
+                        "Balances East Malaysia autonomy claims with national fiscal stability."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/malaysia",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 4,
+                  "date": "2026-11-22",
+                  "dateLabel": "22 Nov 2026",
+                  "category": "Diplomacy & National",
+                  "tag": "Penang",
+                  "headline": "Penang PH-Umno partnership should remain intact until end of current term, says CM Chow Kon Yeow",
+                  "summary": "GEORGE TOWN, Nov 22 — Penang Chief Minister Chow Kon Yeow affirmed that the Pakatan Harapan (PH)-Umno state cooperation will continue through the end of the current term, dismissing criticism from local PKR backbenchers regarding Umno’s role in the state administration.",
+                  "takeaways": [
+                        "Chow stressed political stability in Penang's unity administration takes priority over local party friction.",
+                        "Dismissed calls by Pantai Jerejak assemblyman Fahmi Zainol to review Umno's state appointments."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/malaysia",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 5,
+                  "date": "2026-11-22",
+                  "dateLabel": "22 Nov 2026",
+                  "category": "National Affairs",
+                  "tag": "Local Elections",
+                  "headline": "MCA Youth calls for revival of local council elections starting with Federal Territories",
+                  "summary": "KUALA LUMPUR, Nov 22 — Speaking at the MCA Youth general assembly, wing chief Ling Tian Soon urged Putrajaya to revive local government elections starting in Kuala Lumpur and the Federal Territories, drawing immediate pushback from Umno Youth leaders.",
+                  "takeaways": [
+                        "Proposes piloting municipal elections in the Federal Territories to enhance urban accountability.",
+                        "Sparked debate across Barisan Nasional component youth wings over urban electoral reforms."
+                  ],
+                  "sourceName": "Free Malaysia Today",
+                  "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 6,
+                  "date": "2026-11-22",
+                  "dateLabel": "22 Nov 2026",
+                  "category": "National Affairs",
+                  "tag": "Kuala Lumpur",
+                  "headline": "KL police hunt suspects in viral daylight Jalan Tun Razak cable heist as Pokémon RUN 30 draws crowds at KLCC",
+                  "summary": "KUALA LUMPUR, Nov 22 — Kuala Lumpur police launched a manhunt for suspects filmed cutting and hauling cables using two vehicles in broad daylight outside TREC on Jalan Tun Razak, while across town thousands gathered at KLCC Plaza for the Pokémon RUN 30 Malaysia festival.",
+                  "takeaways": [
+                        "Viral dashcam footage showed suspects brazenly extracting utility cables along Jalan Tun Razak.",
+                        "At KLCC Plaza, families and runners joined the 30th-anniversary Pokémon RUN 30 Malaysia celebration."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/malaysia",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 7,
+                  "date": "2026-11-22",
+                  "dateLabel": "22 Nov 2026",
+                  "category": "World & Markets",
+                  "tag": "COP31 Overtime",
+                  "headline": "UN COP31 climate summit in Turkey stalls into double overtime over draft omitting fossil-fuel phaseout",
+                  "summary": "ANTALYA, Nov 22 — The UN COP31 climate negotiations in Antalya entered weekend overtime after a draft text by COP31 President Murat Kurum omitted explicit timelines to transition away from coal, oil, and gas, sparking fierce backlash against Saudi-led oil blocs.",
+                  "takeaways": [
+                        "Climate-vulnerable and African nations accused petrostates of holding the final Antalya declaration hostage.",
+                        "Follows China's announcement of a $20 million fund for practical APEC green and digital cooperation."
+                  ],
+                  "sourceName": "The Guardian",
+                  "sourceUrl": "https://www.theguardian.com/environment",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 8,
+                  "date": "2026-11-22",
+                  "dateLabel": "22 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "AI & Math",
+                  "headline": "Anthropic’s Claude assists in formal Lean-verified proof of 19th-century Riemann Hypothesis",
+                  "summary": "SAN FRANCISCO, Nov 22 — Anthropic announced that mathematician Levent Alpöge used the Claude AI model over a six-week sprint to help solve the 1859 Riemann hypothesis, with the formal proof code verified independently by the Lean Focused Research Organization and Mathlib Initiative.",
+                  "takeaways": [
+                        "Marks a landmark achievement in AI-assisted formal mathematics on one of the Clay Millennium Prize problems.",
+                        "Independent machine verification in Lean confirmed the proof's formal validity."
+                  ],
+                  "sourceName": "The Guardian",
+                  "sourceUrl": "https://www.theguardian.com/technology",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 9,
+                  "date": "2026-11-22",
+                  "dateLabel": "22 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "Global Correction",
+                  "headline": "Nasdaq erases 2026 gains (-12%) as S&P 500 enters correction and Taiwan imposes short-selling curbs",
+                  "summary": "NEW YORK / TAIPEI, Nov 22 — Wall Street closed its toughest week of 2026 with the S&P 500 and Dow sliding into formal correction territory (-10%+) and the Nasdaq down 12% from its peak, prompting Taiwan’s FSC to enact blanket short-selling restrictions while gold fell near $3,655/oz.",
+                  "takeaways": [
+                        "Heavy pullbacks in Nvidia, Micron, and SanDisk led the global AI infrastructure equity unwind.",
+                        "Capital rotated into U.S. Treasuries and the U.S. Dollar (DXY ~103.5) ahead of the December Fed meeting."
+                  ],
+                  "sourceName": "Morningstar / Taipei Times",
+                  "sourceUrl": "https://www.morningstar.com/",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 10,
+                  "date": "2026-11-22",
+                  "dateLabel": "22 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "JWST & Physics",
+                  "headline": "JWST captures rejuvenated merger supergiant 'Bao' in Andromeda; Brown Univ. proves relativity alters triple bonds",
+                  "summary": "WASHINGTON / PROVIDENCE, Nov 22 — NASA’s James Webb Space Telescope imaged the aftermath of a supergiant star 18,000x brighter than the Sun swallowing a companion in Andromeda to form 'Bao,' while Brown University chemists proved Einstein’s relativity blends triple-bond types in heavy bismuth atoms.",
+                  "takeaways": [
+                        "Relativistic electron speeds in heavy elements blur traditional textbook chemical bonding rules.",
+                        "Kyushu University physicists also proposed an atomic-clock experiment to test whether time can exist in quantum superposition."
+                  ],
+                  "sourceName": "ScienceDaily",
+                  "sourceUrl": "https://www.sciencedaily.com/",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 11,
+                  "date": "2026-11-21",
+                  "dateLabel": "21 Nov 2026",
+                  "category": "National Affairs",
+                  "tag": "Politics",
+                  "headline": "PAS rejects Amanah’s call to ditch Umno and join unity government, says Idris Ahmad",
+                  "summary": "KUALA LUMPUR, Nov 21 — PAS vice-president Idris Ahmad dismissed invitations from Amanah leaders for PAS to abandon Umno and join Prime Minister Anwar Ibrahim’s unity administration, asserting that PAS operates strictly on policy principles.",
+                  "takeaways": [
+                        "Reaffirms PAS's commitment to the Perikatan Nasional coalition ahead of upcoming state electoral cycles.",
+                        "Responds directly to Amanah communications director Khalid Samad's overture earlier in the week."
+                  ],
+                  "sourceName": "Free Malaysia Today",
+                  "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 12,
+                  "date": "2026-11-21",
+                  "dateLabel": "21 Nov 2026",
+                  "category": "National Affairs",
+                  "tag": "Higher Ed & Sports",
+                  "headline": "National cycling icon Datuk Azizulhasni Awang conferred Honorary PhD by UKM at 54th convocation",
+                  "summary": "BANGI, Nov 21 — Track cycling legend Datuk Azizulhasni Awang ('The Pocket Rocketman') was awarded an Honorary Doctor of Philosophy in Sports Development by Universiti Kebangsaan Malaysia (UKM) in recognition of his two-decade contribution to Malaysian sports.",
+                  "takeaways": [
+                        "Honors Azizulhasni's Olympic medals, world titles, and mentorship of young Malaysian athletes.",
+                        "Conferred during UKM's 54th convocation ceremony in Bangi."
+                  ],
+                  "sourceName": "The Star",
+                  "sourceUrl": "https://www.thestar.com.my/news/nation",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 13,
+                  "date": "2026-11-21",
+                  "dateLabel": "21 Nov 2026",
+                  "category": "National Affairs",
+                  "tag": "Public Safety & Floods",
+                  "headline": "Floods recede in Selangor & Perak as Negeri Sembilan recovers; police probe fatal Federal Highway crash & NSE teen chase",
+                  "summary": "SHAH ALAM, Nov 21 — Flood evacuee numbers dropped across Selangor and Perak while relief centres closed in Negeri Sembilan; separately, police arrested four under-15 teens after a high-speed NSE chase and hunted a driver who fled a fatal KM34 Federal Highway crash.",
+                  "takeaways": [
+                        "Two women died after a Mercedes-Benz skidded into an embankment at KM34 of the Federal Highway early Friday.",
+                        "Four underage teenagers were detained after ramming a police patrol car during a North-South Expressway pursuit."
+                  ],
+                  "sourceName": "Malay Mail / FMT",
+                  "sourceUrl": "https://www.malaymail.com/news/malaysia",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 14,
+                  "date": "2026-11-21",
+                  "dateLabel": "21 Nov 2026",
+                  "category": "World & Markets",
+                  "tag": "Geopolitics",
+                  "headline": "Trump prioritizes permanent Iran nuclear accord over regime change as UK–Ukraine deep-strike drone pact advances",
+                  "summary": "WASHINGTON / KYIV, Nov 21 — U.S. President Donald Trump stated in an interview that his primary Middle East objective is securing a permanent nuclear and regional peace deal with Iran rather than regime change, while UK–Ukraine joint deep-strike drone manufacturing scaled up.",
+                  "takeaways": [
+                        "Signals diplomatic off-ramp for Tehran even as three U.S. carrier strike groups maintain a maritime blockade.",
+                        "Ukraine's General Staff reported Russian military personnel losses surpassing 1.63 million amid heavy drone attrition."
+                  ],
+                  "sourceName": "News9Live / MoD Ukraine",
+                  "sourceUrl": "https://www.theguardian.com/world",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 15,
+                  "date": "2026-11-21",
+                  "dateLabel": "21 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "Cyber & Geneva",
+                  "headline": "Suspected breach hits FBI NCIC warrant database as UN autonomous weapons treaty talks collapse in Geneva",
+                  "summary": "WASHINGTON / GENEVA, Nov 21 — U.S. officials investigated a suspected cybersecurity intrusion targeting the FBI’s National Crime Information Center (NCIC), while week-long UN negotiations in Geneva on a binding treaty governing lethal autonomous AI weapons collapsed without a mandate.",
+                  "takeaways": [
+                        "NCIC serves as the primary clearinghouse for U.S. law enforcement criminal warrants and background checks.",
+                        "Geneva diplomats failed to reach consensus on a negotiating framework for autonomous military AI systems."
+                  ],
+                  "sourceName": "Al Jazeera / The Guardian",
+                  "sourceUrl": "https://www.aljazeera.com/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 16,
+                  "date": "2026-11-21",
+                  "dateLabel": "21 Nov 2026",
+                  "category": "World & Markets",
+                  "tag": "South Korea AI",
+                  "headline": "South Korea’s Education Minister resigns after emergency cabinet meeting over nationwide AI cheating scandal",
+                  "summary": "SEOUL, Nov 21 — South Korea’s education minister stepped down following an emergency cabinet session triggered by widespread AI-assisted cheating across university and high-school assessments, prompting an overhaul of national digital exam rules.",
+                  "takeaways": [
+                        "Highlights institutional gaps as generative AI tools outpace traditional academic integrity safeguards.",
+                        "Follows South Korea's high-stakes Suneung college entrance exam period earlier in the week."
+                  ],
+                  "sourceName": "The Guardian",
+                  "sourceUrl": "https://www.theguardian.com/world",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 17,
+                  "date": "2026-11-21",
+                  "dateLabel": "21 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "China AI & Senate",
+                  "headline": "China’s AI equity rout reaches $1.7 trillion since June as U.S. Senate passes first prediction markets bill",
+                  "summary": "HONG KONG / WASHINGTON, Nov 21 — Chinese technology and AI indexes have shed $1.7 trillion in market value since June amid U.S. chip and remote-compute curbs, while the U.S. Senate passed landmark federal legislation regulating prediction markets.",
+                  "takeaways": [
+                        "Analysts also flagged rising debt burdens at leveraged AI cloud infrastructure providers such as CoreWeave.",
+                        "U.S. BIS remote-access compute licensing rules continue to pressure cross-border AI data centre valuations."
+                  ],
+                  "sourceName": "The Edge Malaysia / Fortune",
+                  "sourceUrl": "https://theedgemalaysia.com/",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 18,
+                  "date": "2026-11-21",
+                  "dateLabel": "21 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "Med-AI & Space",
+                  "headline": "AI detects bladder cancer 5 years early across 70,000 patients; SpaceX Dragon returns ISS 3D-bioprinted vessels",
+                  "summary": "PLYMOUTH / CALIFORNIA, Nov 21 — University of Plymouth scientists demonstrated an AI tool that flagged 85% of bladder cancers up to five years early across ~70,000 patients, while SpaceX Dragon splashed down off California with ISS 3D-bioprinted blood vessels and HKUST discovered a gutless deep-sea mollusk.",
+                  "takeaways": [
+                        "Early bladder cancer AI model offers non-invasive risk screening years before clinical symptoms appear.",
+                        "HKUST's newly described mollusk Chaetoderma shenloong survives in low-oxygen seabeds via a symbiotic organelle called the dracosphera."
+                  ],
+                  "sourceName": "ScienceDaily / NASA",
+                  "sourceUrl": "https://www.sciencedaily.com/",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 19,
+                  "date": "2026-11-20",
+                  "dateLabel": "20 Nov 2026",
+                  "category": "Diplomacy & National",
+                  "tag": "APEC Shenzhen",
+                  "headline": "Anwar secures RM9.2b in indicative Chinese high-tech & green energy investments during APEC visit",
+                  "summary": "SHENZHEN, Nov 20 — Prime Minister Datuk Seri Anwar Ibrahim concluded Malaysia’s participation at the 33rd APEC Economic Leaders’ Meeting in Shenzhen with RM9.2 billion in indicative investment proposals from Chinese high-tech and renewable energy firms targeting Kedah, Penang, Selangor, and Pahang.",
+                  "takeaways": [
+                        "Investments span semiconductor supply chains, green energy manufacturing, and digital infrastructure across four Malaysian states.",
+                        "Strengthens bilateral industrial corridor ties ahead of 2027 regional trade frameworks."
+                  ],
+                  "sourceName": "Free Malaysia Today",
+                  "sourceUrl": "https://www.freemalaysiatoday.com/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 20,
+                  "date": "2026-11-20",
+                  "dateLabel": "20 Nov 2026",
+                  "category": "Diplomacy & National",
+                  "tag": "AI Chip Curbs",
+                  "headline": "Lim Guan Eng urges Putrajaya to press U.S. on AI chip licensing curbs hitting Malaysia data centres",
+                  "summary": "KUALA LUMPUR, Nov 20 — DAP leader Lim Guan Eng called on Prime Minister Anwar Ibrahim to raise Washington’s new remote-access AI chip licensing rules directly with U.S. President Donald Trump, warning they act as 'collective punishment' on Malaysia’s booming data-centre sector.",
+                  "takeaways": [
+                        "The U.S. Bureau of Industry and Security (BIS) added licensing requirements for advanced AI chips shipped to Malaysia, Thailand, Indonesia, Singapore, and Brazil.",
+                        "Industry players warn compliance delays could slow multi-billion-ringgit cloud investments in Johor and Klang Valley."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/malaysia",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 21,
+                  "date": "2026-11-20",
+                  "dateLabel": "20 Nov 2026",
+                  "category": "National Affairs",
+                  "tag": "MetMalaysia",
+                  "headline": "MetMalaysia issues severe thunderstorm warnings across Klang Valley, Putrajaya, Johor, Sabah and Labuan",
+                  "summary": "KUALA LUMPUR, Nov 20 — The Malaysian Meteorological Department (MetMalaysia) issued severe thunderstorm, heavy downpour, and gusty wind advisories covering Kuala Lumpur, Selangor, Putrajaya, Johor, Sabah, and Labuan amid the active Northeast Monsoon.",
+                  "takeaways": [
+                        "Flash-flood readiness heightened across urban Klang Valley drainage basins and low-lying coastal districts.",
+                        "Motorists advised to avoid flood-prone underpasses during late-afternoon convective storms."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/malaysia",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 22,
+                  "date": "2026-11-20",
+                  "dateLabel": "20 Nov 2026",
+                  "category": "World & Markets",
+                  "tag": "Shenzhen Summit",
+                  "headline": "Trump, Xi, and Putin conclude Shenzhen trilateral summit with joint declaration on nuclear risk & UN reform",
+                  "summary": "SHENZHEN, Nov 20 — Following the APEC Economic Leaders’ Meeting, the U.S., Chinese, and Russian presidents concluded a historic three-way summit, issuing a declaration on UN reform, energy supplies, and nuclear risk reduction while omitting the war in Ukraine.",
+                  "takeaways": [
+                        "First trilateral summit among the three nuclear superpowers focused on strategic stability and energy corridors.",
+                        "Xi Jinping also held separate bilateral talks in Shenzhen with Australian PM Anthony Albanese and Indonesian President Prabowo Subianto."
+                  ],
+                  "sourceName": "Astro Awani / WNG",
+                  "sourceUrl": "https://www.astroawani.com/",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 23,
+                  "date": "2026-11-20",
+                  "dateLabel": "20 Nov 2026",
+                  "category": "World & Markets",
+                  "tag": "ICJ & UK-EU",
+                  "headline": "ICJ issues landmark verdict holding Myanmar responsible for Rohingya genocide; UK agrees EU 'reset' deal",
+                  "summary": "THE HAGUE / LONDON, Nov 20 — The International Court of Justice formally found Myanmar directly responsible for genocide against the Rohingya under the 1948 Genocide Convention, while in London Downing Street announced an agreed post-Brexit 'reset' deal with the European Union.",
+                  "takeaways": [
+                        "Marks the first time the UN's top court has formally found a state directly responsible for committing genocide.",
+                        "UK-EU reset agreement establishes a new framework for trade, border friction reduction, and security cooperation."
+                  ],
+                  "sourceName": "The Guardian",
+                  "sourceUrl": "https://www.theguardian.com/world",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 24,
+                  "date": "2026-11-20",
+                  "dateLabel": "20 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "Global Tech Rout",
+                  "headline": "Nikkei (-5.1%) and Kospi (-5.2%) plunge in global AI tech selloff as Citigroup 'Generals' indicator nears red",
+                  "summary": "TOKYO / NEW YORK, Nov 20 — Global stock indices tumbled as AI capex fatigue triggered profit-taking after Anthropic’s IPO, with Citigroup warning that four of the top seven S&P 500 megacaps (Nvidia, Alphabet, Meta, Broadcom) are testing their 200-day moving averages.",
+                  "takeaways": [
+                        "Citigroup's 'Generals' warning compares current megacap technical breakdowns to market leadership rotations in 2000 and late 2021.",
+                        "Brent crude eased to $90.85/bbl (WTI ~$81.80) while Bundesbank President Joachim Nagel flagged ECB rate-hike risks."
+                  ],
+                  "sourceName": "Al Jazeera / Morningstar",
+                  "sourceUrl": "https://www.aljazeera.com/economy/",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 25,
+                  "date": "2026-11-20",
+                  "dateLabel": "20 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "Chip Regulation",
+                  "headline": "California probes Nvidia chip export pathways as European semiconductor stocks slide; Blue Lagoon lists on Nasdaq",
+                  "summary": "SAN FRANCISCO / AMSTERDAM, Nov 20 — Regulatory scrutiny of AI hardware supply chains widened with California probing Nvidia’s export compliance pathways, while European chip equipment leader ASML fell alongside Asian peers and Iceland’s Blue Lagoon debuted on Nasdaq Iceland.",
+                  "takeaways": [
+                        "Investigators are examining whether restricted AI accelerators were routed through third-party intermediaries.",
+                        "In fintech, corporate spend platform Payhawk raised $280M Series C led by Goldman Sachs Alternatives at a $2B valuation."
+                  ],
+                  "sourceName": "The Guardian / FinTech Futures",
+                  "sourceUrl": "https://www.theguardian.com/business",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 26,
+                  "date": "2026-11-20",
+                  "dateLabel": "20 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "Cyber & Quantum",
+                  "headline": "Beazley warns of session-token MFA bypasses; KT & LG showcase Quantum Secure Direct Communication (QSDC)",
+                  "summary": "LONDON / SEOUL, Nov 20 — Beazley Security reported that cyber attackers are routinely bypassing MFA by harvesting active session tokens and device codes, while South Korea’s KT and LG Electronics demonstrated direct quantum-encrypted telecommunications (QSDC).",
+                  "takeaways": [
+                        "Infostealer malware and session hijacking have outpaced traditional password-plus-MFA compliance checklists.",
+                        "Starling Bank founder Anne Boden also unveiled Lockwood, a new banking platform engineered around agentic AI."
+                  ],
+                  "sourceName": "The Quantum Insider",
+                  "sourceUrl": "https://thequantuminsider.com/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 27,
+                  "date": "2026-11-20",
+                  "dateLabel": "20 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "Astrophysics & Neuro",
+                  "headline": "Colliding-wind stars found feeding Milky Way’s black hole; mantle waves explain Earth’s 'missing billion years'",
+                  "summary": "MUNICH / WOLLONGONG, Nov 20 — Max Planck astronomers traced gas clouds near Sagittarius A* to colliding stellar winds from a binary star pair, while University of Wollongong geologists showed deep mantle currents eroded Earth’s missing billion years of rock strata and Duke tested liver-targeted RNA brain protection.",
+                  "takeaways": [
+                        "Duke University researchers used liver-targeted siRNA therapy to prevent neurotoxic brain injury in rare metabolic disorder (GA1) mouse models.",
+                        "Scientists also demonstrated non-invasive deep brain stimulation using magnetic nanoparticles without surgical electrodes."
+                  ],
+                  "sourceName": "ScienceDaily",
+                  "sourceUrl": "https://www.sciencedaily.com/",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 28,
+                  "date": "2026-11-19",
+                  "dateLabel": "19 Nov 2026",
+                  "category": "Diplomacy & National",
+                  "tag": "Negeri Sembilan",
+                  "headline": "Negeri Sembilan Palace directs Ismail Lasim to prove majority assembly support after resignation dispute",
+                  "summary": "SEREMBAN, Nov 19 — The Negeri Sembilan Palace issued an official statement requiring Datuk Ismail Lasim to formally demonstrate majority support in the state legislative assembly and submit a list of executive councillors after he denied resigning.",
+                  "takeaways": [
+                        "Follows contradictory statements between Barisan Nasional state leadership and Ismail Lasim over the Menteri Besar post.",
+                        "Palace emphasized constitutional order and verified assembly majority before any executive transitions."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/malaysia",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 29,
+                  "date": "2026-11-19",
+                  "dateLabel": "19 Nov 2026",
+                  "category": "National Affairs",
+                  "tag": "Courts",
+                  "headline": "Forensics analyst tells court ex-Petronas manager’s confidential email to Petros failed due to file-size limit",
+                  "summary": "KUALA LUMPUR, Nov 19 — A digital forensics witness testified at the Sessions Court that a former Petronas manager’s alleged 2024 attempt to email a confidential document to Sarawak’s Petros failed to transmit because the attachment exceeded server capacity limits.",
+                  "takeaways": [
+                        "Forensic logs confirmed the outbound email was blocked at the gateway due to attachment size constraints.",
+                        "Trial continues under closely watched oil-and-gas data governance proceedings."
+                  ],
+                  "sourceName": "Free Malaysia Today",
+                  "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 30,
+                  "date": "2026-11-19",
+                  "dateLabel": "19 Nov 2026",
+                  "category": "Diplomacy & National",
+                  "tag": "APEC Statement",
+                  "headline": "Anwar champions Global South partnerships and ethical AI governance in Malaysia’s APEC national statement",
+                  "summary": "SHENZHEN, Nov 19 — Delivering Malaysia’s national intervention at the 33rd APEC Economic Leaders’ Meeting, Prime Minister Anwar Ibrahim called for inclusive digital trade rules, ethical AI governance, and deeper integration with the Global South.",
+                  "takeaways": [
+                        "Positioned Malaysia as a neutral ASEAN bridge connecting East Asian and Western technology ecosystems.",
+                        "Called for equitable green-transition financing for developing economies."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/malaysia",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 31,
+                  "date": "2026-11-19",
+                  "dateLabel": "19 Nov 2026",
+                  "category": "World & Markets",
+                  "tag": "Shenzhen Talks",
+                  "headline": "Trump, Xi, and Putin convene in Shenzhen for historic trilateral strategic stability and nuclear talks",
+                  "summary": "SHENZHEN, Nov 19 — U.S. President Donald Trump, Chinese President Xi Jinping, and Russian President Vladimir Putin opened formal three-way discussions on the sidelines of APEC in Shenzhen centered on nuclear risk reduction and global security architecture.",
+                  "takeaways": [
+                        "First three-way superpower leadership summit held on Chinese soil following the U.S. midterm elections.",
+                        "Allied officials simultaneously assessed fallout from earlier Microsoft server and FAA flight ground-stop software bugs."
+                  ],
+                  "sourceName": "WhiteHouse.gov / Washington Post",
+                  "sourceUrl": "https://www.washingtonpost.com/",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 32,
+                  "date": "2026-11-19",
+                  "dateLabel": "19 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "Nasdaq IPO",
+                  "headline": "Anthropic debuts on Nasdaq under ticker 'ANT', raising record $81.3B as top-valued U.S. public benefit corp",
+                  "summary": "NEW YORK, Nov 19 — Frontier AI company Anthropic went public on the Nasdaq (ticker: ANT) at $83/share, raising $81.3 billion and surging on day one to close near a $1.27 trillion valuation after touching $2T intraday.",
+                  "takeaways": [
+                        "Became the largest public benefit corporation listing in U.S. capital markets history.",
+                        "Served as a massive liquidity test for institutional investor appetite in frontier AI models."
+                  ],
+                  "sourceName": "CNN / Al Jazeera",
+                  "sourceUrl": "https://edition.cnn.com/business",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 33,
+                  "date": "2026-11-19",
+                  "dateLabel": "19 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "IMF Warning",
+                  "headline": "IMF chief Kristalina Georgieva warns surging AI infrastructure demand is driving inflation and rate-hike pressure",
+                  "summary": "SHENZHEN, Nov 19 — Speaking at the APEC summit, IMF Managing Director Kristalina Georgieva cautioned that massive global demand for AI hardware and electricity—paired with Middle East energy shocks—is fueling consumer inflation and could force central banks to raise interest rates further.",
+                  "takeaways": [
+                        "Links hyperscale data-centre power and hardware bottlenecks directly to macroeconomic price pressures.",
+                        "Caused bond yields to climb as traders priced in higher-for-longer central bank interest rates."
+                  ],
+                  "sourceName": "The Guardian",
+                  "sourceUrl": "https://www.theguardian.com/business",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 34,
+                  "date": "2026-11-19",
+                  "dateLabel": "19 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "Alzheimer’s Data",
+                  "headline": "Real-world LEADER study at CTAD Boston shows LEQEMBI cuts Alzheimer’s progression by 76% across 560 patients",
+                  "summary": "BOSTON, Nov 19 — At the 19th Clinical Trials on Alzheimer’s Disease (CTAD) conference, Eisai and Biogen presented real-world LEADER study findings showing patients treated with LEQEMBI had a 76% lower rate of progression to moderate or severe Alzheimer’s dementia.",
+                  "takeaways": [
+                        "Evaluated 560 real-world patients against a matched external natural-history cohort.",
+                        "Market reports also projected AI-assisted drug discovery software reaching $570 million in 2026."
+                  ],
+                  "sourceName": "Biogen / Eisai",
+                  "sourceUrl": "https://www.biogen.com/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 35,
+                  "date": "2026-11-19",
+                  "dateLabel": "19 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "Climate & ISS",
+                  "headline": "Climate scientists warn against IPCC report delays as ISS Expedition 75 conducts microgravity health trials",
+                  "summary": "BERLIN / HOUSTON, Nov 19 — Leading climate scientists led by Potsdam Institute director Johan Rockström warned that political delays to upcoming UN IPCC assessments threaten coordinated climate action, while aboard the ISS Expedition 75 astronauts ran human physiology studies.",
+                  "takeaways": [
+                        "Scientists urged governments not to water down or stall foundational IPCC assessment cycles.",
+                        "In Brussels, European Commission research chiefs debated the upcoming FP10 research budget framework."
+                  ],
+                  "sourceName": "The Guardian / NASA",
+                  "sourceUrl": "https://www.theguardian.com/environment",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 36,
+                  "date": "2026-11-18",
+                  "dateLabel": "18 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "BNM GDP",
+                  "headline": "Bank Negara: Malaysia’s economy expanded 5.5% in Q3 2026, beating advance estimates on AI tech exports",
+                  "summary": "KUALA LUMPUR, Nov 18 — Bank Negara Malaysia (BNM) announced that Malaysia’s GDP grew 5.5% year-on-year in the third quarter of 2026 (beating the 5.3% advance estimate), powered by robust household spending, investment inflows, and E&E semiconductor exports.",
+                  "takeaways": [
+                        "Outperformance highlights Malaysia's critical role in global semiconductor packaging and data-centre infrastructure.",
+                        "Domestic private consumption and approved manufacturing investments remained resilient through Q3."
+                  ],
+                  "sourceName": "Bank Negara Malaysia / FMT",
+                  "sourceUrl": "https://www.bnm.gov.my/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 37,
+                  "date": "2026-11-18",
+                  "dateLabel": "18 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "Ringgit & Asia",
+                  "headline": "Ringgit firms against major currencies after 5.5% Q3 GDP beat as Korea Exchange delays hours for Suneung",
+                  "summary": "KUALA LUMPUR / SEOUL, Nov 18 — The Malaysian ringgit traded mixed-to-higher against major regional peers following BNM’s upbeat 5.5% Q3 GDP report, while South Korea’s stock exchange delayed opening trading hours by an hour to ease traffic for national Suneung exams.",
+                  "takeaways": [
+                        "Stronger domestic macro growth cushioned the ringgit against U.S. dollar strength.",
+                        "Korea Exchange's annual Suneung schedule adjustment shifted Seoul equity and FX sessions by one hour."
+                  ],
+                  "sourceName": "Free Malaysia Today / The Edge",
+                  "sourceUrl": "https://www.freemalaysiatoday.com/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 38,
+                  "date": "2026-11-18",
+                  "dateLabel": "18 Nov 2026",
+                  "category": "World & Markets",
+                  "tag": "APEC & Gulf Alert",
+                  "headline": "APEC Leaders gather in Shenzhen as U.S. Embassy in Kuwait issues heightened Middle East security alerts",
+                  "summary": "SHENZHEN / KUWAIT CITY, Nov 18 — World leaders convened in Shenzhen for the APEC Economic Leaders’ Meeting with Putin pitching a multipolar order and Trump holding bilateral talks, while the U.S. Embassy in Kuwait warned of elevated Houthi and regional security threats.",
+                  "takeaways": [
+                        "Bilateral meetings in Shenzhen included Japanese PM Sanae Takaichi and Canadian PM Mark Carney.",
+                        "Middle East aviation and maritime operators remained on alert amid Persian Gulf naval tensions."
+                  ],
+                  "sourceName": "WhiteHouse.gov / ISW",
+                  "sourceUrl": "https://www.understandingwar.org/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 39,
+                  "date": "2026-11-18",
+                  "dateLabel": "18 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "Senate Inquiry",
+                  "headline": "U.S. Senators press White House AI czar Jay Clayton over cascading software bugs that grounded FAA flights",
+                  "summary": "WASHINGTON, Nov 18 — Bipartisan U.S. senators grilled White House AI and national security czar Jay Clayton following cascading software update outages that disrupted major U.S. banks and triggered a temporary FAA nationwide flight ground stop.",
+                  "takeaways": [
+                        "Officials confirmed the disruptions stemmed from software update bugs rather than foreign cyberattacks.",
+                        "Lawmakers warned AI-accelerated vulnerability discovery requires stricter cloud resilience mandates."
+                  ],
+                  "sourceName": "The Guardian / CNN",
+                  "sourceUrl": "https://www.theguardian.com/technology",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 40,
+                  "date": "2026-11-18",
+                  "dateLabel": "18 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "Non-CUDA AI",
+                  "headline": "China Telecom’s TeleChat lab unveils 'Xing4', a 285B agentic MoE model trained purely on Huawei Ascend NPUs",
+                  "summary": "BEIJING, Nov 18 — China Telecom’s TeleChat research lab published Xing4, a 285-billion-parameter agentic Mixture-of-Experts (MoE) model trained entirely on Huawei Ascend NPUs and the MindSpore stack, bypassing Nvidia GPUs and CUDA completely.",
+                  "takeaways": [
+                        "Demonstrates sovereign Chinese frontier model training without Western GPU hardware dependencies.",
+                        "Arrives immediately after the U.S. Commerce Department tightened remote-access AI chip rules."
+                  ],
+                  "sourceName": "AI Weekly",
+                  "sourceUrl": "https://aiweekly.co/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 41,
+                  "date": "2026-11-18",
+                  "dateLabel": "18 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "Microsoft Ignite",
+                  "headline": "Microsoft Ignite 2026 rolls out general availability for Agent 365, Azure Catalyst, and Entra Agent Identity",
+                  "summary": "SAN FRANCISCO, Nov 18 — At its flagship Ignite 2026 conference, Microsoft announced general availability for enterprise AI governance and identity platforms including Agent 365, Azure Catalyst, and Entra Agent Identity.",
+                  "takeaways": [
+                        "Gives enterprise IT teams dedicated identity, audit, and access controls for autonomous AI agents.",
+                        "Addresses cloud reliability following scrutiny of a July data-centre software bug."
+                  ],
+                  "sourceName": "AI Weekly",
+                  "sourceUrl": "https://aiweekly.co/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 42,
+                  "date": "2026-11-18",
+                  "dateLabel": "18 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "Nvidia & EU Tech",
+                  "headline": "Nvidia posts record $115.8B Q3 revenue (+103%) but halts China H200 sales; European tech funding jumps 62% to $81B",
+                  "summary": "SANTA CLARA / HELSINKI, Nov 18 — Nvidia topped forecasts with $115.8 billion in Q3 FY27 revenue (+103% YoY) under interim CEO Colette Kress while halting H200 chip sales to China; at Slush Helsinki, Atomico reported European tech VC investment surging 62% to $81 billion.",
+                  "takeaways": [
+                        "First Nvidia earnings release following co-founder Jensen Huang's November 12 resignation.",
+                        "In biopharma, Pfizer signed an exclusive autoimmune and CAR-T licensing pact with Starna Therapeutics."
+                  ],
+                  "sourceName": "Science|Business / Pfizer",
+                  "sourceUrl": "https://sciencebusiness.net/",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 43,
+                  "date": "2026-11-18",
+                  "dateLabel": "18 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "Voyager & Artemis",
+                  "headline": "NASA’s Voyager 1 officially crosses one light-day distance (~16.1B miles) as Artemis RS-25 engine completes hot-fire",
+                  "summary": "PASADENA / STENNIS, Nov 18 — At 5:16 a.m. EST on Nov 18, NASA’s Voyager 1 spacecraft officially reached one light-day from Earth (~16.094 billion miles / 25.9 billion km) confirmed via its carrier signal, while NASA hot-fired RS-25 Engine No. 10001 for Artemis.",
+                  "takeaways": [
+                        "First human-made object in history to reach a distance of 24 light-hours from Earth.",
+                        "Five Nordic universities also launched the Nordic Deep Tech Alliance to scale academic spin-outs."
+                  ],
+                  "sourceName": "NASA",
+                  "sourceUrl": "https://www.nasa.gov/",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 44,
+                  "date": "2026-11-17",
+                  "dateLabel": "17 Nov 2026",
+                  "category": "Diplomacy & National",
+                  "tag": "Putrajaya",
+                  "headline": "Umno Negeri Sembilan not informed of Ismail Lasim’s resignation plan, says Jalaluddin",
+                  "summary": "SEREMBAN, Nov 17 — Negeri Sembilan Umno liaison chief Datuk Seri Jalaluddin Alias said the state chapter was not informed directly by Datuk Ismail Lasim about any intention to resign.",
+                  "takeaways": [
+                        "Directly reported by Malay Mail.",
+                        "Tap below for full in-depth reporting and official statements."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/17/umno-negeri-sembilan-not-informed-of-ismail-lasims-resignation-plan-says-jalaluddin/243603",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 45,
+                  "date": "2026-11-17",
+                  "dateLabel": "17 Nov 2026",
+                  "category": "Diplomacy & National",
+                  "tag": "Putrajaya",
+                  "headline": "‘Don’t make others the scapegoat’: Ismail Lasim’s son questions statement on father’s resignation",
+                  "summary": "SEREMBAN, Nov 17 — The son of Datuk Ismail Lasim publicly questioned a statement issued regarding his father’s purported resignation as Negeri Sembilan Menteri Besar.",
+                  "takeaways": [
+                        "Directly reported by Malay Mail.",
+                        "Tap below for full in-depth reporting and official statements."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/17/dont-make-others-the-scapegoat-ismail-lasims-son-questions-statement-on-fathers-resignation/243602",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 46,
+                  "date": "2026-11-17",
+                  "dateLabel": "17 Nov 2026",
+                  "category": "Diplomacy & National",
+                  "tag": "Putrajaya",
+                  "headline": "Penang hopes for a portion of federal grant to reduce water infrastructure costs",
+                  "summary": "GEORGE TOWN, Nov 17 — Penang chief minister Chow Kon Yeow appealed to Putrajaya for federal grant allocations to help the state finance major water infrastructure upgrades.",
+                  "takeaways": [
+                        "Directly reported by Malay Mail.",
+                        "Tap below for full in-depth reporting and official statements."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/17/penang-hopes-for-a-portion-of-federal-grant-to-reduce-water-infrastructure-costs/243599",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 47,
+                  "date": "2026-11-17",
+                  "dateLabel": "17 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "Markets",
+                  "headline": "TM Tech gets green light for RM2.7b submarine cable project linking Peninsular Malaysia, Sabah and Sarawak",
+                  "summary": "KUALA LUMPUR, Nov 17 — Telekom Malaysia Bhd’s wholly-owned subsidiary TM Technology Services Sdn Bhd received approval for a RM2.7 billion submarine cable system linking Peninsular Malaysia, Sabah, and Sarawak.",
+                  "takeaways": [
+                        "Directly reported by Malay Mail.",
+                        "Tap below for full in-depth reporting and official statements."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/tm-tech-gets-green-light-for-rm27b-submarine-cable-project-linking-peninsular-malaysia-sabah-and-sarawak/243601",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 48,
+                  "date": "2026-11-17",
+                  "dateLabel": "17 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "Markets",
+                  "headline": "‘For most, the answer is no’: Baidu CEO casts doubt on AI’s immediate profit payoff",
+                  "summary": "SHENZHEN, Nov 17 — Artificial intelligence adoption is not yet boosting bottom-line profits for most companies, the head of Chinese tech giant Baidu cautioned at a Shenzhen forum.",
+                  "takeaways": [
+                        "Directly reported by Malay Mail.",
+                        "Tap below for full in-depth reporting and official statements."
+                  ],
+                  "sourceName": "Malay Mail",
+                  "sourceUrl": "https://www.malaymail.com/news/money/2026/11/17/for-most-the-answer-is-no-baidu-ceo-casts-doubt-on-ais-payoff/243593",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 49,
+                  "date": "2026-11-17",
+                  "dateLabel": "17 Nov 2026",
+                  "category": "National Affairs",
+                  "tag": "Nation",
+                  "headline": "Amanah man urges PAS to ditch Umno and back Anwar",
+                  "summary": "KUALA LUMPUR, Nov 17 — Amanah communications director Khalid Samad said the party is open to discussing PAS’s participation in the federal unity government if it parts ways with divisive rhetoric.",
+                  "takeaways": [
+                        "Directly reported by Free Malaysia Today.",
+                        "Tap below for full in-depth reporting and official statements."
+                  ],
+                  "sourceName": "Free Malaysia Today",
+                  "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/17/amanah-man-urges-pas-to-ditch-umno-and-back-anwar",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 50,
+                  "date": "2026-11-17",
+                  "dateLabel": "17 Nov 2026",
+                  "category": "National Affairs",
+                  "tag": "Nation",
+                  "headline": "Ismail far more ethical than Zahid, says ex-Umno man Puad Zarkashi",
+                  "summary": "KUALA LUMPUR, Nov 17 — Unlike Ismail Lasim, Puad Zarkashi argued that certain political leaders want to retain government posts while openly contradicting the unity administration.",
+                  "takeaways": [
+                        "Directly reported by Free Malaysia Today.",
+                        "Tap below for full in-depth reporting and official statements."
+                  ],
+                  "sourceName": "Free Malaysia Today",
+                  "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/17/ismail-far-more-ethical-than-zahid-says-ex-umno-man",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 51,
+                  "date": "2026-11-17",
+                  "dateLabel": "17 Nov 2026",
+                  "category": "World & Markets",
+                  "tag": "Mongolia",
+                  "headline": "Mongolia president announces resignation after graft accusations",
+                  "summary": "ULAANBAATAR, Nov 17 — President Ukhnaa Khurelsukh announced his resignation a day after the opposition Democratic Party accused him of corruption and demanded he step down or face impeachment.",
+                  "takeaways": [
+                        "Directly reported by Free Malaysia Today.",
+                        "Tap below for full in-depth reporting and official statements."
+                  ],
+                  "sourceName": "Free Malaysia Today",
+                  "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/17/mongolia-president-announces-resignation-after-graft-accusations",
+                  "readTime": "2 min read"
+            },
+            {
+                  "id": 52,
+                  "date": "2026-11-17",
+                  "dateLabel": "17 Nov 2026",
+                  "category": "World & Markets",
+                  "tag": "ASEAN & Conflict",
+                  "headline": "Trump arrives in Manila for ASEAN/Quad summits; Ukraine strikes Kerch Bridge as 3rd U.S. carrier enforces Iran blockade",
+                  "summary": "MANILA / KYIV, Nov 17 — U.S. President Donald Trump held Quad and ASEAN talks in Manila ahead of Shenzhen, while Ukraine struck a road arch of the Kerch Bridge in an overnight drone barrage and the USS Theodore Roosevelt joined the U.S. naval blockade off Iran.",
+                  "takeaways": [
+                        "Japanese PM Sanae Takaichi also proposed an ASEAN emergency oil-stockpiling task force in Manila.",
+                        "Canadian PM Mark Carney and Chinese President Xi Jinping agreed to cut tariffs on pork and seafood ahead of APEC."
+                  ],
+                  "sourceName": "The Guardian / Washington Post",
+                  "sourceUrl": "https://www.theguardian.com/world",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 53,
+                  "date": "2026-11-17",
+                  "dateLabel": "17 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "Cyber & AI Rules",
+                  "headline": "OPTIMJACK supply-chain attack compromises 178+ brands via Optimizely; U.S. BIS closes remote AI chip loophole",
+                  "summary": "LONDON / WASHINGTON, Nov 17 — Malicious JavaScript injected into Optimizely Web hit 178–188 major sites (BBC, CNN, Zoom, HSBC, IKEA, Salesforce), while the U.S. Commerce Department issued an interim final rule restricting remote cloud access to advanced AI chips.",
+                  "takeaways": [
+                        "U.S. BIS imposed new AI chip export licensing on Malaysia, Thailand, Indonesia, Singapore, and Brazil.",
+                        "In Japan, NEC and IBM Japan completed the country's first hybrid QKD + PQC quantum-safe communications demo."
+                  ],
+                  "sourceName": "Report URI / TechCrunch",
+                  "sourceUrl": "https://techcrunch.com/",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 54,
+                  "date": "2026-11-17",
+                  "dateLabel": "17 Nov 2026",
+                  "category": "Bursa & Economy",
+                  "tag": "M&A & Macro",
+                  "headline": "DOJ takes antitrust review of DoorDash’s $17B Instacart buyout; IMF projects 3.9% South Korea growth on AI chips",
+                  "summary": "WASHINGTON / SEOUL, Nov 17 — The U.S. Department of Justice claimed antitrust jurisdiction over DoorDash’s proposed $17 billion ($65/share) acquisition of Instacart (carrying a $1.25B breakup fee), while the IMF forecast South Korea’s GDP growing 3.9% on record semiconductor exports.",
+                  "takeaways": [
+                        "Reserve Bank of Australia minutes also signaled a potential fifth rate hike while Fed Gov. Michael Barr warned on AI market herding.",
+                        "Malaysian Nvidia partner YTL Power fell 5% on the new U.S. BIS remote-compute rules."
+                  ],
+                  "sourceName": "Forbes / IMF",
+                  "sourceUrl": "https://www.imf.org/",
+                  "readTime": "3 min read"
+            },
+            {
+                  "id": 55,
+                  "date": "2026-11-17",
+                  "dateLabel": "17 Nov 2026",
+                  "category": "Technology & Science",
+                  "tag": "Quantum & Biology",
+                  "headline": "Univ. of Osaka observes 1D 'heavy fermion' quantum state; MARUM finds ecosystems inside deep-sea nodules & UOW unveils bioengineered cornea",
+                  "summary": "OSAKA / BREMEN / WOLLONGONG, Nov 17 — Physicists at the University of Osaka observed a 1D heavy fermion state at an ytterbium-copper interface, MARUM marine biologists discovered thriving micro-ecosystems inside Pacific polymetallic nodules, and UOW unveiled a world-first bioengineered cornea.",
+                  "takeaways": [
+                        "A 34-year study of 3,285 harvester ant colonies also showed older colonies experience lower mortality and higher reproduction.",
+                        "UC Riverside researchers mapped how mitochondrial DNA damage from pollutants triggers chronic inflammation."
+                  ],
+                  "sourceName": "ScienceDaily / UOW",
+                  "sourceUrl": "https://www.sciencedaily.com/",
+                  "readTime": "3 min read"
             }
-          }
-        } catch (e) {}
-      }
-
-      if (loadedData) {
-        loadedData.stories = mergeStoriesLists(loadedData.stories, DEFAULT_DATA.stories);
-        applyDataPayload(loadedData);
-        try {
-          localStorage.setItem(STORAGE_KEY, JSON.stringify({
-            lastUpdated: new Date().toISOString(),
-            weather: loadedData.weather || DEFAULT_DATA.weather,
-            markets: loadedData.markets || DEFAULT_DATA.markets,
-            executiveSummary: loadedData.executiveSummary || DEFAULT_DATA.executiveSummary,
-            stories: rawStories
-          }));
-        } catch (e) {}
-        if (syncLabel) syncLabel.textContent = 'v7.0 • Synced Live';
-      } else {
-        if (syncLabel) syncLabel.textContent = 'v7.0 • Built-in Archive';
-      }
-
-      if (refreshBtn) refreshBtn.classList.remove('animate-spin');
-    }
-
-    async function initApp() {
-      const now = new Date();
-      const options = { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' };
-      document.getElementById('current-date').textContent = now.toLocaleDateString('en-MY', options);
-
-      // Render embedded archive immediately so the screen is NEVER blank
-      applyDataPayload(DEFAULT_DATA);
-      setupSwipeGestures();
-
-      // Then fetch live updates in background
-      await fetchWithFallback();
-    }
-
-    document.getElementById('refresh-news-btn').addEventListener('click', () => {
-      fetchWithFallback();
-    });
-
-    window.handleFullArticleClick = function(e) {
-      if (e) e.stopPropagation();
-      const s = displayedStories[currentIndex];
-      if (!s || !s.sourceUrl || s.sourceUrl === '#') return;
-      const opened = window.open(s.sourceUrl, '_blank');
-      if (!opened) window.location.href = s.sourceUrl;
-    };
+      ]
+};
 
     window.openFeedUrl = function(e, url) {
       if (e) e.stopPropagation();

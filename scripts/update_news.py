@@ -101,12 +101,14 @@ def fetch_rss_stories():
     stories = []
     # Primary + resilient Google News RSS backup feeds so GitHub Actions datacenter IPs never get blocked
     feed_sources = [
-        ("https://www.malaymail.com/feed/rss/malaysia", "Diplomacy & National", "Putrajaya", "Malay Mail", 3),
-        ("https://www.malaymail.com/feed/rss/money", "Bursa & Economy", "Markets", "Malay Mail", 2),
-        ("https://www.freemalaysiatoday.com/feed/", "National Affairs", "Nation", "Free Malaysia Today", 3),
-        ("https://news.google.com/rss/search?q=Malaysia+when:1d&hl=en-MY&gl=MY&ceid=MY:en", "Diplomacy & National", "Malaysia", "Google News MY", 4),
-        ("https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-MY&gl=MY&ceid=MY:en", "World & Markets", "Global", "Global Wire", 2),
-        ("https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-MY&gl=MY&ceid=MY:en", "Technology & Science", "Tech & Science", "Tech Wire", 2),
+        ("https://www.malaymail.com/feed/rss/malaysia", "Diplomacy & National", "Putrajaya", "Malay Mail", 6),
+        ("https://www.malaymail.com/feed/rss/money", "Bursa & Economy", "Markets", "Malay Mail", 4),
+        ("https://www.freemalaysiatoday.com/feed/", "National Affairs", "Nation", "Free Malaysia Today", 6),
+        ("https://news.google.com/rss/search?q=Malaysia+when:1d&hl=en-MY&gl=MY&ceid=MY:en", "Diplomacy & National", "Malaysia", "Google News MY", 6),
+        ("https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-MY&gl=MY&ceid=MY:en", "Bursa & Economy", "Business", "Business Wire", 4),
+        ("https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-MY&gl=MY&ceid=MY:en", "World & Markets", "Global", "Global Wire", 4),
+        ("https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-MY&gl=MY&ceid=MY:en", "Technology & Science", "Tech & Science", "Tech Wire", 4),
+        ("https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=en-MY&gl=MY&ceid=MY:en", "Technology & Science", "Science", "Science Wire", 4),
     ]
 
     seen_titles = set()
@@ -157,12 +159,12 @@ def fetch_rss_stories():
                         "readTime": "2 min read"
                     })
                     count += 1
-                    if count >= limit or len(stories) >= 10:
+                    if count >= limit or len(stories) >= 24:
                         break
         except Exception as e:
             print(f"Feed error ({pub_name}):", e)
 
-        if len(stories) >= 10:
+        if len(stories) >= 24:
             break
 
     return stories
@@ -189,8 +191,8 @@ def merge_and_compile_archive(new_stories, existing_stories):
 
         merged.append(s)
 
-    # Re-index sequentially and cap archive at 150 stories so JSON stays fast on mobile
-    merged = merged[:150]
+    # Re-index sequentially and cap archive at 300 stories so JSON stays fast on mobile
+    merged = merged[:300]
     for idx, s in enumerate(merged, start=1):
         s["id"] = idx
     return merged
