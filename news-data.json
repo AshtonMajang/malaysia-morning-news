@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-25T16:06:10.476345+08:00",
+  "lastUpdated": "2026-11-26T15:55:38.284349+08:00",
   "weather": {
     "city": "Kuala Lumpur & Klang Valley",
-    "temp": "27°C",
-    "condition": "Scattered Afternoon Showers",
-    "rainChance": "99% Rain",
+    "temp": "28°C",
+    "condition": "Passing Rain Showers",
+    "rainChance": "100% Rain",
     "alert": "⚠️ MetMalaysia: Northeast Monsoon Active • Rain Advisory in Effect"
   },
   "markets": [
@@ -34,11 +34,395 @@
     }
   ],
   "executiveSummary": [
-    "Diplomacy & National (25 Nov 2026): Bukit Aman warns drug syndicates may target other airports amid tighter KLIA security...",
-    "Diplomacy & National (25 Nov 2026): Govt considers naming KL street after A. Samad Said, setting up gallery to honour his lega...",
-    "Diplomacy & National (25 Nov 2026): Malaysia benefits immensely as a trading nation by engaging with world leaders, says Anwar..."
+    "Diplomacy & National (26 Nov 2026): Johor sets aside RM20.73m to reduce flood risks in 2027...",
+    "Diplomacy & National (26 Nov 2026): All eyes on Istana Hinggap as Zahid, Tok Mat meet Negeri Sembilan Ruler...",
+    "Diplomacy & National (26 Nov 2026): Home minister says police must apply law equally to both sides of political divide..."
   ],
   "stories": [
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "Johor sets aside RM20.73m to reduce flood risks in 2027",
+      "summary": "ISKANDAR PUTERI, Nov 26 — The Johor state government has allocated RM20.73 million through the Department of Irrigation...",
+      "takeaways": [
+        "Reported by Malay Mail (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/26/johor-sets-aside-rm2073m-to-reduce-flood-risks-in-2027/244885",
+      "readTime": "2 min read",
+      "id": 1
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "All eyes on Istana Hinggap as Zahid, Tok Mat meet Negeri Sembilan Ruler",
+      "summary": "SEREMBAN, Nov 26 — Umno president Datuk Seri Ahmad Zahid Hamidi and deputy president Datuk Seri Mohamad Hasan arrived at...",
+      "takeaways": [
+        "Reported by Malay Mail (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/26/all-eyes-on-istana-hinggap-as-zahid-tok-mat-meet-negeri-sembilan-ruler/244882",
+      "readTime": "2 min read",
+      "id": 2
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "Home minister says police must apply law equally to both sides of political divide",
+      "summary": "PUTRAJAYA, Nov 26 — Home Minister Datuk Seri Saifuddin Nasution Ismail said police must investigate all reports regardle...",
+      "takeaways": [
+        "Reported by Malay Mail (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/26/home-minister-says-police-must-apply-law-equally-to-both-sides-of-political-divide/244881",
+      "readTime": "2 min read",
+      "id": 3
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "Johor launches MyJT transport app to help commuters track buses, plan journeys",
+      "summary": "JOHOR BAHRU, Nov 26 — The newly introduced MyJohor Transport (MyJT) application aims to make public transport more relia...",
+      "takeaways": [
+        "Reported by Malay Mail (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/26/johor-launches-myjt-transport-app-to-help-commuters-track-buses-plan-journeys/244879",
+      "readTime": "2 min read",
+      "id": 4
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "Terengganu’s ECRL races towards Dec 12 launch as project hits 99.5pc completion",
+      "summary": "MARANG, Nov 26 — The construction of the East Coast Rail Link (ECRL) project in Terengganu is nearing completion, with p...",
+      "takeaways": [
+        "Reported by Malay Mail (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/26/terengganus-ecrl-races-towards-dec-12-launch-as-project-hits-995pc-completion/244878",
+      "readTime": "2 min read",
+      "id": 5
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Putrajaya",
+      "headline": "Muhyiddin ‘chose to close his eyes’ over RM25.3m in Bersatu accounts, prosecution says",
+      "summary": "KUALA LUMPUR, Nov 26 — Former prime minister Tan Sri Muhyiddin Yassin had intentionally closed his eyes on the source of...",
+      "takeaways": [
+        "Reported by Malay Mail (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/26/muhyiddin-chose-to-close-his-eyes-over-rm253m-in-bersatu-accounts-prosecution-says/244876",
+      "readTime": "2 min read",
+      "id": 6
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Bursa & Economy",
+      "tag": "Markets",
+      "headline": "Allianz Malaysia taps high-net-worth segment with new Labuan offshore wealth arm",
+      "summary": "KUALA LUMPUR, Nov 26 — Allianz Malaysia Berhad has unveiled “Allianz Eterna,” a specialised wealth management and protec...",
+      "takeaways": [
+        "Reported by Malay Mail (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/26/allianz-malaysia-taps-high-net-worth-segment-with-new-labuan-offshore-wealth-arm/244875",
+      "readTime": "2 min read",
+      "id": 7
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Bursa & Economy",
+      "tag": "Markets",
+      "headline": "FT: Nvidia stops AI shipments to Malaysia, Singapore, Thailand, Indonesia as US tightens China curbs",
+      "summary": "SINGAPORE, Nov 26 — Nvidia has instructed its primary manufacturing partners to freeze shipments of artificial intellige...",
+      "takeaways": [
+        "Reported by Malay Mail (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/26/ft-nvidia-stops-ai-shipments-to-malaysia-singapore-thailand-indonesia-as-us-tightens-china-curbs/244856",
+      "readTime": "2 min read",
+      "id": 8
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Bursa & Economy",
+      "tag": "Markets",
+      "headline": "South Korea raises rates to two-year high as AI chip exports hit record US$1 trillion",
+      "summary": "SEOUL, Nov 26 — South Korea’s central bank hiked interest rates to a two-year high on Thursday as it fights to rein in i...",
+      "takeaways": [
+        "Reported by Malay Mail (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/26/south-korea-raises-rates-to-two-year-high-as-ai-chip-exports-hit-record-us1-trillion/244854",
+      "readTime": "2 min read",
+      "id": 9
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Bursa & Economy",
+      "tag": "Markets",
+      "headline": "Friends, foes, and everyone in between: Trump pushes sweeping tariffs on EU, China, Malaysia, and more",
+      "summary": "WASHINGTON, Nov 26 — The United States on Wednesday unveiled proposed tariffs on the European Union, China and a dozen o...",
+      "takeaways": [
+        "Reported by Malay Mail (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/26/friends-foes-and-everyone-in-between-trump-pushes-sweeping-tariffs-on-eu-china-malaysia-and-more/244831",
+      "readTime": "2 min read",
+      "id": 10
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Bursa & Economy",
+      "tag": "Markets",
+      "headline": "Ringgit firms up against dollar, softens against euro and pound",
+      "summary": "KUALA LUMPUR, Nov 26 — The ringgit opened higher against the US dollar on Thursday as investors remained cautious over t...",
+      "takeaways": [
+        "Reported by Malay Mail (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Malay Mail",
+      "sourceUrl": "https://www.malaymail.com/news/money/2026/11/26/ringgit-firms-up-against-dollar-softens-against-euro-and-pound/244815",
+      "readTime": "2 min read",
+      "id": 11
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "Was Agong told before Najib pardon minutes were declassified, PN asks",
+      "summary": "Opposition leader Hamzah Zainudin says the declassification of the minutes would be acceptable if it had the king's approval.",
+      "takeaways": [
+        "Reported by Free Malaysia Today (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/26/was-agong-told-before-najib-pardon-minutes-were-declassified-pn-asks",
+      "readTime": "2 min read",
+      "id": 12
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "Pemimpin BN diketuai Zahid menghadap Tuanku Muhriz",
+      "summary": "Antara pemimpin lain adalah Pengerusi BN Negeri Sembilan Mohamad Hasan dan Setiausaha Agung Zambry Abdul Kadir.",
+      "takeaways": [
+        "Reported by Free Malaysia Today (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/26/pemimpin-bn-diketuai-zahid-menghadap-tuanku-muhriz",
+      "readTime": "2 min read",
+      "id": 13
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "PBM tanding 3 kerusi pada PRN Sarawak",
+      "summary": "Presiden PBM Larry Sng akan bertanding di Pelagus.",
+      "takeaways": [
+        "Reported by Free Malaysia Today (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/26/pbm-tanding-3-kerusi-pada-prn-sarawak",
+      "readTime": "2 min read",
+      "id": 14
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "Kadar pengulanan jenayah boleh bawah 10% jika ikut ukuran Singapura, kata Saifuddin",
+      "summary": "Bagaimanapun, menteri dalam negeri berkata Malaysia tetap guna ukuran tiga tahun berbanding dua tahun yang diamalkan negara jiran itu.",
+      "takeaways": [
+        "Reported by Free Malaysia Today (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/26/kadar-pengulanan-jenayah-boleh-bawah-10-jika-ikut-ukuran-singapura-kata-saifuddin",
+      "readTime": "2 min read",
+      "id": 15
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "Bekas jurulatih taekwondo mengaku tak salah amang seksual budak",
+      "summary": "Tertuduh didakwa melakukan kontak fizikal terhadap seorang kanak-kanak perempuan 10 tahun sembilan bulan di sebuah kelab latihan taekwondo pada 9 Jan 2024.",
+      "takeaways": [
+        "Reported by Free Malaysia Today (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/26/bekas-jurulatih-taekwondo-mengaku-tak-salah-amang-seksual-budak",
+      "readTime": "2 min read",
+      "id": 16
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "National Affairs",
+      "tag": "Nation",
+      "headline": "PBM to contest 3 seats in Sarawak polls",
+      "summary": "Party president Larry Sng will stand in Pelagus.",
+      "takeaways": [
+        "Reported by Free Malaysia Today (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Free Malaysia Today",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/26/pbm-to-contest-3-seats-in-sarawak-polls",
+      "readTime": "2 min read",
+      "id": 17
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Malaysia",
+      "headline": "Nvidia said to halt server shipments to Malaysia, Singapore, Thailand and Indonesia - The Edge Malaysia",
+      "summary": "Nvidia said to halt server shipments to Malaysia, Singapore, Thailand and Indonesia The Edge Malaysia",
+      "takeaways": [
+        "Reported by The Edge Malaysia (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "The Edge Malaysia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QVmk5OHB4dlZfbDFIZnIybjNKM05oakZndy13MkZlNlFGaFR4d28zckpDZnU2RmV4YzdudV9zbkFkbl9IZG9JTFJydXdsOE1I?oc=5",
+      "readTime": "2 min read",
+      "id": 18
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Malaysia",
+      "headline": "Consultative Workshop on Greening Industries through Renewables and Sustainable Fuels in Malaysia - IRENA – International Renewable Energy Agency",
+      "summary": "Consultative Workshop on Greening Industries through Renewables and Sustainable Fuels in Malaysia IRENA – International Renewable Energy Agency",
+      "takeaways": [
+        "Reported by IRENA – International Renewable Energy Agency (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "IRENA – International Renewable Energy Agency",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM3g2TDZBVGJmWVJQenFrQ3NzM0Fjc2RILVoxLS0wQnB6NVJPYkdFMjE5NUJQUVViLVd6UUVqSjh3U3g2S2JGUEZzeWpwMDA2OVhaMjc3c1lUdHpiUlJ2Zm01OXRxZHpET1ZBWGhRMmdIN0RjeF9rOW9QclRrYkhRaE55MFF1aFhmVVpBQTF5Q2pYRnlhQzItTFhTT3RqRXZQQUtVS2VfeW5mYjl6elN0OU44YnpqbGpZTkZ0VmhQQmVaZUtleUhUS002LXV5NDNU?oc=5",
+      "readTime": "2 min read",
+      "id": 19
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Malaysia",
+      "headline": "2027 Kia Sportage Turbo-Hybrid facelift launched in Malaysia - 2WD and AWD X-Line variants; fr RM148,800 - Paul Tan's Automotive News",
+      "summary": "2027 Kia Sportage Turbo-Hybrid facelift launched in Malaysia - 2WD and AWD X-Line variants; fr RM148,800 Paul Tan's Automotive News",
+      "takeaways": [
+        "Reported by Paul Tan's Automotive News (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "Paul Tan's Automotive News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOGpFcVJsZk9qOVlHajlXRUh6N0NrTG5qSDNQR0NzaEVCYU1DX3BKU3d0czZSbjZac2FmLTlEQVRKdm81LWJLOU1QR184WXEyZWV1cEpvZ1FDUDFWaVlLNnNkR2k4cUxOVGdhN21uc1B1YXhsYmtsd0RKdU01cEpNaWw2Y3lvdW9EbkNFWWMwaEF2SG1BdlVRcmUyc2w2LUJxMHRvdnhqLVc0b0ltY0pCaTdmUFBHaDNZN2NWQUVxUUV6dzFsdXRuSHl6bUNIZTVR?oc=5",
+      "readTime": "2 min read",
+      "id": 20
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Malaysia",
+      "headline": "Malaysia worse off despite lower US tariff proposal, says economist - The Malaysian Reserve",
+      "summary": "Malaysia worse off despite lower US tariff proposal, says economist The Malaysian Reserve",
+      "takeaways": [
+        "Reported by The Malaysian Reserve (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "The Malaysian Reserve",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWFlDUWlnZXZvMWxjOXR5TGp5bEF0RlhyS0k4S3JyRlNQekkwU3E1WDdPUHA4a2FUMEtxUTFyQU44cjEyX1hGbVBoOEswdGNVeU9Cc3Q4OGNuZDQxTWJtcHYweEd1cDdBVFBVQ3Aza25TTHRlc0FmRzI3eWNiMW9OQWtiTmpISzVUbjZyTG85Q3FicDAzZXZhWFJVbFc0SGI2cVhNMkY3RTlVa1Bqam5v?oc=5",
+      "readTime": "2 min read",
+      "id": 21
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Malaysia",
+      "headline": "Bursa Malaysia remains higher at midday, KLCI up 1.2% - The Star",
+      "summary": "Bursa Malaysia remains higher at midday, KLCI up 1.2% The Star",
+      "takeaways": [
+        "Reported by The Star (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "The Star",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLWdsRUtXV0g2TTd3MXozWGgwbWx2blhUNHAwSndJbWhyN2RHcndEVmhMR000czIwU3hiY0FIWHlfTlJZTTRFSl9vVUdTWFpDaGxTTGpvcGdUSDMzSW83aEZSUy1mRmYzSnBxc25PVFdUcTZnLVhCWXo4c0NCVm93WnhTY3lKdnE2Q1RmV0ZxM29lbkdOQXFLNXBOXzdjdw?oc=5",
+      "readTime": "2 min read",
+      "id": 22
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Malaysia",
+      "headline": "MITI Seeks To Cap US Tariffs On Malaysia At 19% - BusinessToday Malaysia",
+      "summary": "MITI Seeks To Cap US Tariffs On Malaysia At 19% BusinessToday Malaysia",
+      "takeaways": [
+        "Reported by BusinessToday Malaysia (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "BusinessToday Malaysia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUlFPM0UwM1liT2tkSlBkRzZpdlYycUhsaGo5MkQtbjEwaWxYN2o2ejZnS2p0NHEwSHBRaFJxMXREd0swMG9sMkdvbWpqWHYxdE1ES0xHUk1Mc2VOTmdEU1NfRFExbi16SU1hdDNzRDJtY0NrTTlLandSOEo5RXFXN09xdTlyTF9LTTBWaldCemNhMnRLX2c?oc=5",
+      "readTime": "2 min read",
+      "id": 23
+    },
+    {
+      "date": "2026-11-26",
+      "dateLabel": "26 Nov 2026",
+      "category": "Diplomacy & National",
+      "tag": "Malaysia",
+      "headline": "Malaysia Lepak City Launches as a Free Browser-Based Open-World Game - GamerBraves",
+      "summary": "Malaysia Lepak City Launches as a Free Browser-Based Open-World Game GamerBraves",
+      "takeaways": [
+        "Reported by GamerBraves (26 Nov 2026).",
+        "Tap 'Read Full News Article' below for complete coverage and official statements."
+      ],
+      "sourceName": "GamerBraves",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRFdmb05qamlUc2s1SnhuRnVkMklCdkE0NzlqZ3ZLZUxvUXFWT3FXbWlvNlRDMVBnaG5laVhtQldTVGQ2MW5ZSlM0Ukc1bEExMVN0WGFUYVI4cFJDZTM5SUhhdTIzRFItelJ5bkpCVzhtZVk1Z3pMWVFEZW9yNEVyS1g1azZ1ZzdleVdRQlZjTEhCRnhORlZMYWJWZVp6QQ?oc=5",
+      "readTime": "2 min read",
+      "id": 24
+    },
     {
       "date": "2026-11-25",
       "dateLabel": "25 Nov 2026",
@@ -53,7 +437,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/25/bukit-aman-warns-drug-syndicates-may-target-other-airports-amid-tighter-klia-security/244727",
       "readTime": "2 min read",
-      "id": 1
+      "id": 25
     },
     {
       "date": "2026-11-25",
@@ -69,7 +453,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/25/govt-considers-naming-kl-street-after-a-samad-said-setting-up-gallery-to-honour-his-legacy/244726",
       "readTime": "2 min read",
-      "id": 2
+      "id": 26
     },
     {
       "date": "2026-11-25",
@@ -85,7 +469,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/25/malaysia-benefits-immensely-as-a-trading-nation-by-engaging-with-world-leaders-says-anwar/244725",
       "readTime": "2 min read",
-      "id": 3
+      "id": 27
     },
     {
       "date": "2026-11-25",
@@ -101,7 +485,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/25/court-grants-gag-order-in-border-agency-chief-shuhailys-case-media-allowed-to-report-proceedings/244722",
       "readTime": "2 min read",
-      "id": 4
+      "id": 28
     },
     {
       "date": "2026-11-25",
@@ -117,7 +501,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/25/malaysians-lost-rm733b-to-online-scams-since-2023-dewan-rakyat-told/244720",
       "readTime": "2 min read",
-      "id": 5
+      "id": 29
     },
     {
       "date": "2026-11-25",
@@ -133,7 +517,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/25/malaysia-must-prepare-for-quantum-computing-and-rogue-ai-threats-fahmi-says/244715",
       "readTime": "2 min read",
-      "id": 6
+      "id": 30
     },
     {
       "date": "2026-11-25",
@@ -149,7 +533,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/25/alliance-bank-2q-net-profit-higher-at-rm20846m/244718",
       "readTime": "2 min read",
-      "id": 7
+      "id": 31
     },
     {
       "date": "2026-11-25",
@@ -165,7 +549,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/25/cimb-group-posts-lower-3q-net-profit-of-rm187b-declares-rm596m-special-dividend/244717",
       "readTime": "2 min read",
-      "id": 8
+      "id": 32
     },
     {
       "date": "2026-11-25",
@@ -181,7 +565,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/25/malaysia-airlines-eyes-six-more-boeing-dreamliners-on-top-of-10-aircraft-order-mag-president-says/244697",
       "readTime": "2 min read",
-      "id": 9
+      "id": 33
     },
     {
       "date": "2026-11-25",
@@ -197,7 +581,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/25/malaysia-aviation-group-puts-us93b-book-value-on-planned-fleet-of-16-dreamliners/244695",
       "readTime": "2 min read",
-      "id": 10
+      "id": 34
     },
     {
       "date": "2026-11-25",
@@ -213,7 +597,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/25/bangladesh-garment-workers-secure-36pc-pay-rise-but-fall-short-of-wage-demands/244684",
       "readTime": "2 min read",
-      "id": 11
+      "id": 35
     },
     {
       "date": "2026-11-25",
@@ -229,7 +613,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/business/2026/11/25/china-eyes-mergers-restructuring-to-help-struggling-airlines-says-scmp",
       "readTime": "2 min read",
-      "id": 12
+      "id": 36
     },
     {
       "date": "2026-11-25",
@@ -245,7 +629,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/25/juruterbang-tudm-disyaki-jadi-pengangkut-dadah-dari-lembang-klang-ke-sabah",
       "readTime": "2 min read",
-      "id": 13
+      "id": 37
     },
     {
       "date": "2026-11-25",
@@ -261,7 +645,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/25/china-cambodia-stage-largest-ever-joint-military-drills",
       "readTime": "2 min read",
-      "id": 14
+      "id": 38
     },
     {
       "date": "2026-11-25",
@@ -277,7 +661,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/25/cikgu-ilmu-aplikasi-ai-percuma-bantu-ibu-bapa-bimbing-anak",
       "readTime": "2 min read",
-      "id": 15
+      "id": 39
     },
     {
       "date": "2026-11-25",
@@ -293,7 +677,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/ytl-s-cikgu-ilmu-helps-parents-break-down-schoolwork-says-executive",
       "readTime": "2 min read",
-      "id": 16
+      "id": 40
     },
     {
       "date": "2026-11-25",
@@ -309,7 +693,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/govt-to-maintain-dual-5g-network-policy-says-fahmi",
       "readTime": "2 min read",
-      "id": 17
+      "id": 41
     },
     {
       "date": "2026-11-25",
@@ -325,7 +709,7 @@
       "sourceName": "The Edge Malaysia",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB2dVVZZnh0Tmh3cU1UYnVFNnllN0s5Z1M3cm0tUmVCcU5scHRpNnc1cnVpdVlRMWNoQVFjZENOc3VMRU9BMURQVVY1Vk9COEhr?oc=5",
       "readTime": "2 min read",
-      "id": 18
+      "id": 42
     },
     {
       "date": "2026-11-25",
@@ -341,7 +725,7 @@
       "sourceName": "NST Online",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUjlzaWZJeWJnS3p6Vk9DXzlQT1NHR1ppMTJ4Yk5JVGc2NjBrNHNSNkV2aGM1RGxxZ19rbDhQQmRUWEF1SzJQV1V2Zk5FOERvRHFBVGFlLVJYbUt0dHJDQlBnT1RMemVwQ0hCMlA2SGQ3akZaZEhhbkYxWEtaLWQ4VVp0aTR3TTd3TWkyUDU0OU81TTFuSTJTSDlfeW9oWm10ZlhxVlBFVUR5QVhOU3FwdVVYRExzal9Jaks1ddIBwgFBVV95cUxPcmRBNzgyMFdIQjRSVHd3c2wyeEFoQkVQaGUyV0dBQ1hpSzRfaDFnQ252dzNJZFRQZHh1RkZib3hfT2xIMkk0VnNNZmRiaTRMNVFUMk1yNTVZODFtMi1JNmJyV3pVWGNpRGFvUDR3ZWpKcWxGSFRpY1prNmZkNnhwQ3lDVHNYS0tZOURqLUl0Y0Vjd21jSDFISjI3VmpjSEtmVUhnTzBvSEl2cE5iTVN6QTVORnZUSS1wTmlrdVh6cEZFUQ?oc=5",
       "readTime": "2 min read",
-      "id": 19
+      "id": 43
     },
     {
       "date": "2026-11-25",
@@ -357,7 +741,7 @@
       "sourceName": "The Star",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOV21HV3pfUlkzbjR3NENjRWpsT1RYZE82OG1UUVFBRzl6TXc5WWtrNG1EQVgxNTNkYktxTzlBSU9La3dUelF4aUVmTGhLRGFjdFpNN3JSWkFIV0V6Nlh2TXhuMmxRVHpubFZPa1Y5MVpCWkwtOTRsdVBsWG9aWkVwTUtIaUd0QjBNRUN3bA?oc=5",
       "readTime": "2 min read",
-      "id": 20
+      "id": 44
     },
     {
       "date": "2026-11-25",
@@ -373,7 +757,7 @@
       "sourceName": "ASEAN United FC",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd3NRZXlmZnBxdWRUaXlLdGtlZGpSS3RRZEp5dHRHODZWT1I4cEpSdEttWTdLNVcxMV9XenlERno5M3FiTl9NWVJDSXdYVTZFOUtsMW9JUmRpT3h3WHNmYXg0VmFfWUJVYXRHQS03d1Zvc0RPdUt4RWNYbzRMS0NiUndTbWpnU3VSc25SZE5NZEZtVDJUT3pHa0hxU3RxTGxtWjRqQ2RSWU0xQQ?oc=5",
       "readTime": "2 min read",
-      "id": 21
+      "id": 45
     },
     {
       "date": "2026-11-25",
@@ -389,7 +773,7 @@
       "sourceName": "Fintech News Malaysia",
       "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdVg4Um9yNGVTQjdFZm56c0xWOE9EZ3VJejZDNllLZE9iSE5CUUMxLXl5N25ENmsyak9LY1JacS1oWlZMVVB1T3hRbjVNM2M2aTBjZzlHYVhyV01mZ2hvX0I0Z2hDWDE0NTI3bVc5U3B1SnlSNmhDUWVJU2tXeFNDaFo4N3dvZjZTRDgzR29Hd2w2Zw?oc=5",
       "readTime": "2 min read",
-      "id": 22
+      "id": 46
     },
     {
       "date": "2026-11-25",
@@ -405,7 +789,7 @@
       "sourceName": "Submarine Networks",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOGU4Zi1vZk1yVEw5RHZKd2RVWjc1bjlqdlVtSW05YXFfaGZzV2pQaS1uYXlfeERhYXkzSFpBbEtOUk1uNHBnSm83VDVBWDVBS3FjZWN0NVVSSnR4R2IyNHpSd2ljMGFSQjJncGxyd19jaXZqWVZ2dEJuajEtbldmNE1jOVJlM1JNeHlKZ0M3TUhZTHBweEl4MUswYjZEQkVoZXlpTnJBU215UHlpVk5ISml3QlFyWENkcTV6Z21TTDg1enFBT2c?oc=5",
       "readTime": "2 min read",
-      "id": 23
+      "id": 47
     },
     {
       "date": "2026-11-25",
@@ -421,7 +805,7 @@
       "sourceName": "The Malaysian Reserve",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTUNYcEVZdWtKcy0zLW9teU9YVTVxanpyR3FYY0lYbldJdXRJbDg3Um5jN1VhTnNsX055b2R1Q1ZyUlpzMXZfMk9YSktXTHVHdW1HWDhTd2tDWnVKbXlWSDRoSFJIRjJ3TGdVZGNrWl82U0FCMjNOS19pMUdqYnluSHFuczFfOTN4WEFWZ29WMloxYm1pSTdFaGR1ZHgwRksxSmpHbTdCMmgxZlQ3enRvdzRZSkIyX1B2OVBZYg?oc=5",
       "readTime": "2 min read",
-      "id": 24
+      "id": 48
     },
     {
       "date": "2026-11-24",
@@ -437,7 +821,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/24/no-more-white-round-pills-mysejahteras-second-life-as-malaysias-digital-health-hub/243784",
       "readTime": "2 min read",
-      "id": 25
+      "id": 49
     },
     {
       "date": "2026-11-24",
@@ -453,7 +837,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/24/otters-make-a-splash-in-kls-klang-river-bringing-hope-for-cleaner-waters-and-trouble-for-fish-pond-owners/244394",
       "readTime": "2 min read",
-      "id": 26
+      "id": 50
     },
     {
       "date": "2026-11-24",
@@ -469,7 +853,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/24/five-minutes-to-johor-businesses-hope-new-rts-link-with-singapore-brings-more-than-day-trippers/244388",
       "readTime": "2 min read",
-      "id": 27
+      "id": 51
     },
     {
       "date": "2026-11-24",
@@ -485,7 +869,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/23/teo-no-licensing-plan-for-online-gaming-firms-as-cmcf-studies-child-safety-risks/244478",
       "readTime": "2 min read",
-      "id": 28
+      "id": 52
     },
     {
       "date": "2026-11-24",
@@ -501,7 +885,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/23/even-bn-funded-klscah-hannah-yeoh-tells-parliament-amid-rm1000-land-premium-row/244477",
       "readTime": "2 min read",
-      "id": 29
+      "id": 53
     },
     {
       "date": "2026-11-24",
@@ -517,7 +901,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/23/replica-of-picasso-work-recovered-from-1mdb-to-feature-at-kl-art-fair-this-week/244475",
       "readTime": "2 min read",
-      "id": 30
+      "id": 54
     },
     {
       "date": "2026-11-24",
@@ -533,7 +917,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/24/malaysia-must-move-beyond-raw-rare-earth-exports-under-france-deal-says-analyst/244392",
       "readTime": "2 min read",
-      "id": 31
+      "id": 55
     },
     {
       "date": "2026-11-24",
@@ -549,7 +933,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/23/oriental-kopi-enters-fourth-overseas-market-with-cambodia-franchise-deal/244480",
       "readTime": "2 min read",
-      "id": 32
+      "id": 56
     },
     {
       "date": "2026-11-24",
@@ -565,7 +949,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/23/worldwide-holdings-recognised-for-major-waste-to-energy-investment-at-selangor-investors-appreciation-awards/244473",
       "readTime": "2 min read",
-      "id": 33
+      "id": 57
     },
     {
       "date": "2026-11-24",
@@ -581,7 +965,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/23/ringgit-ends-lower-against-us-dollar-amid-hawkish-fed-expectations/244464",
       "readTime": "2 min read",
-      "id": 34
+      "id": 58
     },
     {
       "date": "2026-11-24",
@@ -597,7 +981,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/23/tech-stocks-rebound-but-utilities-drag-bursa-malaysia-into-negative-territory/244460",
       "readTime": "2 min read",
-      "id": 35
+      "id": 59
     },
     {
       "date": "2026-11-24",
@@ -613,7 +997,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/24/ambil-keterangan-6-individu-polis-terus-siasatan-gangguan-seksual-pelakon-wanita",
       "readTime": "2 min read",
-      "id": 36
+      "id": 60
     },
     {
       "date": "2026-11-24",
@@ -629,7 +1013,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/24/kpm-rancang-perkenal-kelas-khusus-untuk-murid-autistik",
       "readTime": "2 min read",
-      "id": 37
+      "id": 61
     },
     {
       "date": "2026-11-24",
@@ -645,7 +1029,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/24/dap-perak-komited-sokong-negeri-sehingga-tamat-penggal",
       "readTime": "2 min read",
-      "id": 38
+      "id": 62
     },
     {
       "date": "2026-11-24",
@@ -661,7 +1045,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/24/lelaki-bunuh-bakar-bapa-saudara-akibat-pertikaian-tanah-dipenjara-35-tahun",
       "readTime": "2 min read",
-      "id": 39
+      "id": 63
     },
     {
       "date": "2026-11-24",
@@ -677,7 +1061,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/24/israeli-airstrikes-kill-at-least-six-palestinians-in-gaza-say-medics",
       "readTime": "2 min read",
-      "id": 40
+      "id": 64
     },
     {
       "date": "2026-11-24",
@@ -693,7 +1077,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/business/2026/11/24/indonesia-says-recent-singapore-gas-cuts-due-to-pipeline-repairs",
       "readTime": "2 min read",
-      "id": 41
+      "id": 65
     },
     {
       "date": "2026-11-24",
@@ -709,7 +1093,7 @@
       "sourceName": "The Edge Malaysia",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Iank5eFU2WkNGd2FVdHp4a1RzMEhzbURhOVZzby1rWjdGRi1MaHZMSGU5ZHowMVR6eGljSnJmRkVfYjhPeGFlRGRCUXUxQ0xu?oc=5",
       "readTime": "2 min read",
-      "id": 42
+      "id": 66
     },
     {
       "date": "2026-11-24",
@@ -725,7 +1109,7 @@
       "sourceName": "Al Jazeera",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOVp2cVRPay15SFUyWmxiM2pUanBpejNFbnRtR1hrb2w2T3RrUDk0b2lweWdST2Zfa2U0bE50TEI1MC00MjdmNURnRmY1WlBOMjkzV09Xb011OEYtQ3N1dW5RdDdoSU9UX3BUZTJJVlRkY0d3ZDFIWjJPdDcta05IeWVtN3ppbnhNbEl0TzZQM0szcVVLSllla0RXZnliYUdjb3NjUVdXZUo1OEI0N0lDV1BB0gGyAUFVX3lxTE05WnZxVE9rLXlIVTJabGIzalRqcGl6M0VudG1HWGtvbDZPdGtQOTRvaXB5Z1JPZl9rZTRsTnRMQjUwLTQyN2Y1RGdGZjVaUE4yOTNXT1dvTXU4Ri1Dc3V1blF0N2hJT1RfcFRlMklWVGRjR3dkMUhaMk90Ny1rTkh5ZW03emlueE1sSXRPNlAzSzNxVUtKWWVrRFdmeWJhR2Nvc2NRV1dlSjU4QjQ3SUNXUEE?oc=5",
       "readTime": "2 min read",
-      "id": 43
+      "id": 67
     },
     {
       "date": "2026-11-24",
@@ -741,7 +1125,7 @@
       "sourceName": "The Star",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWXhXVzNYZk5ZSDlBbG1CbW8xNENoaG93dUg4aWRQdTJpaHJ2VWV5RUFma29GSnJGQXc4RDJramIyb0x6SGMxT1QzSmktcnIxeVFuNzMyc1N2T3NDSmEyTVBaZjBrVmw4NUcxbGVCUjZKaGYyQ2Y1N3BSOGh5bllWdkExbnZwUWlOenRSei0yY3Y0blRZeDBLSlBjMno2cUlxYzgzNVRjUEFfemNNcUZIUS1GM2pZNENGS3BXbTFhdndwd2d4dE9XLXYweDJubGszVWdCVWhrVW9VdjgxRzFzVw?oc=5",
       "readTime": "2 min read",
-      "id": 44
+      "id": 68
     },
     {
       "date": "2026-11-24",
@@ -757,7 +1141,7 @@
       "sourceName": "Fragomen",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdEd6LXBFSnU3YUZYNUhYTjR6UW1yUWxScUhBVFlNWXBsOFhieGE0NDZrSFlyOF9oV3cxS3NsVWV6RUVCa3EycXpreC1xaTRGejRlQ2M0Zk10Nld1TXVJVkVjZm53WUJkZG1OTU1ISzJpODVNamZ3UXhXSExqWkxQS0Q3ZVZEYkVjeWdlUXlxRkllSkpXcXhBbVphOVoyS1FRbUs4c3R1d0dIR2s?oc=5",
       "readTime": "2 min read",
-      "id": 45
+      "id": 69
     },
     {
       "date": "2026-11-24",
@@ -773,7 +1157,7 @@
       "sourceName": "The Guardian",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQURMN0U5ZlRtREdOVVJTTl9ZcVBSd1NNbWRSU256Z09HOFZVV3EzeTl4ZERwdWQ5am9uV3R5OWZkTGg0OEtWSGFxQy1XZFVZSHFGS051VTBPTm14bmttWkhUMVRiMWVvakJrcXJMdXRhbXFGd0o5c19wRWdTQ1o2Q0tpNWx2TlFodHJjRkJ1QndFZVJLQ0hsejZSSURLdy1IYkE?oc=5",
       "readTime": "2 min read",
-      "id": 46
+      "id": 70
     },
     {
       "date": "2026-11-24",
@@ -789,7 +1173,7 @@
       "sourceName": "BernamaBiz",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pdmR6X1ZhME1WUlpSZkh1bDBwVVpOdnphRnBqRWJpNzZNbDQ5NGJpTVpMb3hXMnN2TnpQZ3N4R2RDeVFDZnd0enZmaVR3b0dUcUctUFluX2hNdw?oc=5",
       "readTime": "2 min read",
-      "id": 47
+      "id": 71
     },
     {
       "date": "2026-11-24",
@@ -805,7 +1189,7 @@
       "sourceName": "The Institute for Democracy and Economic Affairs - IDEAS",
       "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMkxRbjdhazJyRzJkdzBKVERVUkdaNnYxckllYzBNbW8wbUxIRDdKQ0hhZWV2M1BLS0lDdUcwbkVRNUR3WWFxUldHckN1ZGhndmF1TDBFRzZkLXhwWjJFWVFCTHJMU01XRTlnZl83dk0wRzlPR0lsM2wwSDV2dnFEZVpyZGNtLVNxazllbmdWdnJ0QQ?oc=5",
       "readTime": "2 min read",
-      "id": 48
+      "id": 72
     },
     {
       "date": "2026-11-23",
@@ -821,7 +1205,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/23/what-new-socso-protection-and-incentives-can-gig-self-employed-workers-look-forward-to-in-2027/243453",
       "readTime": "2 min read",
-      "id": 49
+      "id": 73
     },
     {
       "date": "2026-11-23",
@@ -837,7 +1221,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/22/sigh-of-relief-as-flood-evacuee-numbers-fall-across-selangor-and-perak/244352",
       "readTime": "2 min read",
-      "id": 50
+      "id": 74
     },
     {
       "date": "2026-11-23",
@@ -853,7 +1237,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/22/there-are-bound-to-be-waves-but-dont-sink-the-ship-abang-jo-tells-gps/244349",
       "readTime": "2 min read",
-      "id": 51
+      "id": 75
     },
     {
       "date": "2026-11-23",
@@ -869,7 +1253,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/22/stay-out-of-the-water-kelantan-beachgoers-warned-as-waves-top-15-metre/244348",
       "readTime": "2 min read",
-      "id": 52
+      "id": 76
     },
     {
       "date": "2026-11-23",
@@ -885,7 +1269,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/22/chow-kon-yeow-rebuts-lim-guan-engs-rm210m-claim-says-penang-wont-pay-for-undelivered-water/244346",
       "readTime": "2 min read",
-      "id": 53
+      "id": 77
     },
     {
       "date": "2026-11-23",
@@ -901,7 +1285,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/22/anwar-to-host-lao-deputy-pm-as-putrajaya-vientiane-seek-closer-economic-ties/244344",
       "readTime": "2 min read",
-      "id": 54
+      "id": 78
     },
     {
       "date": "2026-11-23",
@@ -917,7 +1301,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/22/malaysias-inflation-seen-rising-marginally-to-2pc-in-2027-on-higher-oil-price-assumption-says-apex-securities/244340",
       "readTime": "2 min read",
-      "id": 55
+      "id": 79
     },
     {
       "date": "2026-11-23",
@@ -933,7 +1317,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/22/pressure-on-the-healthcare-system-bnm-flags-rising-medical-costs-premiums-as-payouts-surge-13-fold/244339",
       "readTime": "2 min read",
-      "id": 56
+      "id": 80
     },
     {
       "date": "2026-11-23",
@@ -949,7 +1333,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/22/ringgit-expected-to-trade-with-slight-positive-bias-next-week-ahead-of-us-data/244166",
       "readTime": "2 min read",
-      "id": 57
+      "id": 81
     },
     {
       "date": "2026-11-23",
@@ -965,7 +1349,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/21/eu-mulls-tax-on-big-tech-to-boost-budget/244232",
       "readTime": "2 min read",
-      "id": 58
+      "id": 82
     },
     {
       "date": "2026-11-23",
@@ -981,7 +1365,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://www.malaymail.com/news/money/2026/11/21/ecb-names-new-board-members-next-chief-may-already-be-agreed/244228",
       "readTime": "2 min read",
-      "id": 59
+      "id": 83
     },
     {
       "date": "2026-11-23",
@@ -997,7 +1381,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/23/prabowo-to-name-indonesian-vp-candidates-on-monday-says-state-media",
       "readTime": "2 min read",
-      "id": 60
+      "id": 84
     },
     {
       "date": "2026-11-23",
@@ -1013,7 +1397,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/23/ph-sabah-sokong-hajiji-kekal-kerjasama-grs-bn-ph",
       "readTime": "2 min read",
-      "id": 61
+      "id": 85
     },
     {
       "date": "2026-11-23",
@@ -1029,7 +1413,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/23/sabah-belanja-lebih-rm1-bilion-bina-loji-rawatan-air",
       "readTime": "2 min read",
-      "id": 62
+      "id": 86
     },
     {
       "date": "2026-11-23",
@@ -1045,7 +1429,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/23/450-putrajaya-street-lights-out-due-to-cable-theft-says-deputy-minister",
       "readTime": "2 min read",
-      "id": 63
+      "id": 87
     },
     {
       "date": "2026-11-23",
@@ -1061,7 +1445,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/nation/2026/11/23/suspect-nabbed-over-foreigner-smuggling-bid-confirmed-to-be-akps-officer",
       "readTime": "2 min read",
-      "id": 64
+      "id": 88
     },
     {
       "date": "2026-11-23",
@@ -1077,7 +1461,7 @@
       "sourceName": "Free Malaysia Today",
       "sourceUrl": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/23/mahkamah-kekal-penjara-30-tahun-terhadap-2-lelaki-disabit-bunuh",
       "readTime": "2 min read",
-      "id": 65
+      "id": 89
     },
     {
       "date": "2026-11-23",
@@ -1093,7 +1477,7 @@
       "sourceName": "BernamaBiz",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XbVVUT1p1a0I0TEhaU1lXS3VNTWlkWHRFcjdxU3hNME9qekFoOUVJWk5pX1kzcC1tdC1YaEJRLUkzS1NOSGJMeDQyMUdUU1JkUy04eDNYa2tTZw?oc=5",
       "readTime": "2 min read",
-      "id": 66
+      "id": 90
     },
     {
       "date": "2026-11-23",
@@ -1109,7 +1493,7 @@
       "sourceName": "The Edge Malaysia",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WUU1iX3BhdndhSzhCdWlQeU9jYXA5SWF5OHRaYnQwem4wakJjenhac2VLOUJXY2NLTkFVd0hrSXJmYTRlbGhWZElmc04zQzBl?oc=5",
       "readTime": "2 min read",
-      "id": 67
+      "id": 91
     },
     {
       "date": "2026-11-23",
@@ -1125,7 +1509,7 @@
       "sourceName": "The Star",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVWp6TWVpbmFtczZzYkI5REtCdzBvdk9ybmM4ZFI1VG1mdUZUWjdkRXRLOTlWYzBFXzk0YWptTjBSa0UzUXRzZGNmODBlam1DcjJsMTVwdVJ0VUd0NHFHMGpmRXlNOFB5cmtDMUFqYWxQeTV0b3N1VDlzNV9OVmhfbTc5ZW16Y2x3U3RiZm40SV9TRFZ4UUNHUkc4cDNkNVZTMENCbXVUUFVGUQ?oc=5",
       "readTime": "2 min read",
-      "id": 68
+      "id": 92
     },
     {
       "date": "2026-11-23",
@@ -1141,7 +1525,7 @@
       "sourceName": "ARTICLE 19 - Defending freedom of expression and information.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUlsWkt1c2dCTTl3RGZheXdCelNQcHlmRnFtYmE0Z2JueXh3bkRkSEM5ZFdOaVZGSEQwQ0JBNkE2MFAtNlVOV1Z4VDdPeTk2RDhLUHNzVEF1TzJPbmFybjNvOU5NQXFqNXg5ZXRQTDFMOEdobUp3WGxVN2lHbmZ2MFJaaTQxNWJuYUpnQVZYUFNpN0RnQmZxWGJpVll6OWc5clY4Z0w0MEt4UkJqRmNTVg?oc=5",
       "readTime": "2 min read",
-      "id": 69
+      "id": 93
     },
     {
       "date": "2026-11-23",
@@ -1157,7 +1541,7 @@
       "sourceName": "Fintech News Malaysia",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU1lkOExQS3o3eGNOQXEyTm5UWUhQVXg0NHJ6Nm9lYWY3NkNWdDg2MlQ1aDJIc2ZpVDFXV19vTjI3TzlwSEFiTEVVanBKajRRNm82TkRKZ1lac3duT0VwVkxlX3lObGxSZzN3Tk5oTFc2dm9wVkJXWnJKZ3dtemRTWEZrcHVCZFY3b21WZ21B?oc=5",
       "readTime": "2 min read",
-      "id": 70
+      "id": 94
     },
     {
       "date": "2026-11-23",
@@ -1173,7 +1557,7 @@
       "sourceName": "Malay Mail",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVzJsZmI3Q3ZFellMdDhqV1hWcFB6LU01NEVEcm5Bd0VVQTNkNk1XRzVtR25WUHVhclZtYi1rdDg3MGtIb3RQOTA4MUZxSm9IRzBQY0FRWG9BNHRFZmYtVF9tYkJGVkI2QkxldUhnSnUxM3k1WXFjSG0yM1NWVkc0bWZFYXJkQWkwQktuZ0JHbVNlUzdJbzJjZks1WVlFMnZsdVlDaG44UVRPTko4WU5EVGdJUDI2ZmdtSkxpa1RrTdIBxAFBVV95cUxQZS1nODAyREJkcUJLZzlzeDhtRVdOUlBZUnVWQklFZ21CTEx4d18xRW52SndKenN6NElKcUdIMmg0NFBMaGJidHdIV083cHE4aDZ6X1ZLdXFtdkpZV2ZXNmZSSHlsMlVhQW5peUp6LW1oZVMyYVpPeWJ3LXpBZWZVMzdnbUZhWlVzN1dVT1BLWkhzODNvOHRxM0FNQzJXRHp0NlI2QkUtX1lWQXoya3JEbjdRRGEwMEhHM3ZQZkdVY0t1ZUEz?oc=5",
       "readTime": "2 min read",
-      "id": 71
+      "id": 95
     },
     {
       "date": "2026-11-23",
@@ -1189,10 +1573,10 @@
       "sourceName": "The Malaysian Reserve",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWklLZ2ozdjZ2ZUZlVXdia19IYlhnVGg3am5vS0ZKZ2NXMmh6WGJkVWYyVmFiVVgwTmdXR1dmM3kyVHBXbm5oUzZ1VXJPZUdiOERfS3M4cUhUSmg4M1hEUF90M3k4dlJsWGdPWUE0NUxaTXZjYmtVSHpUWGgySDZhRndKX0pSUzhZVVNjeklFQ0RTc3laYUtJ?oc=5",
       "readTime": "2 min read",
-      "id": 72
+      "id": 96
     },
     {
-      "id": 73,
+      "id": 97,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Diplomacy & National",
@@ -1208,7 +1592,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 74,
+      "id": 98,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Bursa & Economy",
@@ -1224,7 +1608,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 75,
+      "id": 99,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "National Affairs",
@@ -1240,7 +1624,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 76,
+      "id": 100,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Diplomacy & National",
@@ -1256,7 +1640,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 77,
+      "id": 101,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "National Affairs",
@@ -1272,7 +1656,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 78,
+      "id": 102,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "National Affairs",
@@ -1288,7 +1672,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 79,
+      "id": 103,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "National Affairs",
@@ -1304,7 +1688,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 80,
+      "id": 104,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "World & Markets",
@@ -1320,7 +1704,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 81,
+      "id": 105,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "World & Markets",
@@ -1336,7 +1720,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 82,
+      "id": 106,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Technology & Science",
@@ -1352,7 +1736,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 83,
+      "id": 107,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Technology & Science",
@@ -1368,7 +1752,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 84,
+      "id": 108,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Technology & Science",
@@ -1384,7 +1768,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 85,
+      "id": 109,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Bursa & Economy",
@@ -1400,7 +1784,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 86,
+      "id": 110,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Bursa & Economy",
@@ -1416,7 +1800,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 87,
+      "id": 111,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Bursa & Economy",
@@ -1432,7 +1816,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 88,
+      "id": 112,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Bursa & Economy",
@@ -1448,7 +1832,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 89,
+      "id": 113,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Technology & Science",
@@ -1464,7 +1848,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 90,
+      "id": 114,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Technology & Science",
@@ -1480,7 +1864,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 91,
+      "id": 115,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Technology & Science",
@@ -1496,7 +1880,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 92,
+      "id": 116,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Technology & Science",
@@ -1512,7 +1896,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 93,
+      "id": 117,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Technology & Science",
@@ -1528,7 +1912,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 94,
+      "id": 118,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "World & Markets",
@@ -1544,7 +1928,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 95,
+      "id": 119,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "Bursa & Economy",
@@ -1560,7 +1944,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 96,
+      "id": 120,
       "date": "2026-11-22",
       "dateLabel": "22 Nov 2026",
       "category": "National Affairs",
@@ -1576,7 +1960,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 97,
+      "id": 121,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "National Affairs",
@@ -1592,7 +1976,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 98,
+      "id": 122,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "National Affairs",
@@ -1608,7 +1992,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 99,
+      "id": 123,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "National Affairs",
@@ -1624,7 +2008,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 100,
+      "id": 124,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "National Affairs",
@@ -1640,7 +2024,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 101,
+      "id": 125,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "National Affairs",
@@ -1656,7 +2040,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 102,
+      "id": 126,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "Diplomacy & National",
@@ -1672,7 +2056,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 103,
+      "id": 127,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "Diplomacy & National",
@@ -1688,7 +2072,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 104,
+      "id": 128,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "National Affairs",
@@ -1704,7 +2088,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 105,
+      "id": 129,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "National Affairs",
@@ -1720,7 +2104,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 106,
+      "id": 130,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "National Affairs",
@@ -1736,7 +2120,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 107,
+      "id": 131,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "World & Markets",
@@ -1752,7 +2136,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 108,
+      "id": 132,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "World & Markets",
@@ -1768,7 +2152,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 109,
+      "id": 133,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "Technology & Science",
@@ -1784,7 +2168,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 110,
+      "id": 134,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "World & Markets",
@@ -1800,7 +2184,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 111,
+      "id": 135,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "World & Markets",
@@ -1816,7 +2200,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 112,
+      "id": 136,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "Bursa & Economy",
@@ -1832,7 +2216,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 113,
+      "id": 137,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "Bursa & Economy",
@@ -1848,7 +2232,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 114,
+      "id": 138,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "Technology & Science",
@@ -1864,7 +2248,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 115,
+      "id": 139,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "Technology & Science",
@@ -1880,7 +2264,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 116,
+      "id": 140,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "Technology & Science",
@@ -1896,7 +2280,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 117,
+      "id": 141,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "Technology & Science",
@@ -1912,7 +2296,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 118,
+      "id": 142,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "Bursa & Economy",
@@ -1928,7 +2312,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 119,
+      "id": 143,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "National Affairs",
@@ -1944,7 +2328,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 120,
+      "id": 144,
       "date": "2026-11-21",
       "dateLabel": "21 Nov 2026",
       "category": "National Affairs",
@@ -1960,7 +2344,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 121,
+      "id": 145,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Diplomacy & National",
@@ -1976,7 +2360,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 122,
+      "id": 146,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Diplomacy & National",
@@ -1992,7 +2376,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 123,
+      "id": 147,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Diplomacy & National",
@@ -2008,7 +2392,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 124,
+      "id": 148,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Diplomacy & National",
@@ -2024,7 +2408,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 125,
+      "id": 149,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Bursa & Economy",
@@ -2040,7 +2424,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 126,
+      "id": 150,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "National Affairs",
@@ -2056,7 +2440,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 127,
+      "id": 151,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Bursa & Economy",
@@ -2072,7 +2456,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 128,
+      "id": 152,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "World & Markets",
@@ -2088,7 +2472,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 129,
+      "id": 153,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "World & Markets",
@@ -2104,7 +2488,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 130,
+      "id": 154,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "World & Markets",
@@ -2120,7 +2504,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 131,
+      "id": 155,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "World & Markets",
@@ -2136,7 +2520,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 132,
+      "id": 156,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "World & Markets",
@@ -2152,7 +2536,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 133,
+      "id": 157,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Bursa & Economy",
@@ -2168,7 +2552,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 134,
+      "id": 158,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Bursa & Economy",
@@ -2184,7 +2568,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 135,
+      "id": 159,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Bursa & Economy",
@@ -2200,7 +2584,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 136,
+      "id": 160,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Bursa & Economy",
@@ -2216,7 +2600,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 137,
+      "id": 161,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Bursa & Economy",
@@ -2232,7 +2616,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 138,
+      "id": 162,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Technology & Science",
@@ -2248,7 +2632,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 139,
+      "id": 163,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Technology & Science",
@@ -2264,7 +2648,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 140,
+      "id": 164,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Technology & Science",
@@ -2280,7 +2664,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 141,
+      "id": 165,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Technology & Science",
@@ -2296,7 +2680,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 142,
+      "id": 166,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Technology & Science",
@@ -2312,7 +2696,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 143,
+      "id": 167,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Technology & Science",
@@ -2328,7 +2712,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 144,
+      "id": 168,
       "date": "2026-11-20",
       "dateLabel": "20 Nov 2026",
       "category": "Technology & Science",
@@ -2344,7 +2728,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 145,
+      "id": 169,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Diplomacy & National",
@@ -2360,7 +2744,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 146,
+      "id": 170,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "National Affairs",
@@ -2376,7 +2760,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 147,
+      "id": 171,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Diplomacy & National",
@@ -2392,7 +2776,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 148,
+      "id": 172,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Bursa & Economy",
@@ -2408,7 +2792,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 149,
+      "id": 173,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Diplomacy & National",
@@ -2424,7 +2808,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 150,
+      "id": 174,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "World & Markets",
@@ -2440,7 +2824,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 151,
+      "id": 175,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Bursa & Economy",
@@ -2456,7 +2840,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 152,
+      "id": 176,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Bursa & Economy",
@@ -2472,7 +2856,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 153,
+      "id": 177,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Bursa & Economy",
@@ -2488,7 +2872,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 154,
+      "id": 178,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Technology & Science",
@@ -2504,7 +2888,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 155,
+      "id": 179,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Technology & Science",
@@ -2520,7 +2904,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 156,
+      "id": 180,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Technology & Science",
@@ -2536,7 +2920,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 157,
+      "id": 181,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Technology & Science",
@@ -2552,7 +2936,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 158,
+      "id": 182,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Technology & Science",
@@ -2568,7 +2952,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 159,
+      "id": 183,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "World & Markets",
@@ -2584,7 +2968,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 160,
+      "id": 184,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Bursa & Economy",
@@ -2600,7 +2984,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 161,
+      "id": 185,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Bursa & Economy",
@@ -2616,7 +3000,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 162,
+      "id": 186,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "World & Markets",
@@ -2632,7 +3016,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 163,
+      "id": 187,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "World & Markets",
@@ -2648,7 +3032,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 164,
+      "id": 188,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Bursa & Economy",
@@ -2664,7 +3048,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 165,
+      "id": 189,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "National Affairs",
@@ -2680,7 +3064,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 166,
+      "id": 190,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Technology & Science",
@@ -2696,7 +3080,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 167,
+      "id": 191,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "Bursa & Economy",
@@ -2712,7 +3096,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 168,
+      "id": 192,
       "date": "2026-11-19",
       "dateLabel": "19 Nov 2026",
       "category": "National Affairs",
@@ -2728,7 +3112,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 169,
+      "id": 193,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Bursa & Economy",
@@ -2744,7 +3128,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 170,
+      "id": 194,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Bursa & Economy",
@@ -2760,7 +3144,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 171,
+      "id": 195,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Diplomacy & National",
@@ -2776,7 +3160,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 172,
+      "id": 196,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "World & Markets",
@@ -2792,7 +3176,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 173,
+      "id": 197,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "World & Markets",
@@ -2808,7 +3192,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 174,
+      "id": 198,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "World & Markets",
@@ -2824,7 +3208,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 175,
+      "id": 199,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Technology & Science",
@@ -2840,7 +3224,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 176,
+      "id": 200,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Technology & Science",
@@ -2856,7 +3240,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 177,
+      "id": 201,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Technology & Science",
@@ -2872,7 +3256,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 178,
+      "id": 202,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Bursa & Economy",
@@ -2888,7 +3272,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 179,
+      "id": 203,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Bursa & Economy",
@@ -2904,7 +3288,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 180,
+      "id": 204,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Technology & Science",
@@ -2920,7 +3304,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 181,
+      "id": 205,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Technology & Science",
@@ -2936,7 +3320,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 182,
+      "id": 206,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Technology & Science",
@@ -2952,7 +3336,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 183,
+      "id": 207,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Bursa & Economy",
@@ -2968,7 +3352,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 184,
+      "id": 208,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Bursa & Economy",
@@ -2984,7 +3368,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 185,
+      "id": 209,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "World & Markets",
@@ -3000,7 +3384,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 186,
+      "id": 210,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Technology & Science",
@@ -3016,7 +3400,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 187,
+      "id": 211,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Bursa & Economy",
@@ -3032,7 +3416,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 188,
+      "id": 212,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "National Affairs",
@@ -3048,7 +3432,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 189,
+      "id": 213,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Bursa & Economy",
@@ -3064,7 +3448,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 190,
+      "id": 214,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Technology & Science",
@@ -3080,7 +3464,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 191,
+      "id": 215,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "World & Markets",
@@ -3096,7 +3480,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 192,
+      "id": 216,
       "date": "2026-11-18",
       "dateLabel": "18 Nov 2026",
       "category": "Technology & Science",
@@ -3112,7 +3496,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 193,
+      "id": 217,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Diplomacy & National",
@@ -3128,7 +3512,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 194,
+      "id": 218,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Diplomacy & National",
@@ -3144,7 +3528,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 195,
+      "id": 219,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Diplomacy & National",
@@ -3160,7 +3544,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 196,
+      "id": 220,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Bursa & Economy",
@@ -3176,7 +3560,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 197,
+      "id": 221,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Bursa & Economy",
@@ -3192,7 +3576,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 198,
+      "id": 222,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "National Affairs",
@@ -3208,7 +3592,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 199,
+      "id": 223,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "World & Markets",
@@ -3224,7 +3608,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 200,
+      "id": 224,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "National Affairs",
@@ -3240,7 +3624,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 201,
+      "id": 225,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Diplomacy & National",
@@ -3256,7 +3640,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 202,
+      "id": 226,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "World & Markets",
@@ -3272,7 +3656,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 203,
+      "id": 227,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "World & Markets",
@@ -3288,7 +3672,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 204,
+      "id": 228,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "World & Markets",
@@ -3304,7 +3688,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 205,
+      "id": 229,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "World & Markets",
@@ -3320,7 +3704,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 206,
+      "id": 230,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Technology & Science",
@@ -3336,7 +3720,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 207,
+      "id": 231,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Technology & Science",
@@ -3352,7 +3736,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 208,
+      "id": 232,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Technology & Science",
@@ -3368,7 +3752,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 209,
+      "id": 233,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Bursa & Economy",
@@ -3384,7 +3768,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 210,
+      "id": 234,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Bursa & Economy",
@@ -3400,7 +3784,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 211,
+      "id": 235,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Bursa & Economy",
@@ -3416,7 +3800,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 212,
+      "id": 236,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Bursa & Economy",
@@ -3432,7 +3816,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 213,
+      "id": 237,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Technology & Science",
@@ -3448,7 +3832,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 214,
+      "id": 238,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Technology & Science",
@@ -3464,7 +3848,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 215,
+      "id": 239,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Technology & Science",
@@ -3480,7 +3864,7 @@
       "readTime": "2 min read"
     },
     {
-      "id": 216,
+      "id": 240,
       "date": "2026-11-17",
       "dateLabel": "17 Nov 2026",
       "category": "Technology & Science",
